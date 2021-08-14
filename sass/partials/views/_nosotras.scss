@@ -1,0 +1,79 @@
+.carolina{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img{
+        width: 400px;
+        height: auto;
+        margin: 5px 40px 0px 40px;
+        padding: 10px;
+        background-color: $color-secundario;
+        border-radius: 20px;
+        
+    }
+    h3{
+        font-size: 35px;
+        font-weight: bold;
+        color: $color-principal;
+        padding-bottom: 10px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        margin-right: 20px;
+    }
+}
+
+.daiana{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img{
+        width: 400px;
+        height: auto;
+        margin: 0px 40px 40px 40px;
+        padding: 10px;
+        background-color: $color-principal;
+        border-radius: 20px;
+        
+    }
+    h3{
+        font-size: 35px;
+        font-weight: bold;
+        color: $color-secundario;
+        padding-bottom: 10px;
+        margin-left: 40px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        margin-left: 30px;
+    }
+}
+
+.valores{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $color-secundario;
+    border-radius: 200px;
+    margin: 5px 40px 20px 40px;
+    h2{
+        font-weight: bold;
+        color: $color-terciario;
+        margin-top: 20px;
+        margin-left: 130px;
+    }
+    p{
+        font-weight: bold;
+        font-size: 18px;
+        margin: 10px 110px 40px 130px;
+    }
+   
+}
+
+
+
+

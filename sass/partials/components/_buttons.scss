@@ -1,0 +1,157 @@
+.login{
+    .login__registro{
+        background-color: $color-principal;
+        color: $color-terciario;
+        border: 0px;
+    }
+        .login__registro:hover{
+            background-color: $color-secundario;
+        }
+}
+
+.news{
+    .news__button{
+        background-color: $color-principal;
+        border: none;
+        transition: all 0.5s ease-out
+    }
+        .news__button:hover{
+            transform: scale(1.2, 1.2);
+            background-color: $color-principal;
+            color: $color-terciario;
+            border: none;
+        }  
+}
+
+.accordion{
+    .accordion-item{
+        button{
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+    
+}
+
+.verPlanes{
+    a{
+    	text-decoration: none;
+    	font-size: 16px;
+    	letter-spacing: 3px;
+    	font-weight: bold;
+    	color: $color-terciario;
+    	margin-left: 40px;
+    	background-color: $color-principal;
+    	border-radius: 20px;
+    	padding: 5px 15px 5px 15px;
+    	transition: all 0.5s ease-out;
+   
+	}	
+}
+
+.verPlanes .botonVer:hover{
+    transform: scale(1.2, 1.2);
+}
+
+.valores{
+    a{
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        color: $color-terciario;
+        background-color: $color-principal;
+        border-radius: 20px;
+        padding: 5px 15px;
+        margin-top: 30px;
+        margin-right: 130px;
+        transition: all 0.5s ease-out;
+    }
+        a:hover{
+            transform: scale(1.2, 1.2);
+        }
+}
+
+.plan__reserva{
+    list-style-type: none;
+    margin: 5px;
+    .plan__reserva-a{
+        text-decoration: none;
+        font-size: 20px;
+        color: $color-terciario;
+        background-color:$color-principal;
+        border-radius: 20px;
+        padding: 5px 15px 5px 15px;
+        
+    }
+    .plan__reserva-a:hover{
+        background-color: $color-secundario;
+    }
+}
+
+.grid__texto{
+    .grid__texto-a{
+        text-decoration: none;
+        font-size: 14px;
+        color: $color-terciario;
+        font-weight: 400;
+        padding: 5px;    
+    } 
+}
+
+.grid{
+    .grid__texto-a:hover{
+        background-color: $color-principal;
+        border-radius: 20px;
+    }
+}
+
+.grid{
+    .grid__texto-a--meriendas:hover{
+        background-color: $color-secundario;
+
+    }
+}
+
+.botonPublicacion{
+    background: $color-principal;
+    color: $color-terciario;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.botonPublicacion:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.redesContacto{
+    a{
+        i{
+            color: $color-principal;
+            
+        } 
+    }
+}
+
+.botonContacto{
+    display: flex;
+    justify-content: space-around;
+    .botonForm{
+        background: $color-principal;
+        color: $color-terciario;
+        border: none;
+        border-radius: 15px;
+        padding: 5px 10px;
+        margin-bottom: 20px;
+        transition: all 0.5s ease-out
+    }
+}
+
+.botonForm:hover{
+    transform: scale(1.2, 1.2);
+}

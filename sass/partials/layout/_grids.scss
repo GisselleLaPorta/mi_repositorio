@@ -1,0 +1,46 @@
+.grid{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    justify-items: center;
+    .grid__article{
+        background: $color-secundario;
+        border: none;
+        border-radius: 20px;
+        width: 250px;       
+        .grid__img{
+            width: 100%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+                
+        }
+    }
+
+}
+
+.grid__article--meriendas{
+    background: $color-principal !important;
+}
+
+.grid__texto{
+    padding: 20px 20px 20px;
+    .grid__texto-h3{
+        padding-bottom: 15px;
+    }
+
+    .grid__texto-p{
+        padding-bottom: 10px;
+    }   
+    
+}
+
+.grid{
+    .grid__article:hover{
+        transform: scale(1.2, 1.2);
+    }
+}
+
+
+

@@ -1,0 +1,51 @@
+@import "./partials/base/reset";
+@import "./partials/utilities/variables";
+@import "./partials/components/buttons";
+@import "./partials/layout/header";
+@import "./partials/layout/footer"; 
+@import "./partials/layout/forms";
+@import "./partials/layout/grids";
+@import "./partials/views/blw"; 
+@import "./partials/views/asesoria"; 
+@import "./partials/views/nosotras"; 
+@import "./partials/views/recetas";
+@import "./partials/views/contacto"; 
+@import "./partials/views/home";
+
+// scss-docs-start color-variables
+$blue:    #689ff3;
+$indigo:  #86b8fa;
+$purple:  #8768c0;
+$pink:    #db609d;
+$red:     #c9414e;
+$orange:  #f59546;
+$yellow:  #fad464;
+$green:   #3f8d68;
+$teal:    #40c9a0;
+$cyan:    #22cff1;
+// scss-docs-end color-variables
+
+// scss-docs-start colors-map
+$colors: (
+  "azul":       $blue,
+  "celeste":     $indigo,
+  "lila":     $purple,
+  "rosa":       $pink,
+  "rojo":        $red,
+  "naranja":     $orange,
+  "amarillo":     $yellow,
+  "verde":      $green,
+  "menta":       $teal,
+  "turquesa":       $cyan,
+);
+// scss-docs-end colors-map
+
+@each $value, $color in $colors{
+    .smile--#{$value}{
+        background: $color;
+    }
+}
+
+
+
+

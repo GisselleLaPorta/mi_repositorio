@@ -1,0 +1,39 @@
+.hr{
+    opacity: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 10px !important;
+    color: $color-principal;
+}
+
+/* INICIO FOOTER */
+.foot{
+    ul{
+    font-size: 14px;
+    color: $color-principal;
+        li{
+            list-style-type: none;
+        }
+    }
+}
+
+.accordion{
+    width: 300px;
+    
+       
+}
+
+.redesFoot{
+    font-size: 30px;
+    a{
+        i{
+            color: $color-principal;
+        }
+    }
+}
+
+.logoFoot{
+    width: 250px;
+}
+
+/* FIN FOOTER */

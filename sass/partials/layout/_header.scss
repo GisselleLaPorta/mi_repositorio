@@ -1,0 +1,43 @@
+.logo{
+    width: 280px;
+}
+
+.login{
+    .login__img{
+        width: 30px;
+    }
+        .login__img:hover{
+            transform: scale(0.9, 0.9);
+        }
+
+        .login__img--user:hover{
+            transform: none;
+        }
+    
+}
+
+.login{
+    .login__input{
+        width: 170px;
+        height: 20px;
+        font-size: 14px;
+    }
+        .login__input:hover{
+            transform: scale(1.4, 1.4);
+        }
+}
+
+.menu{
+    background-color: $color-principal;
+    a{
+        color: $color-terciario !important;
+        font-size: 16px;
+        letter-spacing: 2px;
+        margin-right: 15px;  
+    }
+        li a:hover{
+            background-color: $color-secundario;
+            background-size: cover;
+        }
+    
+}

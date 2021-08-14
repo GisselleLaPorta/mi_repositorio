@@ -1,0 +1,221 @@
+body{
+    font-family: $fuente-general;
+}
+
+/* INICIO BLW */
+
+.blw{
+    background-image: url(../img/backBlw.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: $bordes * 2;
+    .blw__img{
+        max-width: ($width-img / 2);
+        padding-right: 100px - 50px;
+        animation-name: imgBlw;
+        animation-iteration-count:infinite;
+        animation-duration: 2s;
+        animation-timing-function:ease-in;
+        animation-direction:alternate;
+    
+        @keyframes imgBlw{
+            from{ 
+                transform: rotate(0deg);
+            }
+        
+            to{
+                transform: rotate(5deg);
+            }
+        }
+    }
+}
+
+.blw__info{
+    margin-left: 60px * 2;
+    margin-right: (90px / 3);
+    .blw__h1{
+        color: $color-terciario;
+        font-size: $size-titulo + 15;    
+    }
+    .blw__p{
+        color: $color-basico;
+        font-size: 16px + 2;
+    }
+}
+
+/* FIN BLW */
+
+/* INICIO ASESORIA */
+
+.asesoria{
+    .asesoria__h2{
+        font-size: $size-titulo;
+        color: $color-principal;  
+    }
+    .asesoria__p{
+        font-size: 20px - 2;
+        color: $color-basico;
+    }
+}
+
+.grupo{
+    transition: all 0.5s ease-out;
+
+    .grupo__h3{
+        font-size: 20px - 2;
+        color: $color-basico;
+    }
+    .grupo__p{
+        font-size: 8px * 2;
+        color: $color-basico;
+    }
+    .grupo__img{
+        animation-name: imgGrupo;
+        animation-iteration-count:infinite;
+        animation-duration: 2s;
+        animation-timing-function:ease-in;
+        animation-direction:alternate;
+    
+        @keyframes imgGrupo{
+            from{ 
+                transform: rotate(0deg);
+            }
+        
+            to{
+                transform: rotate(-5deg);
+            }
+        }
+    }    
+}
+
+.grupo:hover{
+    transform: scale(1.1, 1.1);
+}
+
+/* FIN ASESORIA */
+
+/* INICIO NOSOTRAS */
+
+.nosotras{
+    background-image: url(../img/backNosotras.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: $bordes * 2;
+    .nosotras__img{
+        max-width: $width-img - 600 ;
+        padding-right: (100px / 2);
+        animation-name: imgNosotras;
+        animation-iteration-count:infinite;
+        animation-duration: 2s;
+        animation-timing-function:ease-in;
+        animation-direction:alternate; 
+    
+        @keyframes imgNosotras{
+            from{ 
+                transform: rotate(0deg);
+            }
+        
+            to{
+                transform: rotate(5deg);
+            }
+        }
+    }
+}
+
+.nosotras__info{
+    margin-left: (240px / 2);
+    margin-right: 20px + 10px;
+    .nosotras__h2{
+        color: $color-terciario;
+        font-size: $size-titulo;
+    }
+    .nosotras_p{
+        color: $color-basico;
+        font-size: 20px - 2; 
+    }
+}
+
+
+/* FIN NOSOTRAS */
+
+/* INICIO TESTIMONIOS */
+
+.testimonios{
+    .testimonios__h2{
+        color: $color-secundario;
+        font-size: $size-titulo;
+    }
+}
+
+.testimonios__grupo{
+    .testimonios__grupo-h3{
+        font-size: 20px - 2;
+        background-color: $color-secundario;
+        border-radius: $bordes - 50;
+        .testimonios__grupo-badge{
+            color: $color-principal;
+        }
+    }
+    .testimonios__grupo-p{
+        font-size: 20px - 4;
+        font-weight: 10 * 40;
+        color: $color-basico;
+    }
+    .testimonios__grupo-img{
+        width: ($width-img / 2)-350;
+    }
+    .testimonios__grupo-img--uno{
+        width: $width-img - 860;
+        padding-top: 5px;
+    }
+}
+
+/* FIN TESTIMONIOS */
+
+/* INICIO NEWSLETTER */
+
+.news{
+    background-image: url(../img/backNews.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: $bordes * 2;
+    margin-left: (200px / 4);
+    margin-right: (200px / 4);
+    .news__h2{
+        font-size: $size-titulo + 5;
+        color: $color-terciario;
+        letter-spacing: 5px;
+        animation-name: news;
+        animation-iteration-count:infinite;
+        animation-duration: 5s;
+        animation-timing-function:ease-in;
+    
+        @keyframes news{
+            from{
+                transform: scale(1, 1);
+                
+            }
+        
+            to{
+                transform: scale(1.2, 1.2);
+                
+            }     
+        }
+    }
+    .news__p{
+        color: $color-basico;
+    
+    }
+}
+
+
+.news{
+    .news__input{
+        width: 40px * 10;
+    }
+    
+}
+
+/* FIN NEWSLETTER */
+
+
