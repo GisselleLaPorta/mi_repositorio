@@ -894,41 +894,35 @@ h2{
 }
 
 .plan__gold{
-    
+    background-color: #6ec5b8;
+    border-radius: 100px;
 }
 
 
 
 .plan__gold img{
-    width: 500px;
-    border-radius: 59% 41% 41% 59% / 53% 47% 53% 47% ;
-    padding: 70px;
-    transition: all 0.5s ease-out;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
      
 }
 
-.plan__gold:hover img{
-    background-image: url(../img/backNaranja\(2\).jpg);
-    background-size: cover;
-    transform: scale(1.2, 1.2);
-    border-radius: 120px;
-}
 
 .plan__gold h3{
     text-align: center;
-    margin: 10px;
-    color: #6ec5b8;
+    color: white;
     font-weight: bold;
+    padding-top: 10px;
 }
 
 .plan__gold ul{
-    padding: 5px 0px 5px 190px;
-    
+    padding: 5px 5px 0px 40px;    
 
 }
 
 .plan__gold-ul li{
     padding-bottom: 0px;
+    padding-right: 10px;
          
 }
 
