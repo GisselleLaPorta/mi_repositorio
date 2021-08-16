@@ -866,11 +866,6 @@ h2{
 }
 
 .plan__silver{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
     
 }
 
