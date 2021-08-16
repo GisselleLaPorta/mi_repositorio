@@ -799,7 +799,8 @@ h2{
 
 .plan{
     font-weight: bold;
-    margin: 100px;
+    margin: 5px 100px 5px 100px;
+    padding-bottom: 0px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
