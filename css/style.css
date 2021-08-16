@@ -943,13 +943,6 @@ h2{
 }
 
 .plan__premium{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
-    margin-bottom: 0px;
-    border-top: 2px solid #6ec5b8;
     
 }
 
