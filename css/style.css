@@ -799,7 +799,7 @@ h2{
 
 .plan{
     font-weight: bold;
-    margin: 20px;
+    margin: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -808,21 +808,28 @@ h2{
     
 }
 
-.plan__bronze img{
-    width: 250px;
-    border-radius: 59% 41% 41% 59% / 53% 47% 53% 47% ;
+.plan__bronze{
+    background-color: #ff9800;
+    border-radius: 100px;
     
+}
+
+.plan__bronze img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 
 .plan__bronze h3{
     text-align: center;
-    color: #6ec5b8;
+    color: white;
     font-weight: bold;
+    padding-top: 10px;
 }
 
 .plan__bronze ul{
-    padding: 5px;
+    padding: 5px 5px 0px 40px;
     
 
 }
@@ -830,6 +837,7 @@ h2{
 .plan__bronze-ul li{
     padding-bottom: 0px;
     padding-right: 10px;
+   
 }
 
 .plan__reserva{
@@ -840,20 +848,18 @@ h2{
 .plan__reserva a{
     text-decoration: none;
     font-size: 20px;
-    color: white;
-    background-color:#ff9800;
+    color: #ff9800;
+    background-color: white;
     border-radius: 20px;
     padding: 5px 15px 5px 15px;
     
 }
 
 .plan__reserva a:hover{
-    background-color: #6ec5b8;
+    color: white;
+    background-color:#6ec5b8;
 }
 
-.plan__silver{
-    
-}
 
 
 .plan__silver img{
