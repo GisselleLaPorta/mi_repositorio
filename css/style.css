@@ -799,44 +799,30 @@ h2{
 
 .plan{
     font-weight: bold;
-    margin: 50px;
+    margin: 20px;
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 10px;
     justify-items: center;
-}
-
-.plan__bronze{
-    
-    
     
 }
-
 
 .plan__bronze img{
-    width: 500px;
+    width: 250px;
     border-radius: 59% 41% 41% 59% / 53% 47% 53% 47% ;
-    padding: 70px;
-    transition: all 0.5s ease-out;
+    
 }
 
-
-.plan__bronze:hover img{
-    background-image: url(../img/backNaranja\(2\).jpg);
-    transform: scale(1.2, 1.2);
-    border-radius: 120px;
-}
 
 .plan__bronze h3{
     text-align: center;
-    margin: 10px;
     color: #6ec5b8;
     font-weight: bold;
 }
 
 .plan__bronze ul{
-    padding: 5px 0px 5px 190px;
+    padding: 5px;
     
 
 }
