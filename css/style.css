@@ -904,11 +904,6 @@ h2{
 }
 
 .plan__gold{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden; 
-    border-top: 2px solid #ff9800;
     
 }
 
