@@ -799,15 +799,16 @@ h2{
 
 .plan{
     font-weight: bold;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    justify-items: center;
 }
 
 .plan__bronze{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
-    border-top: 2px solid #ff9800;
-    border-bottom: 2px solid #6ec5b8;
+    
     
     
 }
