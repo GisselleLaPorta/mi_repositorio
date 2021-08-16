@@ -803,13 +803,13 @@ h2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-gap: 40px;
     justify-items: center;
     
 }
 
 .plan__bronze{
-    background-color: #ff9800;
+    background-color: #6ec5b8;
     border-radius: 100px;
     
 }
@@ -842,56 +842,54 @@ h2{
 
 .plan__reserva{
     list-style-type: none;
-    margin: 5px;
+    margin-top: 20px;
+    text-align: center;
+    transition: all 0.5s ease-out;
 }
+
 
 .plan__reserva a{
     text-decoration: none;
     font-size: 20px;
-    color: #ff9800;
-    background-color: white;
+    color: white;
+    background-color: #ff9800;
     border-radius: 20px;
     padding: 5px 15px 5px 15px;
     
 }
 
-.plan__reserva a:hover{
-    color: white;
-    background-color:#6ec5b8;
+.plan__reserva:hover{
+    transform: scale(1.2, 1.2);
 }
 
-
+.plan__silver{
+    background-color: #6ec5b8;
+    border-radius: 100px;
+    
+}
 
 .plan__silver img{
-    width: 500px;
-    border-radius: 59% 41% 41% 59% / 53% 47% 53% 47% ;
-    padding: 70px;
-    transition: all 0.5s ease-out;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
-.plan__silver:hover img{
-    background-image: url(../img/backAzul.png);
-    background-size: cover;
-    transform: scale(1.2, 1.2);
-    border-radius: 120px;
-        
-}
 
 .plan__silver h3{
     text-align: center;
-    margin: 10px;
-    color: #ff9800;
+    color: white;
     font-weight: bold;
+    padding-top: 10px;
 }
 
 .plan__silver ul{
-    padding: 5px 0px 5px 190px;
+    padding: 5px 5px 0px 40px;
     
 }
 
 .plan__silver-ul li{
     padding-bottom: 0px;
-    margin-right: 110px;
+    padding-right: 10px;
          
 }
 
