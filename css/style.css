@@ -927,39 +927,33 @@ h2{
 }
 
 .plan__premium{
-    
+    background-color: #6ec5b8;
+    border-radius: 100px;
 }
 
 
 .plan__premium img{
-    width: 490px;
-    border-radius: 59% 41% 41% 59% / 53% 47% 53% 47% ;
-    padding: 70px;
-    transition: all 0.5s ease-out;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
-.plan__premium:hover img{
-    background-image: url(../img/backAzul.png);
-    background-size: cover;
-    transform: scale(1.2, 1.2);
-    border-radius: 120px;
-}
 
 .plan__premium h3{
     text-align: center;
-    margin: 10px;
-    color: #ff9800;
+    color: white;
     font-weight: bold;
+    padding-top: 10px;
 }
 
 .plan__premium ul{
-    padding: 5px 60px 5px 140px;
+    padding: 5px 5px 0px 40px;
     
 }
 
 .plan__premium-ul li{
     padding-bottom: 0px;
-    margin-right: 80px;
+    padding-right: 10px;
 }
 /* ----------FIN ASESORIAS------------ */
 
