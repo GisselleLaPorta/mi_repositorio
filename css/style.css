@@ -1005,7 +1005,7 @@ h2{
     padding: 5px 20px 5px 20px;
 }
 
-.recetas__h2{
+.recetas__h1{
     color: white;
     font-size: 35px;
     font-weight: bold;
@@ -1873,7 +1873,7 @@ h2{
 
     /* ------------inicio recetas--------- */
 
-    .recetas__h2{
+    .recetas__h1{
         font-size: 20px;
     }
 
@@ -2464,7 +2464,7 @@ h2{
 
     /* ------------inicio recetas--------- */
 
-    .recetas__h2{
+    .recetas__h1{
         font-size: 30px;
     }
 
@@ -2802,7 +2802,7 @@ h2{
 
     /* ------------inicio recetas--------- */
 
-    .recetas__h2{
+    .recetas__h1{
         font-size: 30px;
     }
 
