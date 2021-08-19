@@ -5,28 +5,14 @@ body{
 /* INICIO BLW */
 
 .blw{
-    background-image: url(../img/backBlw.png);
+    background-image: url(../img/backAzul.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: $bordes * 2;
     .blw__img{
-        max-width: ($width-img / 2);
+        max-width: $width-img - 600;
         padding-right: 100px - 50px;
-        animation-name: imgBlw;
-        animation-iteration-count:infinite;
-        animation-duration: 2s;
-        animation-timing-function:ease-in;
-        animation-direction:alternate;
-    
-        @keyframes imgBlw{
-            from{ 
-                transform: rotate(0deg);
-            }
-        
-            to{
-                transform: rotate(5deg);
-            }
-        }
+        border-radius: $bordes * 2;
     }
 }
 
@@ -56,20 +42,74 @@ body{
         font-size: 20px - 2;
         color: $color-basico;
     }
+    .asesoria__a{
+        text-decoration: none;
+    }
+}
+
+.asesoria__boton{
+    font-size: 14px;
+    letter-spacing: 2px;
+    background-color: $color-secundario;
+    color: $color-terciario;
+    border-radius: $bordes - 80px;
+    padding: 5px 10px;
+    margin-left: 8px;
+    animation-name: btn__asesoria;
+    animation-iteration-count:infinite;
+    animation-duration: 0.8s;
+    animation-timing-function:ease-in;
+    animation-direction:alternate;
+    transition: all 0.5s ease-out;
+    .asesoria__boton::after{
+        position: absolute;
+        margin-left: -30px;
+        right: 1px;
+        content: " ";
+        background-color: $color-secundario;
+        width: 100%;
+        height: 100%;
+        filter: blur(28px);
+        z-index: -1;
+    }
+    .asesoria__boton:hover{
+        background-color: $color-principal;
+    }
+}
+
+@keyframes btn__asesoria{
+    from{ 
+        transform: scale(1.1, 1.1);
+    }
+    
+    to{
+        transform: scale(1, 1);
+    }
 }
 
 .grupo{
-    transition: all 0.5s ease-out;
-
+    text-align: center;
+    transition: all 1s ease-out;
+    position: relative;
+    overflow: hidden;
     .grupo__h3{
         font-size: 20px - 2;
         color: $color-basico;
+        position: relative;
+        z-index: 1;
     }
     .grupo__p{
-        font-size: 8px * 2;
+        font-size: $size-titulo - 17px;
         color: $color-basico;
+        position: relative;
+        z-index: 1;
+        transform: translateY(100px);
+        opacity: 0;
+        transition: all 0.5s ease-out;
     }
     .grupo__img{
+        width: $width-img - 720;
+        transition: all 0.7s ease-out;
         animation-name: imgGrupo;
         animation-iteration-count:infinite;
         animation-duration: 2s;
@@ -88,8 +128,13 @@ body{
     }    
 }
 
-.grupo:hover{
-    transform: scale(1.1, 1.1);
+.grupo:hover .grupo__p{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.grupo:hover img{
+    width: 200px;
 }
 
 /* FIN ASESORIA */
@@ -97,41 +142,26 @@ body{
 /* INICIO NOSOTRAS */
 
 .nosotras{
-    background-image: url(../img/backNosotras.png);
+    background-image: url(../img/backNaranja.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: $bordes * 2;
+    padding-right: 50px;
     .nosotras__img{
-        max-width: $width-img - 600 ;
-        padding-right: (100px / 2);
-        animation-name: imgNosotras;
-        animation-iteration-count:infinite;
-        animation-duration: 2s;
-        animation-timing-function:ease-in;
-        animation-direction:alternate; 
-    
-        @keyframes imgNosotras{
-            from{ 
-                transform: rotate(0deg);
-            }
-        
-            to{
-                transform: rotate(5deg);
-            }
-        }
+        max-width: $width-img - 650px;
+        border-radius: 220px;
+        padding-left: 50px;
     }
 }
 
 .nosotras__info{
-    margin-left: (240px / 2);
-    margin-right: 20px + 10px;
     .nosotras__h2{
         color: $color-terciario;
         font-size: $size-titulo;
     }
     .nosotras_p{
         color: $color-basico;
-        font-size: 20px - 2; 
+        font-size: $size-titulo - 17px; 
     }
 }
 
@@ -143,30 +173,57 @@ body{
 .testimonios{
     .testimonios__h2{
         color: $color-secundario;
-        font-size: $size-titulo;
+        
     }
 }
 
 .testimonios__grupo{
-    .testimonios__grupo-h3{
-        font-size: 20px - 2;
-        background-color: $color-secundario;
-        border-radius: $bordes - 50;
-        .testimonios__grupo-badge{
-            color: $color-principal;
-        }
-    }
     .testimonios__grupo-p{
         font-size: 20px - 4;
         font-weight: 10 * 40;
         color: $color-basico;
     }
-    .testimonios__grupo-img{
-        width: ($width-img / 2)-350;
+    .testimonios__grupo-h3{
+        font-size: $size-titulo - 17px;
+        background-color: $color-secundario;
+        border-radius: $bordes - 50;
+        .testimonios__grupo-badge{
+            color: $color-principal;
+            animation-name: bdg__testimonio;
+            animation-iteration-count:infinite;
+            animation-duration: 1.8s;
+            animation-timing-function:ease-in;
+            animation-direction:alternate;
+        }
+        .testimonios__grupo-badge:hover{
+            color: #6ec5b8;
+           
+        }
+        @keyframes bdg__testimonio{
+            from{ 
+                transform: scale(1.1, 1.1);
+            }
+            
+            to{
+                transform: scale(1, 1);
+            }
+        }
     }
-    .testimonios__grupo-img--uno{
-        width: $width-img - 860;
-        padding-top: 5px;
+}
+
+
+.testimonios__grupo{
+    .testimonios__grupo-img--1{
+        width: 120px;
+        border-radius: 77% 23% 41% 59% / 52% 49% 51% 48%  ;
+    }
+    .testimonios__grupo-img--2{
+        width: 130px;
+        border-radius: 46% 54% 46% 54% / 76% 76% 24% 24% ;
+    }
+    .testimonios__grupo-img--3{
+        width: 130px;
+        border-radius: 52% 48% 26% 74% / 62% 65% 35% 38%  ;
     }
 }
 
@@ -175,43 +232,59 @@ body{
 /* INICIO NEWSLETTER */
 
 .news{
-    background-image: url(../img/backNews.png);
+    background-image: url(../img/back.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: $bordes * 2;
     margin-left: (200px / 4);
     margin-right: (200px / 4);
-    .news__h2{
-        font-size: $size-titulo + 5;
-        color: $color-terciario;
-        letter-spacing: 5px;
-        animation-name: news;
-        animation-iteration-count:infinite;
-        animation-duration: 5s;
-        animation-timing-function:ease-in;
+    .news__info{
+        .news__h2{
+            font-size: $size-titulo;
+            color: $color-terciario;
+            letter-spacing: 5px;
+            animation-name: news;
+            animation-iteration-count:infinite;
+            animation-duration: 5s;
+            animation-timing-function:ease-in;
     
-        @keyframes news{
-            from{
-                transform: scale(1, 1);
-                
+            @keyframes news{
+                from{
+                    transform: scale(1, 1);
+                    
+                }
+            
+                to{
+                    transform: scale(1.2, 1.2);
+                    
+                }     
             }
-        
-            to{
-                transform: scale(1.2, 1.2);
-                
-            }     
         }
-    }
-    .news__p{
-        color: $color-basico;
-    
     }
 }
 
 
 .news{
+    .news__info{
+        .news__p{
+            color: $color-basico;
+        
+        }
+    }
     .news__input{
         width: 40px * 10;
+    }
+    .news__button{
+        background-color: #ff9800;
+        border: none;
+        transition: all 0.5s ease-out
+    }
+    
+    .news__button:hover{
+        transform: scale(1.2, 1.2);
+        background-color: #ff9800;
+        color: white;
+        border: none;
     }
     
 }
