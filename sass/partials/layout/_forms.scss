@@ -62,7 +62,7 @@
 }
 
 .form{
-    transition: all 0.5s ease-out
+    transition: all 0.5s ease-out;
 }
 
 .form:hover{
@@ -70,8 +70,8 @@
 }
 
 .fieldset{
-    background-color: $color-secundario;
-    border-radius: 20px;
+    background-image: url(../img/back.png);
+    border-radius: $bordes - 80px;
     width: 350px;
     margin: auto;
     border: none;
@@ -91,4 +91,23 @@
     font-size: 14px;
     color: $color-terciario;
     
+}
+
+.botonContacto{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botonForm{
+    background: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    transition: all 0.5s ease-out
+}
+
+.botonForm:hover{
+    transform: scale(1.2, 1.2);
 }
