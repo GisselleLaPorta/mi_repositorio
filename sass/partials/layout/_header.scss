@@ -2,12 +2,22 @@
     width: 280px;
 }
 
+.login__registro{
+    background-color: $color-principal;
+    color: $color-terciario;
+    border: 0px;
+    .login__registro:hover{
+        background-color: $color-secundario;
+    }
+}
+
 .login{
     .login__img{
         width: 30px;
+        transition: all 0.3s ease-out;
     }
         .login__img:hover{
-            transform: scale(0.9, 0.9);
+            transform: scale(0.8, 0.8);
         }
 
         .login__img--user:hover{
@@ -16,16 +26,17 @@
     
 }
 
-.login{
-    .login__input{
-        width: 170px;
-        height: 20px;
-        font-size: 14px;
+
+.login__input{
+    width: 170px;
+    height: 20px;
+    font-size: 14px;
+    transition: all 0.5s ease-out;
     }
-        .login__input:hover{
-            transform: scale(1.4, 1.4);
+    .login__input:hover{
+        transform: scale(1.3, 1.3);
         }
-}
+
 
 .menu{
     background-color: $color-principal;
@@ -34,6 +45,7 @@
         font-size: 16px;
         letter-spacing: 2px;
         margin-right: 15px;  
+        transition: all 0.4s ease-out;
     }
         li a:hover{
             background-color: $color-secundario;

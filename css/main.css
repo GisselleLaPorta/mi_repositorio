@@ -124,22 +124,31 @@
 .logo {
   width: 280px; }
 
+.login__registro {
+  background-color: #ff9800;
+  color: white;
+  border: 0px; }
+  .login__registro .login__registro:hover {
+    background-color: #6ec5b8; }
+
 .login .login__img {
-  width: 30px; }
+  width: 30px;
+  transition: all 0.3s ease-out; }
 
 .login .login__img:hover {
-  transform: scale(0.9, 0.9); }
+  transform: scale(0.8, 0.8); }
 
 .login .login__img--user:hover {
   transform: none; }
 
-.login .login__input {
+.login__input {
   width: 170px;
   height: 20px;
-  font-size: 14px; }
+  font-size: 14px;
+  transition: all 0.5s ease-out; }
 
-.login .login__input:hover {
-  transform: scale(1.4, 1.4); }
+.login__input:hover {
+  transform: scale(1.3, 1.3); }
 
 .menu {
   background-color: #ff9800; }
@@ -147,7 +156,8 @@
     color: white !important;
     font-size: 16px;
     letter-spacing: 2px;
-    margin-right: 15px; }
+    margin-right: 15px;
+    transition: all 0.4s ease-out; }
   .menu li a:hover {
     background-color: #6ec5b8;
     background-size: cover; }
@@ -709,16 +719,16 @@ body {
 
 /* FIN BLW */
 /* INICIO ASESORIA */
-.asesoria .asesoria__h2 {
-  font-size: 35px;
-  color: #ff9800; }
-
-.asesoria .asesoria__p {
-  font-size: 18px;
-  color: black; }
-
-.asesoria .asesoria__a {
-  text-decoration: none; }
+.asesoria {
+  margin-bottom: -40px; }
+  .asesoria .asesoria__h2 {
+    font-size: 35px;
+    color: #ff9800; }
+  .asesoria .asesoria__p {
+    font-size: 18px;
+    color: black; }
+  .asesoria .asesoria__a {
+    text-decoration: none; }
 
 .asesoria__boton {
   font-size: 14px;
@@ -734,24 +744,26 @@ body {
   animation-timing-function: ease-in;
   animation-direction: alternate;
   transition: all 0.5s ease-out; }
-  .asesoria__boton .asesoria__boton::after {
-    position: absolute;
-    margin-left: -30px;
-    right: 1px;
-    content: " ";
-    background-color: #6ec5b8;
-    width: 100%;
-    height: 100%;
-    filter: blur(28px);
-    z-index: -1; }
-  .asesoria__boton .asesoria__boton:hover {
-    background-color: #ff9800; }
 
 @keyframes btn__asesoria {
   from {
     transform: scale(1.1, 1.1); }
   to {
     transform: scale(1, 1); } }
+
+.asesoria__boton::after {
+  position: absolute;
+  margin-left: -30px;
+  right: 1px;
+  content: " ";
+  background-color: #6ec5b8;
+  width: 100%;
+  height: 100%;
+  filter: blur(28px);
+  z-index: -1; }
+
+.asesoria__boton:hover {
+  background-color: #ff9800; }
 
 .grupo {
   text-align: center;
