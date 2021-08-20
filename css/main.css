@@ -421,127 +421,65 @@
 .verPlanes .botonVer:hover {
   transform: scale(1.2, 1.2); }
 
-.plan__h2 {
-  font-weight: bold;
-  padding-top: 20px;
-  padding-left: 20px;
-  color: #6ec5b8; }
+.planes {
+  background-image: url(../img/back.png);
+  border-radius: 200px;
+  text-align: center;
+  margin: 20px 40px; }
+  .planes h1 {
+    color: white;
+    font-weight: bold;
+    padding-top: 20px; }
+  .planes p {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px; }
 
-.plan__p {
-  font-size: 20px;
+.plan {
   font-weight: bold;
-  padding-left: 20px;
-  padding-bottom: 20px; }
+  margin: 5px 100px 5px 100px;
+  padding-bottom: 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 40px;
+  justify-items: center; }
 
-.plan__bronze {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  overflow: hidden;
-  border-top: 2px solid #6ec5b8;
-  border-bottom: 2px solid #ff9800;
-  font-weight: bold; }
-  .plan__bronze .plan__bronze-img {
-    width: 570px;
-    padding: 10px 50px 10px 100px;
-    transition: all 0.5s ease-out; }
-  .plan__bronze .plan__bronze-h3 {
+.plan__carrot {
+  background-color: #6ec5b8;
+  border-radius: 100px; }
+  .plan__carrot img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; }
+  .plan__carrot h3 {
     text-align: center;
-    margin: 10px;
-    color: #ff9800;
-    font-weight: bold; }
-  .plan__bronze .plan__bronze-ul {
-    padding: 5px 0px 5px 190px; }
-    .plan__bronze .plan__bronze-ul li {
+    color: white;
+    font-weight: bold;
+    padding-top: 10px; }
+  .plan__carrot ul {
+    color: black;
+    padding: 5px 5px 0px 40px; }
+    .plan__carrot ul li {
       padding-bottom: 0px;
       padding-right: 10px; }
 
-.plan__bronze:hover img {
-  background-color: #6ec5b8;
-  transform: scale(1.3, 1.3);
-  border-radius: 120px; }
+.plan__reserva {
+  list-style-type: none;
+  margin-top: 20px;
+  text-align: center;
+  transition: all 0.5s ease-out; }
+  .plan__reserva a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: #ff9800;
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px; }
 
-.plan__silver {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  align-items: center;
-  overflow: hidden;
-  font-weight: bold; }
-  .plan__silver .plan__silver-img {
-    width: 570px;
-    padding: 70px 50px 60px 100px;
-    transition: all 0.5s ease-out; }
-  .plan__silver .plan__silver-h3 {
-    text-align: center;
-    margin: 10px;
-    color: #ff9800;
-    font-weight: bold; }
-  .plan__silver .plan__silver-ul {
-    padding: 5px 0px 5px 190px; }
-    .plan__silver .plan__silver-ul li {
-      padding-bottom: 0px;
-      margin-right: 110px; }
-
-.plan__silver:hover img {
-  background-color: #ff9800;
-  transform: scale(1.3, 1.3);
-  border-radius: 120px; }
-
-.plan__gold {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  overflow: hidden;
-  border-top: 2px solid #6ec5b8;
-  font-weight: bold; }
-  .plan__gold .plan__gold-img {
-    width: 580px;
-    padding: 50px 50px 50px 100px;
-    transition: all 0.5s ease-out; }
-  .plan__gold .plan__gold-h3 {
-    text-align: center;
-    margin: 10px;
-    color: #ff9800;
-    font-weight: bold; }
-  .plan__gold .plan__gold-ul {
-    padding: 5px 0px 5px 190px; }
-    .plan__gold .plan__gold-ul li {
-      padding-bottom: 0px; }
-
-.plan__gold:hover img {
-  background-color: #6ec5b8;
-  transform: scale(1.3, 1.3);
-  border-radius: 120px; }
-
-.plan__premium {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  align-items: center;
-  overflow: hidden;
-  margin-bottom: 0px;
-  border-top: 2px solid #ff9800;
-  font-weight: bold; }
-  .plan__premium .plan__premium-img {
-    width: 550px;
-    padding: 70px 50px 60px 100px;
-    transition: all 0.5s ease-out; }
-  .plan__premium .plan__premium-h3 {
-    text-align: center;
-    margin: 10px;
-    color: #6ec5b8;
-    font-weight: bold; }
-  .plan__premium .plan__premium-ul {
-    padding: 5px 60px 5px 140px; }
-    .plan__premium .plan__premium-ul li {
-      padding-bottom: 0px;
-      margin-right: 80px; }
-
-.plan__premium:hover img {
-  background-color: #ff9800;
-  transform: scale(1.3, 1.3);
-  border-radius: 120px; }
+.plan__reserva:hover {
+  transform: scale(1.2, 1.2); }
 
 .carolina {
   display: flex;

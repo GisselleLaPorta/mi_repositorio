@@ -792,6 +792,7 @@ h2{
 }
 
 .planes__p{
+    color: black;
     font-size: 20px;
     font-weight: bold;
     padding-bottom: 20px;
@@ -830,6 +831,7 @@ h2{
 }
 
 .plan__carrot ul{
+    color: black; 
     padding: 5px 5px 0px 40px;
     
 
