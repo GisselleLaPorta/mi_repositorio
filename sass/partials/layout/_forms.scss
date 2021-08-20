@@ -1,6 +1,6 @@
 .publicacion{
-    background-color: $color-secundario;
-    border-radius: 220px;
+    background-image: url(../img/back.png);
+    border-radius: 200px;
     margin: 10px 40px 20px 40px;
     fieldset{
         padding: 30px 80px 40px 80px;
@@ -12,14 +12,6 @@
         font-weight: bold;
         padding-top: 30px;
         padding-left: 40px;
-    }
-    textarea{
-        width: 100%;
-        font-size: 16px;
-        color: gray;
-        border: none;
-        border-radius: 5px;
-    
     }
 }
 
@@ -35,12 +27,38 @@
     }
 }
 
+.areaPublicacion textarea{
+    width: 100%;
+    font-size: 16px;
+    color: gray;
+    border: none;
+    border-radius: 5px;
+
+}
+
 .checkPublicacion{
     font-size: 16px;
     font-weight: 400;
     font-family:Arial, Helvetica, sans-serif;
     color:$color-terciario;
     padding-top: 10px;
+}
+
+.botonPublicacion{
+    background: #ff9800;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-out;
+    .botonPublicacion:hover{
+        transform: scale(1.1, 1.1);
+    }
 }
 
 .form{

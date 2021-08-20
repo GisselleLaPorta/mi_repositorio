@@ -192,8 +192,8 @@
 
 /* FIN FOOTER */
 .publicacion {
-  background-color: #6ec5b8;
-  border-radius: 220px;
+  background-image: url(../img/back.png);
+  border-radius: 200px;
   margin: 10px 40px 20px 40px; }
   .publicacion fieldset {
     padding: 30px 80px 40px 80px;
@@ -204,12 +204,6 @@
     font-weight: bold;
     padding-top: 30px;
     padding-left: 40px; }
-  .publicacion textarea {
-    width: 100%;
-    font-size: 16px;
-    color: gray;
-    border: none;
-    border-radius: 5px; }
 
 .datosPublicacion {
   display: flex;
@@ -221,12 +215,34 @@
     border: none;
     border-radius: 5px; }
 
+.areaPublicacion textarea {
+  width: 100%;
+  font-size: 16px;
+  color: gray;
+  border: none;
+  border-radius: 5px; }
+
 .checkPublicacion {
   font-size: 16px;
   font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   padding-top: 10px; }
+
+.botonPublicacion {
+  background: #ff9800;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-out; }
+  .botonPublicacion .botonPublicacion:hover {
+    transform: scale(1.1, 1.1); }
 
 .form {
   transition: all 0.5s ease-out; }
@@ -264,24 +280,54 @@
     background: #6ec5b8;
     border: none;
     border-radius: 20px;
-    width: 250px; }
+    width: 250px;
+    transition: all 0.5s ease-out; }
     .grid .grid__article .grid__img {
       width: 100%;
       border-top-left-radius: 20px;
       border-top-right-radius: 20px; }
 
 .grid__article--meriendas {
-  background: #ff9800 !important; }
+  background-color: #ff9800 !important;
+  border: none;
+  border-radius: 20px;
+  width: 250px; }
+
+.grid__article:hover {
+  transform: scale(1.2, 1.2); }
+
+.grid__article--meriendas div a:hover {
+  background-color: #6ec5b8;
+  border-radius: 20px; }
 
 .grid__texto {
   padding: 20px 20px 20px; }
-  .grid__texto .grid__texto-h3 {
-    padding-bottom: 15px; }
-  .grid__texto .grid__texto-p {
+  .grid__texto h3 {
+    font-weight: bold; }
+  .grid__texto p {
     padding-bottom: 10px; }
+  .grid__texto a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    padding: 5px; }
 
-.grid .grid__article:hover {
-  transform: scale(1.2, 1.2); }
+.grid div a:hover {
+  background-color: #ff9800;
+  border-radius: 20px; }
+
+.grid__h2 {
+  font-weight: bold;
+  margin-left: 70px;
+  margin-bottom: 5px;
+  color: #ff9800; }
+  .grid__h2 .grid__h2--meriendas {
+    font-weight: bold;
+    color: #6ec5b8;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-bottom: 10px; }
 
 .preguntaBlw {
   display: flex;
@@ -584,15 +630,22 @@
   to {
     transform: scale(1.1, 1.1); } }
 
-.grid__h2 {
-  font-weight: bold;
-  margin-top: 10px;
-  margin-left: 40px;
-  margin-bottom: 10px;
-  color: #6ec5b8; }
-
-.grid__h2--meriendas {
-  color: #ff9800; }
+.recetas {
+  background-image: url(../img/back.png);
+  border-radius: 200px;
+  margin: 20px 40px 30px 40px;
+  padding: 5px 20px 5px 20px; }
+  .recetas h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px; }
+  .recetas p {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; }
 
 .contacto {
   display: flex;
