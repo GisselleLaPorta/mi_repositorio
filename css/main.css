@@ -546,43 +546,50 @@
 .carolina {
   display: flex;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  margin: 20px 50px 5px 50px; }
   .carolina img {
-    width: 400px;
+    width: 300px;
     height: auto;
-    margin: 5px 40px 0px 40px;
     padding: 10px;
     background-color: #6ec5b8;
-    border-radius: 20px; }
-  .carolina h3 {
-    font-size: 35px;
+    border-radius: 27% 73% 66% 34% / 52% 39% 61% 48%; }
+  .carolina h1 {
+    font-size: 30px;
     font-weight: bold;
-    color: #ff9800;
-    padding-bottom: 10px; }
+    text-align: center;
+    color: white;
+    background-color: #6ec5b8;
+    border-radius: 20px;
+    margin: 5px 250px; }
   .carolina p {
+    color: black;
     font-size: 18px;
     font-weight: bold;
-    padding: 10px;
-    margin-right: 20px; }
+    padding: 5px;
+    margin-left: 30px; }
 
 .daiana {
   display: flex;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  margin: 50px 50px 5px 50px; }
   .daiana img {
-    width: 400px;
+    width: 350px;
     height: auto;
-    margin: 0px 40px 40px 40px;
     padding: 10px;
     background-color: #ff9800;
-    border-radius: 20px; }
-  .daiana h3 {
-    font-size: 35px;
+    border-radius: 59% 41% 41% 59% / 53% 47% 53% 47%; }
+  .daiana h2 {
+    font-size: 30px;
     font-weight: bold;
-    color: #6ec5b8;
-    padding-bottom: 10px;
-    margin-left: 40px; }
+    text-align: center;
+    background-color: #ff9800;
+    border-radius: 20px;
+    color: white;
+    margin: 5px 200px; }
   .daiana p {
+    color: black;
     font-size: 18px;
     font-weight: bold;
     padding: 10px;
@@ -592,18 +599,48 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #6ec5b8;
+  background-image: url(../img/back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 200px;
-  margin: 5px 40px 20px 40px; }
-  .valores h2 {
+  margin: 5px 50px 20px 50px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-left: 40px; }
+  .valores .valores__p {
+    font-size: 30px;
     font-weight: bold;
     color: white;
-    margin-top: 20px;
-    margin-left: 130px; }
-  .valores p {
+    text-align: center;
+    margin-top: 60px;
+    animation-name: valor;
+    animation-iteration-count: infinite;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in; }
+  .valores .valores__p2 {
+    font-size: 20px;
+    color: black;
     font-weight: bold;
+    text-align: center; }
+  .valores a {
+    text-decoration: none;
     font-size: 18px;
-    margin: 10px 110px 40px 130px; }
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+    background-color: #ff9800;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-top: 70px;
+    transition: all 0.5s ease-out; }
+  .valores a:hover {
+    transform: scale(1.2, 1.2); }
+
+@keyframes valor {
+  from {
+    transform: scale(1, 1); }
+  to {
+    transform: scale(1.1, 1.1); } }
 
 .grid__h2 {
   font-weight: bold;
