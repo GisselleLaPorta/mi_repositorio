@@ -18,18 +18,18 @@
 
 .plan{
     font-weight: bold;
-    margin: 5px 100px 5px 100px;
+    margin: 5px 10px 20px 20px;
     padding-bottom: 0px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
     justify-items: center;
 }
 
 .plan__carrot{
     background-color: $color-secundario;
-    border-radius: $bordes;
+    border-radius: $bordes - 20px;
     img{
         width: 100%;
         border-top-left-radius: 20px;
@@ -42,8 +42,9 @@
         padding-top: 10px;
     }
     ul{
+        font-size: 16px;
         color: $color-basico;
-        padding: 5px 5px 0px 40px;
+        padding: 5px 0px 0px 40px;
         li{
             padding-bottom: 0px;
             padding-right: 10px;
@@ -57,9 +58,10 @@
     margin-top: 20px;
     text-align: center;
     transition: all 0.5s ease-out;
-    a{
+    .plan__reserva-a{
         text-decoration: none;
         font-size: 20px;
+        letter-spacing: 2px;
         color: $color-terciario;
         background-color: $color-principal;
         border-radius: $bordes - 80px;
@@ -67,6 +69,11 @@
     }
 }
 
+
+
 .plan__reserva:hover{
-    transform: scale(1.2, 1.2);
+    transform: scale(1.1, 1.1);
+    a:hover{
+        background-color: $color-principal;
+    }
 }
