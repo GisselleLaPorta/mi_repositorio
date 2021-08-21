@@ -1,24 +1,24 @@
 .login{
     .login__registro{
-        background-color: $color-principal;
-        color: $color-terciario;
+        background-color: $naranja;
+        color: $blanco;
         border: 0px;
     }
         .login__registro:hover{
-            background-color: $color-secundario;
+            background-color: $turquesa;
         }
 }
 
 .news{
     .news__button{
-        background-color: $color-principal;
+        background-color: $naranja;
         border: none;
         transition: all 0.5s ease-out
     }
         .news__button:hover{
             transform: scale(1.2, 1.2);
-            background-color: $color-principal;
-            color: $color-terciario;
+            background-color: $naranja;
+            color: $blanco;
             border: none;
         }  
 }
@@ -26,7 +26,7 @@
 .accordion{
     .accordion-item{
         button{
-            font-size: 14px;
+            font-size: $size-parrafo - 4px;
             font-weight: bold;
         }
     }
@@ -36,13 +36,13 @@
 .verPlanes{
     a{
     	text-decoration: none;
-    	font-size: 16px;
+    	font-size: $size-parrafo - 2px;
     	letter-spacing: 3px;
     	font-weight: bold;
-    	color: $color-terciario;
+    	color: $blanco;
     	margin-left: 40px;
-    	background-color: $color-principal;
-    	border-radius: 20px;
+    	background-color: $naranja;
+    	border-radius: $bordes - 180px;
     	padding: 5px 15px 5px 15px;
     	transition: all 0.5s ease-out;
    
@@ -56,11 +56,11 @@
 .valores{
     a{
         text-decoration: none;
-        font-size: 18px;
+        font-size: $size-parrafo;
         font-weight: bold;
-        color: $color-terciario;
-        background-color: $color-principal;
-        border-radius: 20px;
+        color: $blanco;
+        background-color: $naranja;
+        border-radius: $bordes - 180px;
         padding: 5px 15px;
         margin-top: 30px;
         margin-right: 130px;
@@ -76,23 +76,23 @@
     margin: 5px;
     .plan__reserva-a{
         text-decoration: none;
-        font-size: 20px;
-        color: $color-terciario;
-        background-color:$color-principal;
-        border-radius: 20px;
+        font-size: $size-parrafo + 2px;
+        color: $blanco;
+        background-color: $naranja;
+        border-radius: $bordes - 180px;
         padding: 5px 15px 5px 15px;
         
     }
     .plan__reserva-a:hover{
-        background-color: $color-secundario;
+        background-color: $turquesa;
     }
 }
 
 .grid__texto{
     .grid__texto-a{
         text-decoration: none;
-        font-size: 14px;
-        color: $color-terciario;
+        font-size: $size-parrafo - 4px;
+        color: $blanco;
         font-weight: 400;
         padding: 5px;    
     } 
@@ -100,25 +100,25 @@
 
 .grid{
     .grid__texto-a:hover{
-        background-color: $color-principal;
-        border-radius: 20px;
+        background-color: $naranja;
+        border-radius: $bordes - 180px;
     }
 }
 
 .grid{
     .grid__texto-a--meriendas:hover{
-        background-color: $color-secundario;
+        background-color: $turquesa;
 
     }
 }
 
 .botonPublicacion{
-    background: $color-principal;
-    color: $color-terciario;
-    font-size: 14px;
+    background: $naranja;
+    color: $blanco;
+    font-size: $size-parrafo - 4px;
     font-weight: bold;
     border: none;
-    border-radius: 15px;
+    border-radius: $bordes - 185px;
     padding: 10px 15px;
     margin-top: 10px;
     margin-right: 10px;
@@ -132,7 +132,7 @@
 .redesContacto{
     a{
         i{
-            color: $color-principal;
+            color: $naranja;
             
         } 
     }
@@ -142,10 +142,10 @@
     display: flex;
     justify-content: space-around;
     .botonForm{
-        background: $color-principal;
-        color: $color-terciario;
+        background: $naranja;
+        color: $blanco;
         border: none;
-        border-radius: 15px;
+        border-radius: $bordes - 185px;
         padding: 5px 10px;
         margin-bottom: 20px;
         transition: all 0.5s ease-out
