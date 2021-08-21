@@ -4,10 +4,10 @@
     align-items: center;
     margin: 20px 50px 5px 50px;
     img{
-        width: $width-img - 700px;
+        width: $width-img - 200px;
         height: auto;
         padding: 10px;
-        background-color: $color-secundario;
+        background-color: $turquesa;
         border-radius: 27% 73% 66% 34% / 52% 39% 61% 48%;
         
     }
@@ -15,14 +15,14 @@
         font-size: $size-titulo - 5px;
         font-weight: bold;
         text-align: center;
-        color: $color-terciario;
-        background-color: $color-secundario;
-        border-radius: $bordes - 80px;
+        color: $blanco;
+        background-color: $turquesa;
+        border-radius: $bordes - 180px;
         margin: 5px 250px;
     }
     p{
-        color: $color-basico;
-        font-size: 18px;
+        color: $negro;
+        font-size: $size-parrafo;
         font-weight: bold;
         padding: 5px;
         margin-left: 30px;
@@ -35,25 +35,25 @@
     align-items: center;
     margin: 50px 50px 5px 50px;
     img{
-        width: $width-img - 650px;
+        width: $width-img - 150px;
         height: auto;
         padding: 10px;
-        background-color: $color-principal;
+        background-color: $naranja;
         border-radius: 59% 41% 41% 59% / 53% 47% 53% 47%;
         
     }
     h2{
-        font-size: 30px;
+        font-size: $size-titulo - 5px;
         font-weight: bold;
         text-align: center;
-        background-color: $color-principal;
-        border-radius: $bordes - 80px;
-        color: $color-terciario;
+        background-color: $naranja;
+        border-radius: $bordes - 180px;
+        color: $blanco;
         margin: 5px 200px;
     }
     p{
-        color: $color-basico;
-        font-size: 18px;
+        color: $negro;
+        font-size: $size-parrafo;
         font-weight: bold;
         padding: 10px;
         margin-left: 30px;
@@ -67,7 +67,7 @@
     background-image: url(../img/back.png);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: $bordes * 2;
+    border-radius: $bordes;
     margin: 5px 50px 20px 50px;
     padding-right: 20px;
     padding-bottom: 50px;
@@ -75,7 +75,7 @@
     .valores__p{
         font-size: $size-titulo - 5px;
         font-weight: bold;
-        color: $color-terciario;
+        color: $blanco;
         text-align: center;
         margin-top: 60px;
         animation-name: valor;
@@ -86,18 +86,18 @@
     .valores__p2
     {
         font-size: 20px;
-        color: $color-basico;
+        color: $negro;
         font-weight: bold;
         text-align: center;
     }
     a{
         text-decoration: none;
-        font-size: 18px;
+        font-size: $size-parrafo;
         letter-spacing: 2px;
         font-weight: bold;
-        color: $color-terciario;
-        background-color: $color-principal;
-        border-radius: $bordes - 80px;
+        color: $blanco;
+        background-color: $naranja;
+        border-radius: $bordes - 180px;
         padding: 5px 15px;
         margin-top: 70px;
         transition: all 0.5s ease-out;
