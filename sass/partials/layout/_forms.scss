@@ -1,14 +1,14 @@
 .publicacion{
     background-image: url(../img/back.png);
-    border-radius: 200px;
+    border-radius: $bordes;
     margin: 10px 40px 20px 40px;
     fieldset{
         padding: 30px 80px 40px 80px;
         border: none;
     }
     legend{
-        color: $color-terciario;
-        font-size: 30px;
+        color: $blanco;
+        font-size: $size-titulo - 5px;
         font-weight: bold;
         padding-top: 30px;
         padding-left: 40px;
@@ -20,37 +20,37 @@
     padding-right: 10px;
     padding-bottom: 10px;
     input{
-        font-size: 16px;
+        font-size: $size-parrafo - 2px;
         margin-right: 10px;
         border: none;
-        border-radius: 5px;
+        border-radius: $bordes - 195px;
     }
 }
 
 .areaPublicacion textarea{
     width: 100%;
-    font-size: 16px;
+    font-size: $size-parrafo - 2px;
     color: gray;
     border: none;
-    border-radius: 5px;
+    border-radius: $bordes - 195px;
 
 }
 
 .checkPublicacion{
-    font-size: 16px;
+    font-size: $size-parrafo - 2px;
     font-weight: 400;
     font-family:Arial, Helvetica, sans-serif;
-    color:$color-terciario;
+    color: $blanco;
     padding-top: 10px;
 }
 
 .botonPublicacion{
-    background: #ff9800;
-    color: white;
-    font-size: 14px;
+    background: $naranja;
+    color: $blanco;
+    font-size: $size-parrafo - 4px;
     font-weight: bold;
     border: none;
-    border-radius: 15px;
+    border-radius: $bordes - 185px;
     padding: 10px 15px;
     margin-top: 10px;
     margin-right: 10px;
@@ -71,7 +71,7 @@
 
 .fieldset{
     background-image: url(../img/back.png);
-    border-radius: $bordes - 80px;
+    border-radius: $bordes - 180px;
     width: 350px;
     margin: auto;
     border: none;
@@ -79,17 +79,17 @@
         padding: 5px 15px;
         .tamaño{
             width: 100%;
-            font-size: 14px;
+            font-size: $size-parrafo - 4px;
             color: gray;
             border: none;
-            border-radius: 5px;
+            border-radius: $bordes - 195px;
         }   
     }        
 }
 
 .new{
-    font-size: 14px;
-    color: $color-terciario;
+    font-size: $size-parrafo - 4px;
+    color: $blanco;
     
 }
 
@@ -99,10 +99,10 @@
 }
 
 .botonForm{
-    background: #ff9800;
-    color: white;
+    background: $naranja;
+    color: $blanco;
     border: none;
-    border-radius: 15px;
+    border-radius: $bordes - 185px;
     padding: 5px 10px;
     margin-bottom: 20px;
     transition: all 0.5s ease-out
