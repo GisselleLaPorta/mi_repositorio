@@ -1,0 +1,18 @@
+@import "./variables"; 
+
+%style-bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: $bordes;
+}
+
+%style-parrafo{
+    color: $negro;
+    font-size: $size-parrafo;
+}
+
+%style-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
