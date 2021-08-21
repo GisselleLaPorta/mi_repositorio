@@ -1,19 +1,19 @@
 .logo{
-    width: 280px;
+    width: $width-img - 220px;
 }
 
 .login__registro{
-    background-color: $color-principal;
-    color: $color-terciario;
+    background-color: $naranja;
+    color: $blanco;
     border: 0px;
     .login__registro:hover{
-        background-color: $color-secundario;
+        background-color: $turquesa;
     }
 }
 
 .login{
     .login__img{
-        width: 30px;
+        width: $width-img - 470px;
         transition: all 0.3s ease-out;
     }
         .login__img:hover{
@@ -30,7 +30,7 @@
 .login__input{
     width: 170px;
     height: 20px;
-    font-size: 14px;
+    font-size: $size-parrafo - 4px;
     transition: all 0.5s ease-out;
     }
     .login__input:hover{
@@ -39,16 +39,16 @@
 
 
 .menu{
-    background-color: $color-principal;
+    background-color: $naranja;
     a{
-        color: $color-terciario !important;
-        font-size: 16px;
+        color: $blanco !important;
+        font-size: $size-parrafo - 2px;
         letter-spacing: 2px;
         margin-right: 15px;  
         transition: all 0.4s ease-out;
     }
         li a:hover{
-            background-color: $color-secundario;
+            background-color: $turquesa;
             background-size: cover;
         }
     
