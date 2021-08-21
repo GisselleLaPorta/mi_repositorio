@@ -504,7 +504,7 @@
     padding-top: 20px; }
   .planes p {
     color: black;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     padding-bottom: 20px; }
 
@@ -685,6 +685,7 @@
     margin-bottom: 10px;
     color: #6ec5b8; }
   .contacto p {
+    color: black;
     font-size: 18px;
     font-weight: bold;
     padding: 20px 50px 5px 50px; }
@@ -910,32 +911,3 @@ body {
   border: none; }
 
 /* FIN NEWSLETTER */
-.smile--azul {
-  background: #689ff3; }
-
-.smile--celeste {
-  background: #86b8fa; }
-
-.smile--lila {
-  background: #8768c0; }
-
-.smile--rosa {
-  background: #db609d; }
-
-.smile--rojo {
-  background: #c9414e; }
-
-.smile--naranja {
-  background: #f59546; }
-
-.smile--amarillo {
-  background: #fad464; }
-
-.smile--verde {
-  background: #3f8d68; }
-
-.smile--menta {
-  background: #40c9a0; }
-
-.smile--turquesa {
-  background: #22cff1; }
