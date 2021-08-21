@@ -6,9 +6,9 @@
     grid-gap: 10px;
     justify-items: center;
     .grid__article{
-        background: $color-secundario;
+        background: $turquesa;
         border: none;
-        border-radius: $bordes - 80px;
+        border-radius: $bordes - 180px;
         width: 250px;       
         transition: all 0.5s ease-out;
         .grid__img{
@@ -22,9 +22,9 @@
 }
 
 .grid__article--meriendas{
-    background-color: $color-principal !important;
+    background-color: $naranja !important;
     border: none;
-    border-radius: $bordes - 80px;
+    border-radius: $bordes - 180px;
     width: 250px;
 }
 
@@ -33,8 +33,8 @@
 }
 
 .grid__article--meriendas div a:hover{
-    background-color: $color-secundario;
-    border-radius: $bordes - 80px;
+    background-color: $turquesa;
+    border-radius: $bordes - 180px;
 }
 .grid__texto{
     padding: 20px 20px 20px;
@@ -47,26 +47,26 @@
     }
     a{
         text-decoration: none;
-        font-size: 14px;
-        color: $color-terciario;
+        font-size: $size-parrafo - 4px;
+        color: $blanco;
         font-weight: 400;
         padding: 5px; 
     }
 }
 
 .grid div a:hover{
-    background-color: $color-principal;
-    border-radius: $bordes - 80px;
+    background-color: $naranja;
+    border-radius: $bordes - 180px;
 }
 
 .grid__h2{
     font-weight: bold;
     margin-left: 70px;
     margin-bottom: 5px;
-    color: $color-principal;
+    color: $naranja;
     .grid__h2--meriendas{
         font-weight: bold;
-        color: $color-secundario;
+        color: $turquesa;
         margin-top: 10px;
         margin-left: 70px;
         margin-bottom: 10px;
