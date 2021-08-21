@@ -5,25 +5,25 @@
     background-image: url(/img/backAzul1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: $bordes + 150px;
+    border-radius: $bordes + 50px;
     margin: 20px 60px 30px 50px;
     padding-bottom: 20px;
 	img{
-    	width: $width-img - 600px;
+    	width: $width-img - 100px;
 		border-radius: 27% 73% 66% 34% / 52% 39% 61% 48%  ;
 		margin-top: 20px;
 		margin-left: 40px;
 	}
 	h1{
-    	color: $color-terciario;
+    	color: $blanco;
     	font-weight: bold;
     	margin-left: 20px;
     	padding-top: 30px;
     	padding-bottom: 10px;
 	}
 	p{
-		color: $color-basico;
-    	font-size: 18px;
+		color: $negro;
+    	font-size: $size-parrafo;
     	font-weight: bold;
     	margin-left: 20px;
     	margin-right: 70px;
@@ -34,14 +34,14 @@
 .beneficios{
     margin: 0px 80px 30px 40px;
 	h2{
-    	color: $color-principal;
+    	color: $naranja;
     	font-weight: bold;
     	text-align: center;
     	padding-bottom: 20px;
 	}
 	ul{
-		color: $color-basico;
-    	font-size: 18px;
+		color: $negro;
+    	font-size: $size-parrafo;
     	font-weight: bold;
     	li{
     		padding: 5px 0px 5px 0px;
@@ -68,26 +68,26 @@
     justify-content: space-around;
     align-items: center;
     margin-right: 100px;
-    font-size: 18px;
+    font-size: $size-parrafo;
     background-image: url(../img/backNaranja.png);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: $bordes * 2;
+    border-radius: $bordes;
     margin: 10px 40px 10px 40px;
     padding: 20px 50px 10px 50px;
     img{
-    	width: $width-img - 700px;   
+    	width: $width-img - 200px;   
 		border-radius: 27% 73% 66% 34% / 52% 39% 61% 48% ;
 	}
 	h2{
-    	color: $color-terciario;
+    	color: $blanco;
     	font-weight: bold;
     	padding-top: 0px;
     	padding-left: 0px;
     	padding-bottom: 20px;
 	    }
 	p{
-		color: $color-basico;
+		color: $negro;
     	font-weight: bold;
     	padding-top: 10px;
     	padding-right: 80px;
@@ -95,7 +95,7 @@
 }
 
 .recomendaciones ul{
-	color: $color-basico;
+	color: $negro;
     margin-left: 60px;
     padding: 10px;
 	li{
@@ -104,8 +104,8 @@
 }
 
 .conclusion{
-	color: $color-basico;
-    font-size: 19px;
+	color: $negro;
+    font-size: $size-parrafo + 1px;
     font-weight: bold;
     margin: 40px 60px 40px 100px;
     p{
@@ -121,12 +121,12 @@
     background-image: url(../img/back.png);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: $bordes * 2;
+    border-radius: $bordes;
     padding: 80px;
 	p{
-    	font-size: 35px;
+    	font-size: $size-titulo;
     	font-weight: bold;
-    	color: $color-terciario;
+    	color: $blanco;
     	animation-name: ver;
     	animation-iteration-count:infinite;
     	animation-duration: 3.5s;
@@ -154,10 +154,10 @@
 		font-size: 16px;
 		letter-spacing: 3px;
 		font-weight: bold;
-		color: white;
+		color: $blanco;
 		margin-left: 40px;
-		background-color: #ff9800;
-		border-radius: 20px;
+		background-color: $naranja;
+		border-radius: $bordes - 180px;
 		padding: 5px 15px 5px 15px;
 	}
 	.botonVer{
