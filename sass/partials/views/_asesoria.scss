@@ -1,16 +1,16 @@
 .planes{
     background-image: url(../img/back.png);
-    border-radius: $bordes * 2;
+    border-radius: $bordes;
     text-align: center;
     margin: 20px 40px;
     h1{
-        color: $color-terciario;
+        color: $blanco;
         font-weight: bold;
         padding-top: 20px;
     }
     p{
-        color: black;
-        font-size: 20px;
+        color: $negro;
+        font-size: $size-parrafo - 2px;
         font-weight: bold;
         padding-bottom: 20px;
     }
@@ -28,8 +28,8 @@
 }
 
 .plan__carrot{
-    background-color: $color-secundario;
-    border-radius: $bordes - 20px;
+    background-color: $turquesa;
+    border-radius: $bordes - 120px;
     img{
         width: 100%;
         border-top-left-radius: 20px;
@@ -37,13 +37,13 @@
     }
     h3{
         text-align: center;
-        color: $color-terciario;
+        color: $blanco;
         font-weight: bold;
         padding-top: 10px;
     }
     ul{
-        font-size: 16px;
-        color: $color-basico;
+        font-size: $size-parrafo - 2px;
+        color: $negro;
         padding: 5px 0px 0px 40px;
         li{
             padding-bottom: 0px;
@@ -60,11 +60,11 @@
     transition: all 0.5s ease-out;
     .plan__reserva-a{
         text-decoration: none;
-        font-size: 20px;
+        font-size: $size-parrafo + 2px;
         letter-spacing: 2px;
-        color: $color-terciario;
-        background-color: $color-principal;
-        border-radius: $bordes - 80px;
+        color: $blanco;
+        background-color: $naranja;
+        border-radius: $bordes - 180px;
         padding: 5px 15px 5px 15px;  
     }
 }
@@ -74,6 +74,6 @@
 .plan__reserva:hover{
     transform: scale(1.1, 1.1);
     a:hover{
-        background-color: $color-principal;
+        background-color: $naranja;
     }
 }
