@@ -8,16 +8,16 @@
   letter-spacing: 1px;
   font-size: 35px; }
 
-.recomendaciones, .verPlanes, .blw, .nosotras, .news {
+.recomendaciones, .verPlanes, .valores, .blw, .nosotras, .news {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 200px; }
 
-.preguntaBlw p, .beneficios ul, .recomendaciones p, .recomendaciones ul, .blw__info .blw__p, .asesoria .asesoria__p, .grupo .grupo__h3, .grupo .grupo__p, .nosotras__info .nosotras_p, .news .news__info .news__p {
+.preguntaBlw p, .beneficios ul, .recomendaciones p, .recomendaciones ul, .carolina p, .daiana p, .blw__info .blw__p, .asesoria .asesoria__p, .grupo .grupo__h3, .grupo .grupo__p, .nosotras__info .nosotras_p, .news .news__info .news__p {
   color: black;
   font-size: 18px; }
 
-.preguntaBlw, .ulBeneficios, .recomendaciones, .verPlanes {
+.preguntaBlw, .ulBeneficios, .recomendaciones, .verPlanes, .carolina, .daiana, .valores {
   display: flex;
   justify-content: space-around;
   align-items: center; }
@@ -547,9 +547,6 @@
     background-color: #ff9800; }
 
 .carolina {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   margin: 20px 50px 5px 50px; }
   .carolina img {
     width: 300px;
@@ -566,16 +563,11 @@
     border-radius: 20px;
     margin: 5px 250px; }
   .carolina p {
-    color: black;
-    font-size: 18px;
     font-weight: bold;
     padding: 5px;
     margin-left: 30px; }
 
 .daiana {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   margin: 50px 50px 5px 50px; }
   .daiana img {
     width: 350px;
@@ -592,20 +584,12 @@
     color: white;
     margin: 5px 200px; }
   .daiana p {
-    color: black;
-    font-size: 18px;
     font-weight: bold;
     padding: 10px;
     margin-left: 30px; }
 
 .valores {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   background-image: url(../img/back.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 200px;
   margin: 5px 50px 20px 50px;
   padding-right: 20px;
   padding-bottom: 50px;

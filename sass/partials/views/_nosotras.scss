@@ -1,7 +1,5 @@
 .carolina{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @extend %style-flex; 
     margin: 20px 50px 5px 50px;
     img{
         width: $width-img - 200px;
@@ -21,8 +19,7 @@
         margin: 5px 250px;
     }
     p{
-        color: $negro;
-        font-size: $size-parrafo;
+        @extend %style-parrafo;
         font-weight: bold;
         padding: 5px;
         margin-left: 30px;
@@ -30,9 +27,7 @@
 }
 
 .daiana{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @extend %style-flex; 
     margin: 50px 50px 5px 50px;
     img{
         width: $width-img - 150px;
@@ -52,8 +47,7 @@
         margin: 5px 200px;
     }
     p{
-        color: $negro;
-        font-size: $size-parrafo;
+        @extend %style-parrafo;
         font-weight: bold;
         padding: 10px;
         margin-left: 30px;
@@ -61,13 +55,9 @@
 }
 
 .valores{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @extend %style-flex; 
     background-image: url(../img/back.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: $bordes;
+    @extend %style-bg;
     margin: 5px 50px 20px 50px;
     padding-right: 20px;
     padding-bottom: 50px;
