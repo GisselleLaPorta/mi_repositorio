@@ -9,8 +9,7 @@
         padding-top: 20px;
     }
     p{
-        color: $negro;
-        font-size: $size-parrafo;
+        @extend %style-parrafo;
         font-weight: bold;
         padding-bottom: 20px;
     }
@@ -30,6 +29,8 @@
 .plan__carrot{
     background-color: $turquesa;
     border-radius: $bordes - 120px;
+    margin-top: 25px;
+    transition: all 0.5s ease-out;
     img{
         width: 100%;
         border-top-left-radius: 20px;
@@ -53,6 +54,14 @@
     }
 }
 
+.plan__carrot:hover{
+    transform: scale(1.1, 1.1);
+    background-color: $naranja;
+    .plan__reserva-a{
+        background-color: $turquesa;
+    }
+}
+
 .plan__reserva{
     list-style-type: none;
     margin-top: 20px;
@@ -66,6 +75,7 @@
         background-color: $naranja;
         border-radius: $bordes - 180px;
         padding: 5px 15px 5px 15px;  
+        transition: all 0.5s ease-out;
     }
 }
 
@@ -74,6 +84,6 @@
 .plan__reserva:hover{
     transform: scale(1.1, 1.1);
     a:hover{
-        background-color: $naranja;
+        background-color: $turquesa;
     }
 }
