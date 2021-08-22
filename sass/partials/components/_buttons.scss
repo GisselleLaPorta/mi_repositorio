@@ -1,7 +1,7 @@
 .login{
     .login__registro{
         background-color: $naranja;
-        color: $blanco;
+        color: $blanco; 
         border: 0px;
     }
         .login__registro:hover{
@@ -11,14 +11,12 @@
 
 .news{
     .news__button{
-        background-color: $naranja;
+        @extend %style-button; 
         border: none;
         transition: all 0.5s ease-out
     }
         .news__button:hover{
             transform: scale(1.2, 1.2);
-            background-color: $naranja;
-            color: $blanco;
             border: none;
         }  
 }
@@ -37,11 +35,8 @@
     a{
     	text-decoration: none;
     	font-size: $size-parrafo - 2px;
-    	letter-spacing: 3px;
-    	font-weight: bold;
-    	color: $blanco;
+    	@extend %style-button; 
     	margin-left: 40px;
-    	background-color: $naranja;
     	border-radius: $bordes - 180px;
     	padding: 5px 15px 5px 15px;
     	transition: all 0.5s ease-out;
@@ -57,9 +52,7 @@
     a{
         text-decoration: none;
         font-size: $size-parrafo;
-        font-weight: bold;
-        color: $blanco;
-        background-color: $naranja;
+        @extend %style-button; 
         border-radius: $bordes - 180px;
         padding: 5px 15px;
         margin-top: 30px;
@@ -73,20 +66,28 @@
 
 .plan__reserva{
     list-style-type: none;
-    margin: 5px;
+    margin-top: 20px;
+    text-align: center;
+    transition: all 0.5s ease-out;
     .plan__reserva-a{
         text-decoration: none;
         font-size: $size-parrafo + 2px;
-        color: $blanco;
-        background-color: $naranja;
+        @extend %style-button; 
         border-radius: $bordes - 180px;
-        padding: 5px 15px 5px 15px;
-        
+        padding: 5px 15px 5px 15px;  
+        transition: all 0.5s ease-out;
     }
-    .plan__reserva-a:hover{
+}
+
+
+
+.plan__reserva:hover{
+    transform: scale(1.1, 1.1);
+    a:hover{
         background-color: $turquesa;
     }
 }
+
 
 .grid__texto{
     .grid__texto-a{
@@ -95,12 +96,15 @@
         color: $blanco;
         font-weight: 400;
         padding: 5px;    
+        transition: all 0.5s ease-out; 
     } 
 }
 
 .grid{
     .grid__texto-a:hover{
-        background-color: $naranja;
+        @extend %style-button;
+        font-weight: bold;
+        letter-spacing: 2px;
         border-radius: $bordes - 180px;
     }
 }
@@ -113,16 +117,15 @@
 }
 
 .botonPublicacion{
-    background: $naranja;
-    color: $blanco;
+    @extend %style-button;
     font-size: $size-parrafo - 4px;
-    font-weight: bold;
     border: none;
     border-radius: $bordes - 185px;
     padding: 10px 15px;
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
+    transition: all 0.5s ease-out; 
 }
 
 .botonPublicacion:hover{
@@ -139,11 +142,9 @@
 }
 
 .botonContacto{
-    display: flex;
-    justify-content: space-around;
+    @extend %style-flex;
     .botonForm{
-        background: $naranja;
-        color: $blanco;
+        @extend %style-button; 
         border: none;
         border-radius: $bordes - 185px;
         padding: 5px 10px;

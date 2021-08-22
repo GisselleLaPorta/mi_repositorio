@@ -17,10 +17,16 @@
   color: black;
   font-size: 18px; }
 
-.preguntaBlw, .ulBeneficios, .recomendaciones, .verPlanes, .carolina, .daiana, .valores, .contacto {
+.botonContacto, .preguntaBlw, .ulBeneficios, .recomendaciones, .verPlanes, .carolina, .daiana, .valores, .contacto {
   display: flex;
   justify-content: space-around;
   align-items: center; }
+
+.news .news__button, .verPlanes a, .valores a, .plan__reserva .plan__reserva-a, .grid .grid__texto-a:hover, .botonPublicacion, .botonContacto .botonForm {
+  background-color: #ff9800;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px; }
 
 .login .login__registro {
   background-color: #ff9800;
@@ -31,14 +37,11 @@
   background-color: #6ec5b8; }
 
 .news .news__button {
-  background-color: #ff9800;
   border: none;
   transition: all 0.5s ease-out; }
 
 .news .news__button:hover {
   transform: scale(1.2, 1.2);
-  background-color: #ff9800;
-  color: white;
   border: none; }
 
 .accordion .accordion-item button {
@@ -48,11 +51,7 @@
 .verPlanes a {
   text-decoration: none;
   font-size: 16px;
-  letter-spacing: 3px;
-  font-weight: bold;
-  color: white;
   margin-left: 40px;
-  background-color: #ff9800;
   border-radius: 20px;
   padding: 5px 15px 5px 15px;
   transition: all 0.5s ease-out; }
@@ -63,9 +62,6 @@
 .valores a {
   text-decoration: none;
   font-size: 18px;
-  font-weight: bold;
-  color: white;
-  background-color: #ff9800;
   border-radius: 20px;
   padding: 5px 15px;
   margin-top: 30px;
@@ -77,15 +73,19 @@
 
 .plan__reserva {
   list-style-type: none;
-  margin: 5px; }
+  margin-top: 20px;
+  text-align: center;
+  transition: all 0.5s ease-out; }
   .plan__reserva .plan__reserva-a {
     text-decoration: none;
     font-size: 20px;
-    color: white;
-    background-color: #ff9800;
     border-radius: 20px;
-    padding: 5px 15px 5px 15px; }
-  .plan__reserva .plan__reserva-a:hover {
+    padding: 5px 15px 5px 15px;
+    transition: all 0.5s ease-out; }
+
+.plan__reserva:hover {
+  transform: scale(1.1, 1.1); }
+  .plan__reserva:hover a:hover {
     background-color: #6ec5b8; }
 
 .grid__texto .grid__texto-a {
@@ -93,26 +93,26 @@
   font-size: 14px;
   color: white;
   font-weight: 400;
-  padding: 5px; }
+  padding: 5px;
+  transition: all 0.5s ease-out; }
 
 .grid .grid__texto-a:hover {
-  background-color: #ff9800;
+  font-weight: bold;
+  letter-spacing: 2px;
   border-radius: 20px; }
 
 .grid .grid__texto-a--meriendas:hover {
   background-color: #6ec5b8; }
 
 .botonPublicacion {
-  background: #ff9800;
-  color: white;
   font-size: 14px;
-  font-weight: bold;
   border: none;
   border-radius: 15px;
   padding: 10px 15px;
   margin-top: 10px;
   margin-right: 10px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  transition: all 0.5s ease-out; }
 
 .botonPublicacion:hover {
   transform: scale(1.1, 1.1); }
@@ -120,17 +120,12 @@
 .redesContacto a i {
   color: #ff9800; }
 
-.botonContacto {
-  display: flex;
-  justify-content: space-around; }
-  .botonContacto .botonForm {
-    background: #ff9800;
-    color: white;
-    border: none;
-    border-radius: 15px;
-    padding: 5px 10px;
-    margin-bottom: 20px;
-    transition: all 0.5s ease-out; }
+.botonContacto .botonForm {
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  transition: all 0.5s ease-out; }
 
 .botonForm:hover {
   transform: scale(1.2, 1.2); }
@@ -292,22 +287,6 @@
 .new {
   font-size: 14px;
   color: white; }
-
-.botonContacto {
-  display: flex;
-  justify-content: space-around; }
-
-.botonForm {
-  background: #ff9800;
-  color: white;
-  border: none;
-  border-radius: 15px;
-  padding: 5px 10px;
-  margin-bottom: 20px;
-  transition: all 0.5s ease-out; }
-
-.botonForm:hover {
-  transform: scale(1.2, 1.2); }
 
 .grid {
   margin: 50px;
@@ -531,26 +510,6 @@
   transform: scale(1.1, 1.1);
   background-color: #ff9800; }
   .plan__carrot:hover .plan__reserva-a {
-    background-color: #6ec5b8; }
-
-.plan__reserva {
-  list-style-type: none;
-  margin-top: 20px;
-  text-align: center;
-  transition: all 0.5s ease-out; }
-  .plan__reserva .plan__reserva-a {
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: 2px;
-    color: white;
-    background-color: #ff9800;
-    border-radius: 20px;
-    padding: 5px 15px 5px 15px;
-    transition: all 0.5s ease-out; }
-
-.plan__reserva:hover {
-  transform: scale(1.1, 1.1); }
-  .plan__reserva:hover a:hover {
     background-color: #6ec5b8; }
 
 .carolina {

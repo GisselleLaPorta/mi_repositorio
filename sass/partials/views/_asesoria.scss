@@ -61,29 +61,3 @@
         background-color: $turquesa;
     }
 }
-
-.plan__reserva{
-    list-style-type: none;
-    margin-top: 20px;
-    text-align: center;
-    transition: all 0.5s ease-out;
-    .plan__reserva-a{
-        text-decoration: none;
-        font-size: $size-parrafo + 2px;
-        letter-spacing: 2px;
-        color: $blanco;
-        background-color: $naranja;
-        border-radius: $bordes - 180px;
-        padding: 5px 15px 5px 15px;  
-        transition: all 0.5s ease-out;
-    }
-}
-
-
-
-.plan__reserva:hover{
-    transform: scale(1.1, 1.1);
-    a:hover{
-        background-color: $turquesa;
-    }
-}
