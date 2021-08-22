@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
   border-radius: 200px; }
 
-.preguntaBlw p, .beneficios ul, .recomendaciones p, .recomendaciones ul, .planes p, .carolina p, .daiana p, .blw__info .blw__p, .asesoria .asesoria__p, .grupo .grupo__h3, .grupo .grupo__p, .nosotras__info .nosotras_p, .news .news__info .news__p {
+.preguntaBlw p, .beneficios ul, .recomendaciones p, .recomendaciones ul, .planes p, .carolina p, .daiana p, .recetas p, .blw__info .blw__p, .asesoria .asesoria__p, .grupo .grupo__h3, .grupo .grupo__p, .nosotras__info .nosotras_p, .news .news__info .news__p {
   color: black;
   font-size: 18px; }
 
@@ -648,8 +648,6 @@
     text-align: center;
     padding-top: 20px; }
   .recetas p {
-    color: black;
-    font-size: 18px;
     font-weight: bold;
     text-align: center; }
 
