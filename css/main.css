@@ -13,11 +13,11 @@
   background-repeat: no-repeat;
   border-radius: 200px; }
 
-.preguntaBlw p, .beneficios ul, .recomendaciones p, .recomendaciones ul, .planes p, .carolina p, .daiana p, .recetas p, .blw__info .blw__p, .asesoria .asesoria__p, .grupo .grupo__h3, .grupo .grupo__p, .nosotras__info .nosotras_p, .news .news__info .news__p {
+.preguntaBlw p, .beneficios ul, .recomendaciones p, .recomendaciones ul, .planes p, .carolina p, .daiana p, .recetas p, .contacto p, .blw__info .blw__p, .asesoria .asesoria__p, .grupo .grupo__h3, .grupo .grupo__p, .nosotras__info .nosotras_p, .news .news__info .news__p {
   color: black;
   font-size: 18px; }
 
-.preguntaBlw, .ulBeneficios, .recomendaciones, .verPlanes, .carolina, .daiana, .valores {
+.preguntaBlw, .ulBeneficios, .recomendaciones, .verPlanes, .carolina, .daiana, .valores, .contacto {
   display: flex;
   justify-content: space-around;
   align-items: center; }
@@ -652,9 +652,6 @@
     text-align: center; }
 
 .contacto {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   margin: 50px 200px 50px 40px; }
   .contacto h1 {
     font-weight: bold;
@@ -663,8 +660,6 @@
     margin-bottom: 10px;
     color: #6ec5b8; }
   .contacto p {
-    color: black;
-    font-size: 18px;
     font-weight: bold;
     padding: 20px 50px 5px 50px; }
 

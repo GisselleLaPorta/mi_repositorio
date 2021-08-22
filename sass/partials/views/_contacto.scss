@@ -1,7 +1,5 @@
 .contacto{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @extend %style-flex;
     margin: 50px 200px 50px 40px;
     h1{
         font-weight: bold;
@@ -11,8 +9,7 @@
         color: $turquesa; 
     }
     p{
-        color: $negro;
-        font-size: $size-parrafo;
+        @extend %style-parrafo; 
         font-weight: bold;
         padding: 20px 50px 5px 50px;
         
