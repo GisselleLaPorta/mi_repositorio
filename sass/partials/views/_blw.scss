@@ -4,43 +4,27 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: $bordes + 50px;
-    margin: 20px 60px 30px 50px;
-    padding-bottom: 20px;
 	img{
     	width: $width-img - 100px;
-		border-radius: 27% 73% 66% 34% / 52% 39% 61% 48%  ;
-		margin-top: 20px;
-		margin-left: 40px;
+		border-radius: 27% 73% 66% 34% / 52% 39% 61% 48% ;
 	}
 	h1{
     	color: $blanco;
-    	font-weight: bold;
-    	margin-left: 20px;
-    	padding-top: 30px;
-    	padding-bottom: 10px;
+    	
 	}
 	p{
 		@extend %style-parrafo;
-    	font-weight: bold;
-    	margin-left: 20px;
     	margin-right: 70px;
-    	margin-bottom: 0px;
 	}
 }
 
 .beneficios{
-    margin: 0px 80px 30px 40px;
 	h2{
     	color: $naranja;
-    	font-weight: bold;
-    	text-align: center;
-    	padding-bottom: 20px;
 	}
 	ul{
 		@extend %style-parrafo;
-    	font-weight: bold;
     	li{
-    		padding: 5px 0px 5px 0px;
     		margin-left: 200px;
 		}
 	}
@@ -52,8 +36,7 @@
 	video{
     	width: 210px;
     	margin-right: 120px;
-    	margin-bottom: 30px;
-    	border-radius: 140px;
+    	border-radius: $bordes - 60px;
 	}
 }
 
@@ -63,55 +46,35 @@
     font-size: $size-parrafo;
     background-image: url(../img/backNaranja.png);
     @extend %style-bg; 
-    margin: 10px 40px 10px 40px;
-    padding: 20px 50px 10px 50px;
     img{
     	width: $width-img - 200px;   
 		border-radius: 27% 73% 66% 34% / 52% 39% 61% 48% ;
 	}
 	h2{
     	color: $blanco;
-    	font-weight: bold;
-    	padding-top: 0px;
-    	padding-left: 0px;
-    	padding-bottom: 20px;
-	    }
+	}
 	p{
 		@extend %style-parrafo; 
-    	font-weight: bold;
-    	padding-top: 10px;
-    	padding-right: 80px;
 	}
 }
 
 .recomendaciones ul{
 	@extend %style-parrafo; 
-    margin-left: 60px;
-    padding: 10px;
-	li{
-    	padding: 5px;
-	}
 }
 
 .conclusion{
 	color: $negro;
     font-size: $size-parrafo + 1px;
-    font-weight: bold;
-    margin: 40px 60px 40px 100px;
-    p{
-    	padding: 15px;
-	} 
+    margin-right: 120px;
+	margin-left: 150px;
 }
 
 .verPlanes{
     @extend %style-flex;
-    margin: 20px 90px 20px 90px;
     background-image: url(../img/back.png);
     @extend %style-bg; 
-    padding: 80px;
 	p{
     	font-size: $size-titulo;
-    	font-weight: bold;
     	color: $blanco;
     	animation-name: ver;
     	animation-iteration-count:infinite;
@@ -132,26 +95,6 @@
 		} 
     }
 
-}
-
-.verPlanes{
-	a{
-		text-decoration: none;
-		font-size: 16px;
-		letter-spacing: 3px;
-		font-weight: bold;
-		color: $blanco;
-		margin-left: 40px;
-		background-color: $naranja;
-		border-radius: $bordes - 180px;
-		padding: 5px 15px 5px 15px;
-	}
-	.botonVer{
-		transition: all 0.5s ease-out;
-	}
-	.botonVer:hover{
-		transform: scale(1.2, 1.2);
-	}
 }
 
 

@@ -36,16 +36,15 @@
     	text-decoration: none;
     	font-size: $size-parrafo - 2px;
     	@extend %style-button; 
-    	margin-left: 40px;
     	border-radius: $bordes - 180px;
-    	padding: 5px 15px 5px 15px;
     	transition: all 0.5s ease-out;
-   
 	}	
-}
-
-.verPlanes .botonVer:hover{
-    transform: scale(1.2, 1.2);
+    .botonVer{
+		transition: all 0.5s ease-out;
+	}
+	.botonVer:hover{
+		transform: scale(1.2, 1.2);
+	}
 }
 
 .valores{
