@@ -20,15 +20,15 @@
 
 .accordion{
     width: 300px;
-    .accordion-item button{
+    &-item button{
         color: $negro;
         font-size: $size-parrafo - 4px;
         font-weight: bold;  
-        .accordion-item h4{
+        &-item h4{
             border-bottom: 0px;
         }
     }
-    .accordion ul{
+    & ul{
         font-size: $size-parrafo - 4px;
         font-weight: bold;
         color: $naranja;

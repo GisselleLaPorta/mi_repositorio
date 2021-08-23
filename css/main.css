@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
   border-radius: 200px; }
 
-.preguntaBlw p, .beneficios ul, .recomendaciones p, .recomendaciones ul, .planes p, .carolina p, .daiana p, .recetas p, .contacto p, .blw__info .blw__p, .asesoria .asesoria__p, .grupo .grupo__h3, .grupo .grupo__p, .nosotras__info .nosotras_p, .news .news__info .news__p {
+.preguntaBlw p, .beneficios ul, .recomendaciones p, .recomendaciones ul, .planes p, .carolina p, .daiana p, .recetas p, .contacto p, .blw__info .blw__p, .asesoria__p, .grupo__h3, .grupo__p, .nosotras__info .nosotras_p, .news__info .news__p {
   color: black;
   font-size: 18px; }
 
@@ -137,27 +137,24 @@
   background-color: #ff9800;
   color: white;
   border: 0px; }
-  .login__registro .login__registro:hover {
+  .login__registro:hover {
     background-color: #6ec5b8; }
 
-.login .login__img {
+.login__img {
   width: 30px;
   transition: all 0.3s ease-out; }
-
-.login .login__img:hover {
-  transform: scale(0.8, 0.8); }
-
-.login .login__img--user:hover {
-  transform: none; }
+  .login__img:hover {
+    transform: scale(0.8, 0.8); }
+  .login__img--user:hover {
+    transform: none; }
 
 .login__input {
   width: 170px;
   height: 20px;
   font-size: 14px;
   transition: all 0.5s ease-out; }
-
-.login__input:hover {
-  transform: scale(1.3, 1.3); }
+  .login__input:hover {
+    transform: scale(1.3, 1.3); }
 
 .menu {
   background-color: #ff9800; }
@@ -188,17 +185,17 @@
 
 .accordion {
   width: 300px; }
-  .accordion .accordion-item button {
+  .accordion-item button {
     color: black;
     font-size: 14px;
     font-weight: bold; }
-    .accordion .accordion-item button .accordion-item h4 {
+    .accordion-item button-item h4 {
       border-bottom: 0px; }
-  .accordion .accordion ul {
+  .accordion ul {
     font-size: 14px;
     font-weight: bold;
     color: #ff9800; }
-    .accordion .accordion ul .foot ul li {
+    .accordion ul .foot ul li {
       list-style-type: none; }
 
 .redesFoot {
@@ -632,7 +629,7 @@ body {
 /* INICIO BLW */
 .blw {
   background-image: url(../img/backAzul.png); }
-  .blw .blw__img {
+  .blw__img {
     max-width: 400px;
     padding-right: 50px;
     border-radius: 200px; }
@@ -648,10 +645,10 @@ body {
 /* INICIO ASESORIA */
 .asesoria {
   margin-bottom: -40px; }
-  .asesoria .asesoria__h2 {
+  .asesoria__h2 {
     font-size: 35px;
     color: #ff9800; }
-  .asesoria .asesoria__a {
+  .asesoria__a {
     text-decoration: none; }
 
 .asesoria__boton {
@@ -668,6 +665,18 @@ body {
   animation-timing-function: ease-in;
   animation-direction: alternate;
   transition: all 0.5s ease-out; }
+  .asesoria__boton::after {
+    position: absolute;
+    margin-left: -30px;
+    right: 1px;
+    content: " ";
+    background-color: #6ec5b8;
+    width: 100%;
+    height: 100%;
+    filter: blur(28px);
+    z-index: -1; }
+  .asesoria__boton:hover {
+    background-color: #ff9800; }
 
 @keyframes btn__asesoria {
   from {
@@ -675,35 +684,21 @@ body {
   to {
     transform: scale(1, 1); } }
 
-.asesoria__boton::after {
-  position: absolute;
-  margin-left: -30px;
-  right: 1px;
-  content: " ";
-  background-color: #6ec5b8;
-  width: 100%;
-  height: 100%;
-  filter: blur(28px);
-  z-index: -1; }
-
-.asesoria__boton:hover {
-  background-color: #ff9800; }
-
 .grupo {
   text-align: center;
   transition: all 1s ease-out;
   position: relative;
   overflow: hidden; }
-  .grupo .grupo__h3 {
+  .grupo__h3 {
     position: relative;
     z-index: 1; }
-  .grupo .grupo__p {
+  .grupo__p {
     position: relative;
     z-index: 1;
     transform: translateY(100px);
     opacity: 0;
     transition: all 0.5s ease-out; }
-  .grupo .grupo__img {
+  .grupo__img {
     width: 280px;
     transition: all 0.7s ease-out;
     animation-name: imgGrupo;
@@ -730,7 +725,7 @@ body {
 .nosotras {
   background-image: url(../img/backNaranja.png);
   padding-right: 50px; }
-  .nosotras .nosotras__img {
+  .nosotras__img {
     max-width: 350px;
     border-radius: 220px;
     padding-left: 50px; }
@@ -741,26 +736,26 @@ body {
 
 /* FIN NOSOTRAS */
 /* INICIO TESTIMONIOS */
-.testimonios .testimonios__h2 {
+.testimonios__h2 {
   color: #6ec5b8; }
 
-.testimonios__grupo .testimonios__grupo-p {
+.testimonios__grupo-p {
   font-size: 16px;
   font-weight: 400;
   color: black; }
 
-.testimonios__grupo .testimonios__grupo-h3 {
+.testimonios__grupo-h3 {
   font-size: 18px;
   background-color: #6ec5b8;
   border-radius: 50px; }
-  .testimonios__grupo .testimonios__grupo-h3 .testimonios__grupo-badge {
+  .testimonios__grupo-h3 .testimonios__grupo-badge {
     color: #ff9800;
     animation-name: bdg__testimonio;
     animation-iteration-count: infinite;
     animation-duration: 1.8s;
     animation-timing-function: ease-in;
     animation-direction: alternate; }
-  .testimonios__grupo .testimonios__grupo-h3 .testimonios__grupo-badge:hover {
+  .testimonios__grupo-h3 .testimonios__grupo-badge:hover {
     color: #6ec5b8; }
 
 @keyframes bdg__testimonio {
@@ -769,15 +764,15 @@ body {
   to {
     transform: scale(1, 1); } }
 
-.testimonios__grupo .testimonios__grupo-img--1 {
+.testimonios__grupo-img--1 {
   width: 120px;
   border-radius: 77% 23% 41% 59% / 52% 49% 51% 48%; }
 
-.testimonios__grupo .testimonios__grupo-img--2 {
+.testimonios__grupo-img--2 {
   width: 130px;
   border-radius: 46% 54% 46% 54% / 76% 76% 24% 24%; }
 
-.testimonios__grupo .testimonios__grupo-img--3 {
+.testimonios__grupo-img--3 {
   width: 130px;
   border-radius: 52% 48% 26% 74% / 62% 65% 35% 38%; }
 
@@ -787,7 +782,7 @@ body {
   background-image: url(../img/back.png);
   margin-left: 50px;
   margin-right: 50px; }
-  .news .news__info .news__h2 {
+  .news__info .news__h2 {
     font-size: 35px;
     color: white;
     letter-spacing: 5px;
@@ -802,18 +797,7 @@ body {
   to {
     transform: scale(1.2, 1.2); } }
 
-.news .news__input {
+.news__input {
   width: 400px; }
-
-.news .news__button {
-  background-color: #ff9800;
-  border: none;
-  transition: all 0.5s ease-out; }
-
-.news .news__button:hover {
-  transform: scale(1.2, 1.2);
-  background-color: #ff9800;
-  color: white;
-  border: none; }
 
 /* FIN NEWSLETTER */

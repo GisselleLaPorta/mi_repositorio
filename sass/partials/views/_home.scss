@@ -7,7 +7,7 @@ body{
 .blw{
     background-image: url(../img/backAzul.png);
     @extend %style-bg; 
-    .blw__img{
+    &__img{
         max-width: $width-img - 100px;
         padding-right: 100px - 50px;
         border-radius: $bordes;
@@ -32,14 +32,14 @@ body{
 
 .asesoria{
     margin-bottom: -40px;
-    .asesoria__h2{
+    &__h2{
         font-size: $size-titulo;
         color: $naranja;  
     }
-    .asesoria__p{
+    &__p{
         @extend %style-parrafo; 
     }
-    .asesoria__a{
+    &__a{
         text-decoration: none;
     }
 }
@@ -58,6 +58,20 @@ body{
     animation-timing-function:ease-in;
     animation-direction:alternate;
     transition: all 0.5s ease-out;
+    &::after{
+        position: absolute;
+        margin-left: -30px;
+        right: 1px;
+        content: " ";
+        background-color: $turquesa;
+        width: 100%;
+        height: 100%;
+        filter: blur(28px);
+        z-index: -1;
+    }
+    &:hover{
+        background-color: $naranja;
+    }
 }
 
 @keyframes btn__asesoria{
@@ -70,33 +84,18 @@ body{
     }
 }
 
-.asesoria__boton::after{
-    position: absolute;
-    margin-left: -30px;
-    right: 1px;
-    content: " ";
-    background-color: $turquesa;
-    width: 100%;
-    height: 100%;
-    filter: blur(28px);
-    z-index: -1;
-}
-
-.asesoria__boton:hover{
-    background-color: $naranja;
-}
 
 .grupo{
     text-align: center;
     transition: all 1s ease-out;
     position: relative;
     overflow: hidden;
-    .grupo__h3{
+    &__h3{
         @extend %style-parrafo;
         position: relative;
         z-index: 1;
     }
-    .grupo__p{
+    &__p{
         @extend %style-parrafo;
         position: relative;
         z-index: 1;
@@ -104,7 +103,7 @@ body{
         opacity: 0;
         transition: all 0.5s ease-out;
     }
-    .grupo__img{
+    &__img{
         width: $width-img - 220;
         transition: all 0.7s ease-out;
         animation-name: imgGrupo;
@@ -142,7 +141,7 @@ body{
     background-image: url(../img/backNaranja.png);
     @extend %style-bg;
     padding-right: 50px;
-    .nosotras__img{
+    &__img{
         max-width: $width-img - 150px;
         border-radius: $bordes + 20px;
         padding-left: 50px;
@@ -165,23 +164,23 @@ body{
 /* INICIO TESTIMONIOS */
 
 .testimonios{
-    .testimonios__h2{
+    &__h2{
         color: $turquesa;
         
     }
 }
 
 .testimonios__grupo{
-    .testimonios__grupo-p{
+    &-p{
         font-size: $size-parrafo - 2px;
         font-weight: 400;
         color: $negro;
     }
-    .testimonios__grupo-h3{
+    &-h3{
         font-size: $size-titulo - 17px;
         background-color: $turquesa;
         border-radius: $bordes - 150;
-        .testimonios__grupo-badge{
+    .testimonios__grupo-badge{
             color: $naranja;
             animation-name: bdg__testimonio;
             animation-iteration-count:infinite;
@@ -207,15 +206,15 @@ body{
 
 
 .testimonios__grupo{
-    .testimonios__grupo-img--1{
+    &-img--1{
         width: $width-img - 380px;
         border-radius: 77% 23% 41% 59% / 52% 49% 51% 48%  ;
     }
-    .testimonios__grupo-img--2{
+    &-img--2{
         width: $width-img - 370px;
         border-radius: 46% 54% 46% 54% / 76% 76% 24% 24% ;
     }
-    .testimonios__grupo-img--3{
+    &-img--3{
         width: $width-img - 370px;
         border-radius: 52% 48% 26% 74% / 62% 65% 35% 38%  ;
     }
@@ -230,8 +229,8 @@ body{
     @extend %style-bg;
     margin-left: 50px;
     margin-right: 50px;
-    .news__info{
-        .news__h2{
+    &__info{
+    .news__h2{
             font-size: $size-titulo;
             color: $blanco;
             letter-spacing: 5px;
@@ -257,26 +256,14 @@ body{
 
 
 .news{
-    .news__info{
+    &__info{
         .news__p{
             @extend %style-parrafo;
         
         }
     }
-    .news__input{
+    &__input{
         width: 400px;
-    }
-    .news__button{
-        background-color: $naranja;
-        border: none;
-        transition: all 0.5s ease-out
-    }
-    
-    .news__button:hover{
-        transform: scale(1.2, 1.2);
-        background-color: $naranja;
-        color: $blanco;
-        border: none;
     }
     
 }
