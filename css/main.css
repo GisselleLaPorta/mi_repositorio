@@ -14,7 +14,7 @@
   background-repeat: no-repeat;
   border-radius: 200px; }
 
-.preguntaBlw p, .beneficios ul, .recomendaciones p, .recomendaciones ul, .planes p, .carolina p, .daiana p, .recetas p, .contacto p, .blw__info .blw__p, .asesoria__p, .grupo__h3, .grupo__p, .nosotras__info .nosotras_p, .news__info .news__p {
+.preguntaBlw p, .beneficios ul, .recomendaciones p, .recomendaciones ul, .planes__p, .carolina p, .daiana p, .recetas p, .contacto p, .blw__info .blw__p, .asesoria__p, .grupo__h3, .grupo__p, .nosotras__info .nosotras_p, .news__info .news__p {
   color: black;
   font-size: 18px; }
 
@@ -71,19 +71,16 @@
 
 .plan__reserva {
   list-style-type: none;
-  margin-top: 20px;
-  text-align: center;
   transition: all 0.5s ease-out; }
   .plan__reserva .plan__reserva-a {
     text-decoration: none;
     font-size: 20px;
     border-radius: 20px;
-    padding: 5px 15px 5px 15px;
     transition: all 0.5s ease-out; }
 
 .plan__reserva:hover {
   transform: scale(1.1, 1.1); }
-  .plan__reserva:hover a:hover {
+  .plan__reserva:hover-a:hover {
     background-color: #6ec5b8; }
 
 .grid__texto .grid__texto-a {
@@ -401,21 +398,11 @@
 
 .planes {
   background-image: url(../img/back.png);
-  border-radius: 200px;
-  text-align: center;
-  margin: 20px 40px; }
-  .planes h1 {
-    color: white;
-    font-weight: bold;
-    padding-top: 20px; }
-  .planes p {
-    font-weight: bold;
-    padding-bottom: 20px; }
+  border-radius: 200px; }
+  .planes__h1 {
+    color: white; }
 
 .plan {
-  font-weight: bold;
-  margin: 5px 10px 20px 20px;
-  padding-bottom: 0px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
@@ -425,22 +412,19 @@
 .plan__carrot {
   background-color: #6ec5b8;
   border-radius: 80px;
-  margin-top: 25px;
+  margin-top: 30px;
   transition: all 0.5s ease-out; }
-  .plan__carrot img {
+  .plan__carrot-img {
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px; }
-  .plan__carrot h3 {
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    padding-top: 10px; }
-  .plan__carrot ul {
+  .plan__carrot-h3 {
+    color: white; }
+  .plan__carrot-ul {
     font-size: 16px;
     color: black;
     padding: 5px 0px 0px 40px; }
-    .plan__carrot ul li {
+    .plan__carrot-ul li {
       padding-bottom: 0px;
       padding-right: 10px; }
 
