@@ -152,9 +152,9 @@
     letter-spacing: 2px;
     margin-right: 15px;
     transition: all 0.4s ease-out; }
-  .menu li a:hover {
-    background-color: #6ec5b8;
-    background-size: cover; }
+    .menu a:hover {
+      background-color: #6ec5b8;
+      background-size: cover; }
 
 .hr {
   opacity: 1;
@@ -198,7 +198,6 @@
 /* recetas */
 .publicacion {
   background-image: url(../img/back.png);
-  background-repeat: no-repeat;
   border-radius: 200px; }
   .publicacion fieldset {
     padding: 30px 80px 40px 80px;

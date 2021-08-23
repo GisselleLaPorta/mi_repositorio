@@ -3,7 +3,6 @@
 .publicacion{
     background-image: url(../img/back.png);
     @extend %style-bg; 
-    background-repeat: no-repeat;
     border-radius: $bordes;
     fieldset{
         padding: 30px 80px 40px 80px;
