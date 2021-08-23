@@ -118,8 +118,6 @@
 .botonContacto .botonForm {
   border: none;
   border-radius: 15px;
-  padding: 5px 10px;
-  margin-bottom: 20px;
   transition: all 0.5s ease-out; }
 
 .botonForm:hover {
@@ -267,14 +265,12 @@
   width: 350px;
   margin: auto;
   border: none; }
-  .fieldset .formulario {
-    padding: 5px 15px; }
-    .fieldset .formulario .tamaño {
-      width: 100%;
-      font-size: 14px;
-      color: gray;
-      border: none;
-      border-radius: 5px; }
+  .fieldset .formulario .tamaño {
+    width: 100%;
+    font-size: 14px;
+    color: gray;
+    border: none;
+    border-radius: 5px; }
 
 .new {
   font-size: 14px;
@@ -498,19 +494,14 @@
     text-align: center; }
 
 .contacto {
-  margin: 50px 200px 50px 40px; }
+  margin-right: 200px; }
   .contacto h1 {
     font-weight: bold;
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-bottom: 10px;
     color: #6ec5b8; }
   .contacto p {
-    font-weight: bold;
-    padding: 20px 50px 5px 50px; }
+    font-weight: bold; }
 
 .redesContacto {
-  text-align: center;
   font-size: 45px; }
 
 body {

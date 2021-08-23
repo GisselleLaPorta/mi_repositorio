@@ -16,6 +16,7 @@
    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+<!--   inicio logo/cabecera -->
     <header>
         <nav class="cabecera">
             <a href="./index.html"><img src="./img/logoCarrotBaby.png" alt="logo" class="logo"></a>
@@ -52,30 +53,32 @@
         </nav>
     </header>
     <main>
-        <div class="contacto">
+<!-- inicio contacto -->
+        <div class="contacto my-4 ms-3">
             <div>
-                <h1 class="tittle">Contacto</h1>
-                <p>¿Quieres proponernos alguna sugerencia?, ¿Tienes dudas acerca de nuestras asesorías? ¿O simplemente quieres contactar con nosotras?
+                <h1 class="title my-1 ms-5">Contacto</h1>
+                <p class="pt-2 px-5 pb-1">¿Quieres proponernos alguna sugerencia?, ¿Tienes dudas acerca de nuestras asesorías? ¿O simplemente quieres contactar con nosotras?
                 </p>
-                <p>Puedes usar el formulario de contacto o escribirnos a través de nuestras redes sociales:</p>
-                    <div class="text-muted redesContacto">
+                <p class="pt-2 px-5 pb-1">Puedes usar el formulario de contacto o escribirnos a través de nuestras redes sociales:</p>
+                    <div class="text-muted redesContacto text-center">
                         <a href="#" class="text-reset"><i class="bi bi-facebook"></i></a>
                         <a href="#" class="text-reset"><i class="bi bi-instagram"></i></a>
                         <a href="#" class="text-reset"><i class="bi bi-twitter"></i></a>
                     </div>
             </div>
-            <div class="form">
+        <!-- inicio formulario -->
+            <div class="form my-5">
                 <form action="#" method="GET" >  
                     <fieldset class="fieldset">
-                        <div class="formulario">
+                        <div class="formulario py-1 px-3">
                             <label for="nombreApellido"></label>
                             <input type="text" id="nombreApellido" required placeholder="Nombre" class="tamaño">
                         </div>
-                        <div class="formulario">
+                        <div class="formulario py-1 px-3">
                             <label for="usermail" ></label>
                             <input type="email" name="correoElectrónico" id="usermail" placeholder="Correo" class="tamaño" required>
                         </div> 
-                        <div class="formulario">
+                        <div class="formulario py-1 px-3">
                             <label for="asunto"></label>
                             <select name="asunto" id="" required class="tamaño">
                                 <option value="" selected>¿Qué desea?</option>
@@ -84,22 +87,23 @@
                                 <option value="Sugerencias">Sugerencias</option>
                             </select> 
                         </div>   
-                        <div class="formulario">
+                        <div class="formulario py-1 px-3">
                             <label for="comments"></label>
                             <textarea name="comments" id="" cols="30" rows="10" placeholder="Comente aquí" maxlength="300" class="tamaño"></textarea>
                         </div>
-                        <div class="formulario">
+                        <div class="formulario py-1 px-3">
                             <input type="checkbox" name="acepta" value="1">
                             <label class="new">Desea recibir nuestra Newsletter</label>
                         </div>      
                         <div class="botonContacto">
-                            <input type="submit" value="Enviar" class="botonForm">
-                            <input type="reset" value="Limpiar" class="botonForm">
+                            <input type="submit" value="Enviar" class="botonForm py-1 px-2 mb-3">
+                            <input type="reset" value="Limpiar" class="botonForm py-1 px-2 mb-3">
                         </div>
                     </fieldset>
                 </form>
             </div>
         </div>
+      <!-- inicio breadcrumb -->
       <div class="migas d-flex justify-content-end me-5 fw-bold">
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
           <ol class="breadcrumb">
@@ -113,6 +117,7 @@
         </nav>
       </div>  
     </main>
+    <!-- inicio footer -->
     <hr class="hr">
     <footer class="pb-5">
         <div class="d-flex justify-content-around align-items-center foot mt-4">

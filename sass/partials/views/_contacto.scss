@@ -1,23 +1,17 @@
 .contacto{
     @extend %style-flex;
-    margin: 50px 200px 50px 40px;
+    margin-right: 200px;
     h1{
         font-weight: bold;
-        margin-top: 10px;
-        margin-left: 50px;
-        margin-bottom: 10px;
         color: $turquesa; 
     }
     p{
         @extend %style-parrafo; 
         font-weight: bold;
-        padding: 20px 50px 5px 50px;
-        
     }
 }
 
 .redesContacto{
-    text-align: center;
     font-size: 45px;
 }
 
