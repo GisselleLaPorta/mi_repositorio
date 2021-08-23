@@ -1,19 +1,12 @@
 .recetas{
     background-image: url(../img/back.png);
     border-radius: $bordes;
-    margin: 20px 40px 30px 40px;
-    padding: 5px 20px 5px 20px;
-    h1{
+    &__h1{
         color: $blanco;
         font-size: $size-titulo;
-        font-weight: bold;
-        text-align: center;
-        padding-top: 20px;
     }
-    p{
+    &__p{
         @extend %style-parrafo;
-        font-weight: bold;
-        text-align: center;
     }
 }
 

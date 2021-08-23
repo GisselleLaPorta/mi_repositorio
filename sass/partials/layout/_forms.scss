@@ -1,7 +1,10 @@
+/* recetas */
+
 .publicacion{
     background-image: url(../img/back.png);
+    @extend %style-bg; 
+    background-repeat: no-repeat;
     border-radius: $bordes;
-    margin: 10px 40px 20px 40px;
     fieldset{
         padding: 30px 80px 40px 80px;
         border: none;
@@ -9,19 +12,13 @@
     legend{
         color: $blanco;
         font-size: $size-titulo - 5px;
-        font-weight: bold;
-        padding-top: 30px;
-        padding-left: 40px;
     }
 }
 
 .datosPublicacion{
     display: flex;
-    padding-right: 10px;
-    padding-bottom: 10px;
     input{
         font-size: $size-parrafo - 2px;
-        margin-right: 10px;
         border: none;
         border-radius: $bordes - 195px;
     }
@@ -37,29 +34,11 @@
 }
 
 .checkPublicacion{
-    font-size: $size-parrafo - 2px;
-    font-weight: 400;
-    font-family:Arial, Helvetica, sans-serif;
-    color: $blanco;
-    padding-top: 10px;
+    font-size: $size-parrafo;
+    color: $negro;
 }
 
-.botonPublicacion{
-    background: $naranja;
-    color: $blanco;
-    font-size: $size-parrafo - 4px;
-    font-weight: bold;
-    border: none;
-    border-radius: $bordes - 185px;
-    padding: 10px 15px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    transition: all 0.3s ease-out;
-    .botonPublicacion:hover{
-        transform: scale(1.1, 1.1);
-    }
-}
+/* contacto */
 
 .form{
     transition: all 0.5s ease-out;

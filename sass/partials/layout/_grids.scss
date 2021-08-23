@@ -1,22 +1,23 @@
 .grid{
-    margin: 50px;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
     grid-gap: 10px;
     justify-items: center;
-    .grid__article{
+    &__article{
         background: $turquesa;
         border: none;
         border-radius: $bordes - 180px;
         width: 250px;       
         transition: all 0.5s ease-out;
-        .grid__img{
+        &:hover{
+            transform: scale(1.2, 1.2);
+        }
+    }
+    &__img{
             width: 100%;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
-                
-        }
     }
 
 }
@@ -26,31 +27,18 @@
     border: none;
     border-radius: $bordes - 180px;
     width: 250px;
+    & div a:hover{
+        background-color: $turquesa;
+        border-radius: $bordes - 180px;
+    }
 }
 
-.grid__article:hover{
-    transform: scale(1.2, 1.2);
-}
 
-.grid__article--meriendas div a:hover{
-    background-color: $turquesa;
-    border-radius: $bordes - 180px;
-}
 .grid__texto{
-    padding: 20px 20px 20px;
-    h3{
-        font-weight: bold;
-        
-    }
-    p{
-        padding-bottom: 10px;
-    }
-    a{
+    &-a{
         text-decoration: none;
         font-size: $size-parrafo - 4px;
         color: $blanco;
-        font-weight: 400;
-        padding: 5px; 
     }
 }
 
@@ -60,16 +48,9 @@
 }
 
 .grid__h2{
-    font-weight: bold;
-    margin-left: 70px;
-    margin-bottom: 5px;
     color: $naranja;
-    .grid__h2--meriendas{
-        font-weight: bold;
+    &--meriendas{
         color: $turquesa;
-        margin-top: 10px;
-        margin-left: 70px;
-        margin-bottom: 10px;
     }
 }
 

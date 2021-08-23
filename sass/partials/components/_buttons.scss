@@ -110,19 +110,14 @@
 }
 
 .botonPublicacion{
-    @extend %style-button;
+    @extend %style-button; 
     font-size: $size-parrafo - 4px;
     border: none;
     border-radius: $bordes - 185px;
-    padding: 10px 15px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    transition: all 0.5s ease-out; 
-}
-
-.botonPublicacion:hover{
-    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease-out;
+    &:hover{
+        transform: scale(1.1, 1.1);
+    }
 }
 
 .redesContacto{
