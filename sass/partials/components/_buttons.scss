@@ -54,10 +54,10 @@
         @extend %style-button; 
         border-radius: $bordes - 180px;
         transition: all 0.5s ease-out;
-    }
-        a:hover{
+        &:hover{
             transform: scale(1.2, 1.2);
         }
+    }
 }
 
 .plan__reserva{

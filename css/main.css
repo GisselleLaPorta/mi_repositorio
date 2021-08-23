@@ -66,9 +66,8 @@
   font-size: 18px;
   border-radius: 20px;
   transition: all 0.5s ease-out; }
-
-.valores a:hover {
-  transform: scale(1.2, 1.2); }
+  .valores a:hover {
+    transform: scale(1.2, 1.2); }
 
 .plan__reserva {
   list-style-type: none;
@@ -482,14 +481,14 @@
 
 .valores {
   background-image: url(../img/back.png); }
-  .valores .valores__p {
+  .valores__p {
     font-size: 30px;
     color: white;
     animation-name: valor;
     animation-iteration-count: infinite;
     animation-duration: 3.5s;
     animation-timing-function: ease-in; }
-  .valores .valores__p2 {
+  .valores__p2 {
     font-size: 20px;
     color: black; }
 
