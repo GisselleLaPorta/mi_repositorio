@@ -6,7 +6,7 @@
 		@include imagen($width-img - 100px, 27% 73% 66% 34% / 52% 39% 61% 48%);
 	}
 	h1{
-    	color: $blanco;
+    	@include titulos($blanco, $size-titulo);
 	}
 	p{
 		@extend %style-parrafo;
@@ -16,7 +16,7 @@
 
 .beneficios{
 	h2{
-    	color: $naranja;
+		@include titulos($naranja, $size-titulo);
 	}
 	ul{
 		@extend %style-parrafo;
@@ -46,7 +46,7 @@
 		@include imagen($width-img - 200px, 27% 73% 66% 34% / 52% 39% 61% 48%)
 	}
 	h2{
-    	color: $blanco;
+    	@include titulos($blanco, $size-titulo);
 	}
 	p{
 		@extend %style-parrafo; 
@@ -58,8 +58,7 @@
 }
 
 .conclusion{
-	color: $negro;
-    font-size: $size-parrafo + 1px;
+	@include titulos($negro, $size-parrafo + 1px);
     margin-right: 120px;
 	margin-left: 150px;
 }
@@ -69,8 +68,7 @@
     background-image: url(../img/back.png);
     @extend %style-bg; 
 	p{
-    	font-size: $size-titulo;
-    	color: $blanco;
+    	@include titulos($blanco, $size-titulo);
 		@include animation(ver, infinite, 3.5s, ease-in, none, none);
 		@keyframes ver{
     			from{

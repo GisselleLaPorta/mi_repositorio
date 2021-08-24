@@ -2,7 +2,7 @@
     background-image: url(../img/back.png);
     border-radius: $bordes;
     &__h1{
-        color: $blanco;
+        @include titulos($blanco, $size-titulo);
     }
     &__p{
         @extend %style-parrafo;

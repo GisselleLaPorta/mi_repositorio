@@ -2,13 +2,16 @@
     background-image: url(../img/back.png);
     border-radius: $bordes;
     &__h1{
-        color: $blanco;
-        font-size: $size-titulo;
+        @include titulos($blanco, $size-titulo);
     }
     &__p{
         @extend %style-parrafo;
     }
 }
 
-
-
+.grid__h2{
+    @include titulos($naranja, $size-titulo);
+    &--meriendas{
+        @include titulos($turquesa, $size-titulo);
+    }
+}

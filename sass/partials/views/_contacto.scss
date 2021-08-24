@@ -2,18 +2,13 @@
     @extend %style-flex;
     margin-right: 200px;
     h1{
-        font-weight: bold;
-        color: $turquesa; 
+        @include titulos($turquesa, $size-titulo);
     }
     p{
         @extend %style-parrafo; 
-        font-weight: bold;
     }
 }
 
 .redesContacto{
     font-size: 45px;
 }
-
-
-

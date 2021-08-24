@@ -324,23 +324,20 @@
   background-color: #ff9800;
   border-radius: 20px; }
 
-.grid__h2 {
-  color: #ff9800; }
-  .grid__h2--meriendas {
-    color: #6ec5b8; }
-
 .preguntaBlw {
   background-image: url(/img/backAzul1.png); }
   .preguntaBlw img {
     max-width: 400px;
     border-radius: 27% 73% 66% 34%/52% 39% 61% 48%; }
   .preguntaBlw h1 {
-    color: white; }
+    color: white;
+    font-size: 35px; }
   .preguntaBlw p {
     margin-right: 70px; }
 
 .beneficios h2 {
-  color: #ff9800; }
+  color: #ff9800;
+  font-size: 35px; }
 
 .beneficios ul li {
   margin-left: 200px; }
@@ -358,7 +355,8 @@
     max-width: 300px;
     border-radius: 27% 73% 66% 34%/52% 39% 61% 48%; }
   .recomendaciones h2 {
-    color: white; }
+    color: white;
+    font-size: 35px; }
 
 .conclusion {
   color: black;
@@ -369,8 +367,8 @@
 .verPlanes {
   background-image: url(../img/back.png); }
   .verPlanes p {
-    font-size: 35px;
     color: white;
+    font-size: 35px;
     animation-name: ver;
     animation-iteration-count: infinite;
     animation-duration: 3.5s;
@@ -388,7 +386,8 @@
   background-image: url(../img/back.png);
   border-radius: 200px; }
   .planes__h1 {
-    color: white; }
+    color: white;
+    font-size: 35px; }
 
 .plan {
   display: grid;
@@ -429,8 +428,8 @@
   background-color: #6ec5b8; }
 
 .carolina h1 {
-  font-size: 30px;
   color: white;
+  font-size: 30px;
   background-color: #6ec5b8;
   border-radius: 20px;
   margin: 5px 250px; }
@@ -445,17 +444,17 @@
   background-color: #ff9800; }
 
 .daiana h2 {
+  color: white;
   font-size: 30px;
   background-color: #ff9800;
   border-radius: 20px;
-  color: white;
   margin: 5px 200px; }
 
 .valores {
   background-image: url(../img/back.png); }
   .valores__p {
-    font-size: 30px;
     color: white;
+    font-size: 30px;
     animation-name: valor;
     animation-iteration-count: infinite;
     animation-duration: 3.5s;
@@ -463,8 +462,8 @@
     animation-direction: none;
     transition: none; }
   .valores__p2 {
-    font-size: 20px;
-    color: black; }
+    color: black;
+    font-size: 20px; }
 
 @keyframes valor {
   from {
@@ -479,13 +478,18 @@
     color: white;
     font-size: 35px; }
 
+.grid__h2 {
+  color: #ff9800;
+  font-size: 35px; }
+  .grid__h2--meriendas {
+    color: #6ec5b8;
+    font-size: 35px; }
+
 .contacto {
   margin-right: 200px; }
   .contacto h1 {
-    font-weight: bold;
-    color: #6ec5b8; }
-  .contacto p {
-    font-weight: bold; }
+    color: #6ec5b8;
+    font-size: 35px; }
 
 .redesContacto {
   font-size: 45px; }

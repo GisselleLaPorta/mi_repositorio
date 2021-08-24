@@ -6,8 +6,7 @@
         background-color: $turquesa;        
     }
     h1{
-        font-size: $size-titulo - 5px;
-        color: $blanco;
+        @include titulos($blanco, $size-titulo - 5px);
         background-color: $turquesa;
         border-radius: $bordes - 180px;
         margin: 5px 250px;
@@ -26,10 +25,9 @@
         background-color: $naranja;
     }
     h2{
-        font-size: $size-titulo - 5px;
+        @include titulos($blanco, $size-titulo - 5px);
         background-color: $naranja;
         border-radius: $bordes - 180px;
-        color: $blanco;
         margin: 5px 200px;
     }
     p{
@@ -42,13 +40,11 @@
     background-image: url(../img/back.png);
     @extend %style-bg;
     &__p{
-        font-size: $size-titulo - 5px;
-        color: $blanco;
+        @include titulos($blanco, $size-titulo - 5px);
         @include animation(valor, infinite, 3.5s, ease-in, none, none);
     }
     &__p2{
-        font-size: 20px;
-        color: $negro;
+        @include titulos($negro, $size-parrafo + 2px);
     }
 }
 
