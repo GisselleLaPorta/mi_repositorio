@@ -2,3 +2,12 @@
     max-width: $size;
     border-radius: $radius;
 }
+
+@mixin animation ($name, $iteration, $duration, $function, $direction, $transition){
+    animation-name: $name;
+    animation-iteration-count: $iteration;
+    animation-duration: $duration;
+    animation-timing-function: $function;
+    animation-direction: $direction;
+    transition: $transition;
+}

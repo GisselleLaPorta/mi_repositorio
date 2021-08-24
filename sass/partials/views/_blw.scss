@@ -71,11 +71,7 @@
 	p{
     	font-size: $size-titulo;
     	color: $blanco;
-    	animation-name: ver;
-    	animation-iteration-count:infinite;
-    	animation-duration: 3.5s;
-    	animation-timing-function:ease-in;
-	
+		@include animation(ver, infinite, 3.5s, ease-in, none, none);
 		@keyframes ver{
     			from{
         			transform: scale(1, 1);

@@ -374,7 +374,9 @@
     animation-name: ver;
     animation-iteration-count: infinite;
     animation-duration: 3.5s;
-    animation-timing-function: ease-in; }
+    animation-timing-function: ease-in;
+    animation-direction: none;
+    transition: none; }
 
 @keyframes ver {
   from {
@@ -527,12 +529,12 @@ body {
     transition: all 0.5s ease-out; }
   .grupo__img {
     width: 280px;
-    transition: all 0.7s ease-out;
     animation-name: imgGrupo;
     animation-iteration-count: infinite;
     animation-duration: 2s;
     animation-timing-function: ease-in;
-    animation-direction: alternate; }
+    animation-direction: alternate;
+    transition: all 0.7s ease-out; }
 
 @keyframes imgGrupo {
   from {
@@ -579,7 +581,8 @@ body {
     animation-iteration-count: infinite;
     animation-duration: 1.8s;
     animation-timing-function: ease-in;
-    animation-direction: alternate; }
+    animation-direction: alternate;
+    transition: none; }
   .testimonios__grupo-h3 .testimonios__grupo-badge:hover {
     color: #6ec5b8; }
 
@@ -612,7 +615,9 @@ body {
     animation-name: news;
     animation-iteration-count: infinite;
     animation-duration: 5s;
-    animation-timing-function: ease-in; }
+    animation-timing-function: ease-in;
+    animation-direction: none;
+    transition: none; }
 
 @keyframes news {
   from {

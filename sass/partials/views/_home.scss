@@ -60,13 +60,7 @@ body{
     }
     &__img{
         width: $width-img - 220;
-        transition: all 0.7s ease-out;
-        animation-name: imgGrupo;
-        animation-iteration-count:infinite;
-        animation-duration: 2s;
-        animation-timing-function:ease-in;
-        animation-direction:alternate;
-    
+        @include animation(imgGrupo, infinite, 2s, ease-in, alternate, all 0.7s ease-out);
         @keyframes imgGrupo{
             from{ 
                 transform: rotate(0deg);
@@ -134,11 +128,7 @@ body{
         border-radius: $bordes - 150;
     .testimonios__grupo-badge{
             color: $naranja;
-            animation-name: bdg__testimonio;
-            animation-iteration-count:infinite;
-            animation-duration: 1.8s;
-            animation-timing-function:ease-in;
-            animation-direction:alternate;
+            @include animation(bdg__testimonio, infinite, 1.8s, ease-in, alternate, none);
         }
         .testimonios__grupo-badge:hover{
             color: $turquesa;
@@ -181,11 +171,7 @@ body{
             font-size: $size-titulo;
             color: $blanco;
             letter-spacing: 5px;
-            animation-name: news;
-            animation-iteration-count:infinite;
-            animation-duration: 5s;
-            animation-timing-function:ease-in;
-    
+            @include animation(news, infinite, 5s, ease-in, none, none);
             @keyframes news{
                 from{
                     transform: scale(1, 1);
