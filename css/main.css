@@ -511,8 +511,8 @@ body {
 .asesoria {
   margin-bottom: -40px; }
   .asesoria__h2 {
-    font-size: 35px;
-    color: #ff9800; }
+    color: #ff9800;
+    font-size: 35px; }
   .asesoria__a {
     text-decoration: none; }
 
@@ -611,8 +611,8 @@ body {
 .news {
   background-image: url(../img/back.png); }
   .news__info .news__h2 {
-    font-size: 35px;
     color: white;
+    font-size: 35px;
     letter-spacing: 5px;
     animation-name: news;
     animation-iteration-count: infinite;

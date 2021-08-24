@@ -15,8 +15,7 @@ body{
 .blw__info{
     margin-left: 120px;
     .blw__h1{
-        color: $blanco;
-        font-size: $size-titulo + 15;    
+        @include titulos($blanco, $size-titulo + 15);   
     }
     .blw__p{
         @extend %style-parrafo;
@@ -30,8 +29,7 @@ body{
 .asesoria{
     margin-bottom: -40px;
     &__h2{
-        font-size: $size-titulo;
-        color: $naranja;  
+        @include titulos($naranja, $size-titulo);  
     }
     &__p{
         @extend %style-parrafo; 
@@ -96,8 +94,7 @@ body{
 
 .nosotras__info{
     .nosotras__h2{
-        color: $blanco;
-        font-size: $size-titulo;
+        @include titulos($blanco, $size-titulo);
     }
     .nosotras_p{
         @extend %style-parrafo; 
@@ -112,7 +109,6 @@ body{
 .testimonios{
     &__h2{
         color: $turquesa;
-        
     }
 }
 
@@ -168,8 +164,7 @@ body{
     @extend %style-bg;
     &__info{
     .news__h2{
-            font-size: $size-titulo;
-            color: $blanco;
+            @include titulos($blanco, $size-titulo);
             letter-spacing: 5px;
             @include animation(news, infinite, 5s, ease-in, none, none);
             @keyframes news{

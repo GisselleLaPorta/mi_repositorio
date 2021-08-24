@@ -11,3 +11,8 @@
     animation-direction: $direction;
     transition: $transition;
 }
+
+@mixin titulos ($color, $size-font) {
+    color: $color;
+    font-size: $size-font;
+}
