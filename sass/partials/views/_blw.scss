@@ -1,9 +1,7 @@
 .preguntaBlw{
 	@extend %style-flex; 
     background-image: url(/img/backAzul1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: $bordes + 50px;
+    @extend %style-bg;
 	img{
 		@include imagen($width-img - 100px, 27% 73% 66% 34% / 52% 39% 61% 48%);
 	}
@@ -93,11 +91,3 @@
     }
 
 }
-
-
-
-
-
-
-
-

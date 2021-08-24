@@ -9,7 +9,7 @@
   font-size: 35px;
   font-weight: bold; }
 
-.publicacion, .recomendaciones, .verPlanes, .valores, .blw, .nosotras, .news {
+.publicacion, .preguntaBlw, .recomendaciones, .verPlanes, .valores, .blw, .nosotras, .news {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 200px; }
@@ -330,10 +330,7 @@
     color: #6ec5b8; }
 
 .preguntaBlw {
-  background-image: url(/img/backAzul1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 250px; }
+  background-image: url(/img/backAzul1.png); }
   .preguntaBlw img {
     max-width: 400px;
     border-radius: 27% 73% 66% 34%/52% 39% 61% 48%; }
