@@ -459,7 +459,9 @@
     animation-name: valor;
     animation-iteration-count: infinite;
     animation-duration: 3.5s;
-    animation-timing-function: ease-in; }
+    animation-timing-function: ease-in;
+    animation-direction: none;
+    transition: none; }
   .valores__p2 {
     font-size: 20px;
     color: black; }

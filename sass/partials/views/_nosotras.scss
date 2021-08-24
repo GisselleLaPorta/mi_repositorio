@@ -44,10 +44,7 @@
     &__p{
         font-size: $size-titulo - 5px;
         color: $blanco;
-        animation-name: valor;
-        animation-iteration-count:infinite;
-        animation-duration: 3.5s;
-        animation-timing-function:ease-in;
+        @include animation(valor, infinite, 3.5s, ease-in, none, none);
     }
     &__p2{
         font-size: 20px;
