@@ -33,7 +33,7 @@
 }
 
 .checkPublicacion{
-    font-size: $size-parrafo;
+    font-size: $size-parrafo - 2px;
     color: $negro;
 }
 
@@ -65,7 +65,6 @@
 }
 
 .new{
-    font-size: $size-parrafo - 4px;
-    color: $blanco;
-    
+    font-size: $size-parrafo - 6px;
+    color: $negro;
 }

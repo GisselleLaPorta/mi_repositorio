@@ -261,7 +261,7 @@
   border-radius: 5px; }
 
 .checkPublicacion {
-  font-size: 18px;
+  font-size: 16px;
   color: black; }
 
 /* contacto */
@@ -284,8 +284,8 @@
     border-radius: 5px; }
 
 .new {
-  font-size: 14px;
-  color: white; }
+  font-size: 12px;
+  color: black; }
 
 .grid {
   display: grid;
