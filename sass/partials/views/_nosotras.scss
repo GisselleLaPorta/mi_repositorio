@@ -1,5 +1,4 @@
 .carolina{
-    @extend %style-flex; 
     img{
         @include imagen($width-img - 200px, 27% 73% 66% 34% / 52% 39% 61% 48%);
         height: auto;
@@ -18,7 +17,6 @@
 }
 
 .daiana{
-    @extend %style-flex; 
     img{
         @include imagen($width-img - 150px, 59% 41% 41% 59% / 53% 47% 53% 47%);
         height: auto;
@@ -36,7 +34,6 @@
 }
 
 .valores{
-    @extend %style-flex; 
     background-image: url(../img/back.png);
     @extend %style-bg;
     &__p{

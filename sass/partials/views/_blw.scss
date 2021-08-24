@@ -1,5 +1,4 @@
 .preguntaBlw{
-	@extend %style-flex; 
     background-image: url(/img/backAzul1.png);
     @extend %style-bg;
 	img{
@@ -28,7 +27,6 @@
 }
 
 .ulBeneficios{
-    @extend %style-flex;
 	video{
     	width: 210px;
     	margin-right: 120px;
@@ -36,8 +34,7 @@
 	}
 }
 
-.recomendaciones{
-    @extend %style-flex; 
+.recomendaciones{ 
     margin-right: 100px;
     font-size: $size-parrafo;
     background-image: url(../img/backNaranja.png);
@@ -64,7 +61,6 @@
 }
 
 .verPlanes{
-    @extend %style-flex;
     background-image: url(../img/back.png);
     @extend %style-bg; 
 	p{

@@ -18,11 +18,6 @@
   color: black;
   font-size: 18px; }
 
-.botonContacto, .preguntaBlw, .ulBeneficios, .recomendaciones, .verPlanes, .carolina, .daiana, .valores, .contacto {
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
-
 .news .news__button, .verPlanes a, .valores a, .plan__reserva .plan__reserva-a, .grid .grid__texto-a:hover, .botonPublicacion, .botonContacto .botonForm {
   background-color: #ff9800;
   color: white;

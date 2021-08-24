@@ -176,7 +176,6 @@
 }
 
 .botonContacto{
-    @extend %style-flex;
     .botonForm{
         @extend %style-button; 
         border: none;
