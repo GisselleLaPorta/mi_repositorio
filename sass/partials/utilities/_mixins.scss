@@ -1,0 +1,4 @@
+@mixin imagen ($size, $radius){
+    max-width: $size;
+    border-radius: $radius;
+}

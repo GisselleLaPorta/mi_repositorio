@@ -8,8 +8,7 @@ body{
     background-image: url(../img/backAzul.png);
     @extend %style-bg; 
     &__img{
-        max-width: $width-img - 100px;
-        border-radius: $bordes;
+        @include imagen($width-img - 100px, $bordes); 
     }
 }
 
@@ -97,9 +96,7 @@ body{
     background-image: url(../img/backNaranja.png);
     @extend %style-bg;
     &__img{
-        max-width: $width-img - 150px;
-        border-radius: $bordes + 20px;
-        padding-left: 50px;
+        @include imagen($width-img - 150px, $bordes + 20px);
     }
 }
 
@@ -162,16 +159,13 @@ body{
 
 .testimonios__grupo{
     &-img--1{
-        width: $width-img - 380px;
-        border-radius: 77% 23% 41% 59% / 52% 49% 51% 48%  ;
+        @include imagen($width-img - 380px, 77% 23% 41% 59% / 52% 49% 51% 48%); 
     }
     &-img--2{
-        width: $width-img - 370px;
-        border-radius: 46% 54% 46% 54% / 76% 76% 24% 24% ;
+        @include imagen($width-img - 370px, 46% 54% 46% 54% / 76% 76% 24% 24%);
     }
     &-img--3{
-        width: $width-img - 370px;
-        border-radius: 52% 48% 26% 74% / 62% 65% 35% 38%  ;
+        @include imagen($width-img - 370px, 52% 48% 26% 74% / 62% 65% 35% 38%);
     }
 }
 
