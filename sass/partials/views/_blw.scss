@@ -5,12 +5,10 @@
     background-size: cover;
     border-radius: $bordes + 50px;
 	img{
-    	width: $width-img - 100px;
-		border-radius: 27% 73% 66% 34% / 52% 39% 61% 48% ;
+		@include imagen($width-img - 100px, 27% 73% 66% 34% / 52% 39% 61% 48%);
 	}
 	h1{
     	color: $blanco;
-    	
 	}
 	p{
 		@extend %style-parrafo;
@@ -47,8 +45,7 @@
     background-image: url(../img/backNaranja.png);
     @extend %style-bg; 
     img{
-    	width: $width-img - 200px;   
-		border-radius: 27% 73% 66% 34% / 52% 39% 61% 48% ;
+		@include imagen($width-img - 200px, 27% 73% 66% 34% / 52% 39% 61% 48%)
 	}
 	h2{
     	color: $blanco;

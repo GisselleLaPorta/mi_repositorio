@@ -1,11 +1,9 @@
 .carolina{
     @extend %style-flex; 
     img{
-        width: $width-img - 200px;
+        @include imagen($width-img - 200px, 27% 73% 66% 34% / 52% 39% 61% 48%);
         height: auto;
-        background-color: $turquesa;
-        border-radius: 27% 73% 66% 34% / 52% 39% 61% 48%;
-        
+        background-color: $turquesa;        
     }
     h1{
         font-size: $size-titulo - 5px;
@@ -23,11 +21,9 @@
 .daiana{
     @extend %style-flex; 
     img{
-        width: $width-img - 150px;
+        @include imagen($width-img - 150px, 59% 41% 41% 59% / 53% 47% 53% 47%);
         height: auto;
         background-color: $naranja;
-        border-radius: 59% 41% 41% 59% / 53% 47% 53% 47%;
-        
     }
     h2{
         font-size: $size-titulo - 5px;

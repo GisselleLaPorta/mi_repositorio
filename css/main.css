@@ -335,8 +335,8 @@
   background-size: cover;
   border-radius: 250px; }
   .preguntaBlw img {
-    width: 400px;
-    border-radius: 27% 73% 66% 34% / 52% 39% 61% 48%; }
+    max-width: 400px;
+    border-radius: 27% 73% 66% 34%/52% 39% 61% 48%; }
   .preguntaBlw h1 {
     color: white; }
   .preguntaBlw p {
@@ -358,8 +358,8 @@
   font-size: 18px;
   background-image: url(../img/backNaranja.png); }
   .recomendaciones img {
-    width: 300px;
-    border-radius: 27% 73% 66% 34% / 52% 39% 61% 48%; }
+    max-width: 300px;
+    border-radius: 27% 73% 66% 34%/52% 39% 61% 48%; }
   .recomendaciones h2 {
     color: white; }
 
@@ -424,10 +424,10 @@
     background-color: #6ec5b8; }
 
 .carolina img {
-  width: 300px;
+  max-width: 300px;
+  border-radius: 27% 73% 66% 34%/52% 39% 61% 48%;
   height: auto;
-  background-color: #6ec5b8;
-  border-radius: 27% 73% 66% 34% / 52% 39% 61% 48%; }
+  background-color: #6ec5b8; }
 
 .carolina h1 {
   font-size: 30px;
@@ -440,10 +440,10 @@
   margin-left: 30px; }
 
 .daiana img {
-  width: 350px;
+  max-width: 350px;
+  border-radius: 59% 41% 41% 59%/53% 47% 53% 47%;
   height: auto;
-  background-color: #ff9800;
-  border-radius: 59% 41% 41% 59% / 53% 47% 53% 47%; }
+  background-color: #ff9800; }
 
 .daiana h2 {
   font-size: 30px;
