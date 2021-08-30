@@ -1,0 +1,10 @@
+.reservacion{
+    background-image: url(/img/back.png);
+    @extend %style-bg;
+    &__h1{
+        @include titulos($blanco, $size-titulo);
+    }
+    &__p{
+        @extend %style-parrafo;
+    }
+}

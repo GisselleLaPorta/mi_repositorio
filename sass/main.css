@@ -9,16 +9,16 @@
   font-size: 35px;
   font-weight: bold; }
 
-.publicacion, .preguntaBlw, .recomendaciones, .verPlanes, .valores, .blw, .nosotras, .news {
+.publicacion, .preguntaBlw, .recomendaciones, .verPlanes, .reservacion, .valores, .blw, .nosotras, .news {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 200px; }
 
-.preguntaBlw p, .beneficios ul, .recomendaciones p, .recomendaciones ul, .planes__p, .carolina p, .daiana p, .recetas__p, .contacto p, .blw__info .blw__p, .asesoria__p, .grupo__h3, .grupo__p, .nosotras__info .nosotras_p, .news__info .news__p {
+.preguntaBlw p, .beneficios ul, .recomendaciones p, .recomendaciones ul, .planes__p, .reservacion__p, .carolina p, .daiana p, .recetas__p, .contacto p, .blw__info .blw__p, .asesoria__p, .grupo__h3, .grupo__p, .nosotras__info .nosotras_p, .news__info .news__p {
   color: black;
   font-size: 18px; }
 
-.news .news__button, .verPlanes a, .valores a, .plan__reserva .plan__reserva-a, .grid .grid__texto-a:hover, .botonPublicacion, .botonContacto .botonForm {
+.news .news__button, .verPlanes a, .valores a, .plan__reserva .plan__reserva-a, .grid .grid__texto-a:hover, .botonPublicacion, .botonContacto .botonForm, .reservacion__envio {
   background-color: #ff9800;
   color: white;
   font-weight: bold;
@@ -421,6 +421,13 @@
 .botonForm:hover {
   transform: scale(1.2, 1.2); }
 
+/* reservación */
+.reservacion__envio {
+  border: none;
+  transition: all 0.5s ease-out; }
+  .reservacion__envio:hover {
+    transform: scale(1.2, 1.2); }
+
 .logo {
   width: 280px; }
 
@@ -683,6 +690,12 @@
   background-color: #ff9800; }
   .plan__carrot:hover .plan__reserva-a {
     background-color: #6ec5b8; }
+
+.reservacion {
+  background-image: url(/img/back.png); }
+  .reservacion__h1 {
+    color: white;
+    font-size: 35px; }
 
 .carolina img {
   max-width: 300px;
