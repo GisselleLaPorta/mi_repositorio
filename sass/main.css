@@ -428,6 +428,13 @@
   .reservacion__envio:hover {
     transform: scale(1.2, 1.2); }
 
+.volver {
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: #6ec5b8;
+  letter-spacing: 1px; }
+
 .logo {
   width: 280px; }
 
@@ -760,6 +767,16 @@
   .grid__h2--meriendas {
     color: #6ec5b8;
     font-size: 35px; }
+
+.receta1 {
+  background-color: #6ec5b8;
+  color: white;
+  border-radius: 200px; }
+
+.receta2 {
+  background-color: #ff9800;
+  color: white;
+  border-radius: 200px; }
 
 .contacto {
   margin-right: 200px; }

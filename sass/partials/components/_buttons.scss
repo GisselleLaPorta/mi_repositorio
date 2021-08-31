@@ -198,3 +198,11 @@
         transform: scale(1.2, 1.2);
     }
 }
+
+.volver{
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: $bordes - 185px ; 
+    background-color: $turquesa;
+    letter-spacing: 1px;
+}

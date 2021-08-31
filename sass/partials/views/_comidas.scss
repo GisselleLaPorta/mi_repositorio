@@ -1,0 +1,7 @@
+.receta1{
+    @include recetario ($turquesa, $blanco, $bordes);
+}
+
+.receta2{
+    @include recetario ($naranja, $blanco, $bordes);
+}
