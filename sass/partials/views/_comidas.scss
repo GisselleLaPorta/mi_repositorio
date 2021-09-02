@@ -1,9 +1,9 @@
-.receta1{
-    @include recetario ($turquesa, $blanco, $bordes);
+@for $i from 1 through 4{
+    .receta-#{$i}{@include recetario ($turquesa, $blanco, $bordes);}
 }
 
-.receta2{
-    @include recetario ($naranja, $blanco, $bordes);
+@for $i from 5 through 8{
+    .receta-#{$i}{@include recetario ($naranja, $blanco, $bordes);}
 }
 
 .imagen7{

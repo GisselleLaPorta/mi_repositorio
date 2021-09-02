@@ -768,12 +768,42 @@
     color: #6ec5b8;
     font-size: 35px; }
 
-.receta1 {
+.receta-1 {
   background-color: #6ec5b8;
   color: white;
   border-radius: 200px; }
 
-.receta2 {
+.receta-2 {
+  background-color: #6ec5b8;
+  color: white;
+  border-radius: 200px; }
+
+.receta-3 {
+  background-color: #6ec5b8;
+  color: white;
+  border-radius: 200px; }
+
+.receta-4 {
+  background-color: #6ec5b8;
+  color: white;
+  border-radius: 200px; }
+
+.receta-5 {
+  background-color: #ff9800;
+  color: white;
+  border-radius: 200px; }
+
+.receta-6 {
+  background-color: #ff9800;
+  color: white;
+  border-radius: 200px; }
+
+.receta-7 {
+  background-color: #ff9800;
+  color: white;
+  border-radius: 200px; }
+
+.receta-8 {
   background-color: #ff9800;
   color: white;
   border-radius: 200px; }
