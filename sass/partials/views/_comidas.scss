@@ -5,3 +5,7 @@
 .receta2{
     @include recetario ($naranja, $blanco, $bordes);
 }
+
+.imagen7{
+    width: $width-img + 1000px;
+}
