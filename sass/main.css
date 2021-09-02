@@ -811,8 +811,23 @@
 .imagen7 {
   width: 1500px; }
 
-.condiciones {
+/* .condiciones{
+    @include recetario ($turquesa, $blanco, $bordes); 
+    
+}
+
+.garantias{
+    @include recetario ($naranja, $blanco, $bordes);
+} */
+.bg--uno {
   background-color: #6ec5b8;
+  background-color: none;
+  color: white;
+  border-radius: 200px; }
+
+.bg--dos {
+  background-color: #ff9800;
+  background-color: none;
   color: white;
   border-radius: 200px; }
 

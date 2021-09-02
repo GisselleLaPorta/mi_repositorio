@@ -1,4 +1,20 @@
-.condiciones{
+/* .condiciones{
     @include recetario ($turquesa, $blanco, $bordes); 
     
+}
+
+.garantias{
+    @include recetario ($naranja, $blanco, $bordes);
+} */
+
+$titulos:(
+    uno: $turquesa,
+    dos: $naranja
+);
+
+@each $titulo, $color in $titulos{
+    .bg--#{$titulo}{
+        background-color: $color;
+        @include recetario (none, $blanco, $bordes);
+    }
 }
