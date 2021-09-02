@@ -781,6 +781,11 @@
 .imagen7 {
   width: 1500px; }
 
+.condiciones {
+  background-color: #6ec5b8;
+  color: white;
+  border-radius: 200px; }
+
 .contacto {
   margin-right: 200px; }
   .contacto h1 {
