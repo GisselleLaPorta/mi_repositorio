@@ -27,7 +27,7 @@
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
-    &-h3{
+    &-h2{
         color: $blanco;
     }
     &-ul{
@@ -39,6 +39,11 @@
             padding-right: 10px;
            
         }
+    }
+    &-p{
+        color: $blanco;
+        font-size: $size-parrafo;
+        letter-spacing: 2px;
     }
 }
 
