@@ -18,7 +18,7 @@
   color: black;
   font-size: 18px; }
 
-.news .news__button, .verPlanes a, .valores a, .plan__reserva .plan__reserva-a, .grid .grid__texto-a:hover, .botonPublicacion, .botonContacto .botonForm, .reservacion__envio {
+.news .news__button, .verPlanes a, .valores a, .plan__reserva .plan__reserva-a, .grid .grid__texto-a:hover, .botonPublicacion, .botonContacto .botonForm, .reservacion__envio, .modal__btn {
   background-color: #ff9800;
   color: white;
   font-weight: bold;
@@ -435,6 +435,10 @@
   background-color: #6ec5b8;
   letter-spacing: 1px; }
 
+.modal__btn:hover {
+  background-color: #6ec5b8;
+  color: white; }
+
 .logo {
   width: 280px; }
 
@@ -701,6 +705,9 @@
   background-color: #ff9800; }
   .plan__carrot:hover .plan__reserva-a {
     background-color: #6ec5b8; }
+
+.modal__titulo {
+  color: #ff9800; }
 
 .reservacion {
   background-image: url(/img/back.png); }

@@ -206,3 +206,11 @@
     background-color: $turquesa;
     letter-spacing: 1px;
 }
+
+.modal__btn{
+    @extend %style-button;
+    &:hover{
+        background-color: $turquesa;
+        color: $blanco;
+    }
+}
