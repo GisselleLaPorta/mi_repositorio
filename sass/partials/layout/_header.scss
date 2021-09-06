@@ -2,41 +2,6 @@
     width: $width-img - 220px;
 }
 
-.login__registro{
-    background-color: $naranja;
-    color: $blanco;
-    border: 0px;
-    &:hover{
-        background-color: $turquesa;
-    }
-}
-
-.login{
-    &__img{
-        width: $width-img - 470px;
-        transition: all 0.3s ease-out;
-    
-        &:hover{
-            transform: scale(0.8, 0.8);
-        }
-
-        &--user:hover{
-            transform: none;
-        }
-    }
-}
-
-
-.login__input{
-    width: 170px;
-    height: 20px;
-    font-size: $size-parrafo - 4px;
-    transition: all 0.5s ease-out;
-    &:hover{
-        transform: scale(1.3, 1.3);
-    }
-}
-
 .menu{
     background-color: $naranja;
     a{
