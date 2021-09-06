@@ -8,45 +8,16 @@
 
 /* INICIO FOOTER */
 .foot{
-    ul{
-    font-size: $size-parrafo - 4px;
-    color: $naranja;
-    font-weight: bold;
-        li{
-            list-style-type: none;
-        }
-    }
-}
-
-.accordion{
-    width: 300px;
-    &-item button{
+    &__list{
+        a{
+        font-size: $size-parrafo - 2px;
         color: $negro;
-        font-size: $size-parrafo - 4px;
-        font-weight: bold;  
-        &-item h4{
-            border-bottom: 0px;
-        }
-    }
-    & ul{
-        font-size: $size-parrafo - 4px;
         font-weight: bold;
-        color: $naranja;
-        .foot ul li{
-            list-style-type: none;
+        letter-spacing: 1px;
         }
     }
-       
 }
 
-.redesFoot{
-    font-size: $size-titulo - 5px;
-    a{
-        i{
-            color: $naranja;
-        }
-    }
-}
 
 .logoFoot{
     width: $width-img - 250px;
