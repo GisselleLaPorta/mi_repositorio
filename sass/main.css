@@ -127,130 +127,162 @@
   /* ----------fin contacto------------ */ }
 
 @media screen and (max-width: 768px) {
+  /* INICIO INDEX */
   .logo {
-    width: 200px; }
-  /* fin header */
+    width: 200px !important; }
   /* inicio blw*/
   .blw {
     flex-direction: column !important;
-    border-radius: 0px;
     align-items: center; }
-  /* fin blw */
+    .blw__h1 {
+      font-size: 33px !important; }
+    .blw__img {
+      width: 220px !important; }
+    .blw__p {
+      font-size: 16px !important;
+      margin-right: 50px !important; }
   /* inicio asesoría */
   .asesoria {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px; }
+    .asesoria__h2 {
+      font-size: 33px !important; }
+    .asesoria__p {
+      font-size: 16px !important; }
   .grupo h3 {
     font-size: 14px; }
   .grupo p {
     font-size: 14px; }
-  /* fin asesoría */
   /* inicio nosotras */
-  .carolina {
-    flex-direction: column; }
-    .carolina p {
-      margin-left: 100px !important;
-      margin-right: 80px !important; }
-  .daiana {
-    flex-direction: column; }
-    .daiana p {
-      margin-left: 30px !important;
-      margin-right: 20px !important; }
-  .valores {
-    flex-direction: column;
-    border-radius: 0px;
-    margin: 0px; }
-    .valores a {
-      margin-left: 50px !important; }
-  /* fin nosotras */
+  .nosotras__img {
+    width: 0px; }
+  .nosotras__info .nosotras__h2 {
+    text-align: center;
+    font-size: 16px; }
+  .nosotras__info .nosotras_p {
+    font-size: 16px; }
   /* inicio testimonios */
   .testimonios__h2 {
-    font-size: 20px; }
-  /* fin testimonios */
+    font-size: 33px; }
+  .testimonios__grupo-p {
+    font-size: 14px !important; }
+  .testimonios__grupo-h3 {
+    font-size: 17px !important; }
   /* inicio newsletter */
   .news {
-    flex-direction: column;
-    border-radius: 0px;
-    margin: 0px !important; }
+    flex-direction: column; }
     .news__input {
       width: 200px !important; }
-  /* fin newsletter */
+    .news__h2 {
+      font-size: 33px; }
+  .news__p {
+    font-size: 16px !important; }
   /* -------------inicio blw------------- */
   .preguntaBlw {
     flex-direction: column;
-    border-radius: 0px;
     margin: 0px; }
-  .ulBeneficios {
-    flex-direction: column; }
-    .ulBeneficios li {
-      font-size: 16px;
-      margin-left: 50px !important; }
-    .ulBeneficios video {
-      width: 180px;
-      margin-left: 150px !important; }
-  .recomendaciones {
-    flex-direction: column;
-    border-radius: 0px !important;
-    margin: 0px; }
+    .preguntaBlw img {
+      width: 250px !important; }
+    .preguntaBlw h1 {
+      font-size: 33px !important; }
+    .preguntaBlw p {
+      font-size: 16px !important; }
+  .ulBeneficios li {
+    font-size: 16px;
+    margin-left: 50px !important; }
+  .ulBeneficios video {
+    width: 150px;
+    margin-left: 150px !important; }
+  .recomendaciones img {
+    width: 0px; }
+  .recomendaciones h2 {
+    font-size: 33px;
+    text-align: center; }
+  .recomendaciones p {
+    font-size: 16px; }
+  .recomendaciones ul {
+    font-size: 16px; }
   .conclusion {
+    font-size: 16px !important;
     margin: 5px 30px !important; }
   .verPlanes {
     flex-direction: column;
-    margin: 0px;
-    border-radius: 0px;
     padding: 60px; }
     .verPlanes a {
       margin-left: 80px !important; }
-  /* ------------fin blw--------- */
   /* ----------inicio nosotras------------ */
   .carolina {
     flex-direction: column; }
+    .carolina img {
+      width: 250px; }
     .carolina p {
-      margin-left: 100px !important;
-      margin-right: 80px !important; }
+      font-size: 16px;
+      margin-left: 20px !important;
+      margin-right: 10px !important; }
   .daiana {
     flex-direction: column; }
+    .daiana img {
+      width: 250px; }
     .daiana p {
-      margin-left: 30px !important;
-      margin-right: 20px !important; }
+      font-size: 16px;
+      margin-left: 20px !important;
+      margin-right: 10px !important; }
   .valores {
-    flex-direction: column;
-    border-radius: 0px;
-    margin: 0px; }
+    flex-direction: column; }
+    .valores__p {
+      font-size: 24px !important; }
+    .valores__p2 {
+      font-size: 16px !important; }
     .valores a {
       margin-left: 50px !important; }
-  /* ----------fin nosotras------------ */
   /* ----------inicio contacto------------ */
   .contacto {
     flex-direction: column;
     justify-content: center;
     margin-right: 20px !important; }
-  /* ----------fin contacto------------ */ }
+    .contacto h1 {
+      font-size: 33px; }
+    .contacto p {
+      font-size: 16px; } }
 
 @media screen and (max-width: 992px) {
-  /* inicio blw*/
+  /* INICIO INDEX */
+  /* blw*/
   .blw {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0px !important; }
-  /* fin blw */
-  /* inicio nosotras */
+    align-items: center; }
+    .blw__h1 {
+      font-size: 30px; }
+    .blw__img {
+      width: 400px;
+      padding-right: 10px !important; }
+    .blw__info {
+      margin-right: 0px !important;
+      margin-left: 30px !important;
+      padding-top: 0px !important; }
+    .blw__p {
+      margin-left: 50px !important;
+      padding-bottom: 10px !important; }
+  /* nosotras */
   .nosotras {
-    margin: 0px !important; }
-  /* fin nosotras */
-  /* inicio newsletter */
+    margin: 20px !important; }
+  /* testimonios */
+  .testimonios__container {
+    margin-left: 5px !important;
+    margin-right: 5px !important; }
+  /* newsletter */
   .news {
     margin: 0px !important; }
     .news__input {
       width: 250px !important; }
-  /* fin newsletter */
+  /* FIN INDEX */
   /* -------------inicio blw------------- */
   .preguntaBlw {
     flex-direction: column;
     margin: 0px;
     padding-bottom: 20px; }
+    .preguntaBlw img {
+      width: 300px; }
     .preguntaBlw h1 {
       text-align: center; }
     .preguntaBlw p {
@@ -258,13 +290,12 @@
       margin-left: 50px !important; }
   .beneficios {
     margin: 0px; }
-  .ulBeneficios {
-    flex-direction: column; }
-    .ulBeneficios li {
-      margin-left: 50px !important; }
-    .ulBeneficios video {
-      width: 180px;
-      margin-left: 150px !important; }
+  .ulBeneficios li {
+    margin-left: 50px !important; }
+  .ulBeneficios video {
+    width: 180px;
+    margin-left: 20px !important;
+    margin-right: 20px !important; }
   .recomendaciones {
     border-radius: 80px; }
   .verPlanes {
@@ -274,23 +305,28 @@
       margin-right: 40px !important; }
     .verPlanes a {
       margin-left: 60px; }
-  /* ------------fin blw--------- */
   /* ----------inicio nosotras------------ */
   .carolina {
     flex-direction: column; }
   .daiana {
     flex-direction: column; }
+    .daiana h2 {
+      margin-right: 250px !important;
+      margin-left: 250px !important; }
   .valores {
-    flex-direction: column; }
+    flex-direction: column;
+    margin-top: 20px !important; }
     .valores a {
       margin-left: 50px !important; }
-  /* ----------fin nosotras------------ */
+  /* ----------inicio asesorías------------ */
   /* ----------inicio contacto------------ */
   .contacto {
     flex-direction: column;
     justify-content: center;
     margin-right: 20px !important; }
-  /* ----------fin contacto------------ */ }
+    .contacto h1 {
+      text-align: center;
+      margin-top: 10px; } }
 
 /* header */
 .login .login__registro {

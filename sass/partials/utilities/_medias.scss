@@ -188,24 +188,30 @@
 
 @media screen and (max-width: 768px){
 
+    /* INICIO INDEX */
+
     .logo{
-        width: 200px;
+        width: $width-img - 300px !important;
     }
 
-
-    /* fin header */
 
     /* inicio blw*/
 
 
     .blw{
         flex-direction: column !important;
-        border-radius: 0px;
         align-items: center;
+        &__h1{
+            font-size: $size-titulo - 2px !important;
+        }
+        &__img{
+            width: $width-img - 280px !important;
+        }
+        &__p{
+            font-size: $size-parrafo - 2px !important;
+            margin-right: 50px !important;
+        }
     }
-
-
-    /* fin blw */
 
     /* inicio asesoría */
 
@@ -214,8 +220,14 @@
         margin-left: 0px;
         margin-right: 0px;
         margin-bottom: 0px;
-
+        &__h2{
+            font-size: $size-titulo - 2px !important;  
+        }
+        &__p{
+            font-size: $size-parrafo - 2px !important;
+        }
     }
+
  
     .grupo{
         h3{
@@ -226,133 +238,155 @@
         }
     }
 
-
-    /* fin asesoría */
-
     /* inicio nosotras */
 
-    .carolina{
-        flex-direction: column;
-        p{
-            margin-left: 100px !important;
-            margin-right: 80px !important;
+    .nosotras{
+        &__img{
+            width: $width-img - 500px;
         }
     }
 
-    .daiana{
-        flex-direction: column;
-        p{
-            margin-left: 30px !important;
-            margin-right: 20px !important;
+    .nosotras__info{
+        .nosotras__h2{
+            text-align: center;
+            font-size: $size-parrafo - 2px;
+        }
+        .nosotras_p{
+            font-size: $size-parrafo - 2px;
         }
     }
-
-    .valores{
-        flex-direction: column;
-        border-radius: 0px;
-        margin: 0px;
-        a{
-            margin-left: 50px !important;
-        }
-    }
-
-    /* fin nosotras */
+    
 
     /* inicio testimonios */
 
     .testimonios__h2{
-        font-size: 20px;
+        font-size: $size-titulo - 2px;
     }
 
-    /* fin testimonios */
+    .testimonios__grupo{
+        &-p{
+            font-size: $size-parrafo - 4px !important;
+            
+        }
+        &-h3{
+            font-size: $size-parrafo - 1px !important;
+        }
+    }
 
     /* inicio newsletter */
 
     .news{
         flex-direction: column;
-        border-radius: 0px;
-        margin: 0px !important;
         &__input{
             width: 200px !important;
         }
+        &__h2{
+            font-size: $size-titulo - 2px;
+        }
     }
 
-    /* fin newsletter */
+    .news__p{
+        font-size: $size-parrafo - 2px !important;
+        
+    }
 
 
     /* -------------inicio blw------------- */
 
     .preguntaBlw{
         flex-direction: column;
-        border-radius: 0px;
         margin: 0px;
+        img{
+            width: $width-img - 250px !important;
+        }
+        h1{
+            font-size: $size-titulo - 2px !important;
+        }
+        p{
+            font-size: $size-parrafo - 2px !important;
+        }
     }
 
 
     .ulBeneficios{
-        flex-direction: column;
         li{
-            font-size: 16px;
+            font-size: $size-parrafo - 2px;
             margin-left: 50px !important;
         }
         video{
-            width: 180px;
+            width: 150px;
             margin-left: 150px !important;
         
         }
     }
 
     .recomendaciones{
-        flex-direction: column;
-        border-radius: 0px !important;
-        margin: 0px;
+        img{
+            width: $width-img - 500px;
+        }
+        h2{
+            font-size: $size-titulo - 2px;
+            text-align: center;
+        }
+        p{
+            font-size: $size-parrafo - 2px;
+        }
+        ul{
+            font-size: $size-parrafo - 2px;
+        }
     }
 
     .conclusion{
+        font-size: $size-parrafo - 2px !important;
         margin: 5px 30px !important;
     }
 
     .verPlanes{
         flex-direction: column;
-        margin: 0px;
-        border-radius: 0px;
         padding: 60px;
         a{
             margin-left: 80px !important;
         }
     }
 
-
-    /* ------------fin blw--------- */
-
     /* ----------inicio nosotras------------ */
 
     .carolina{
         flex-direction: column;
+        img{
+            width: $width-img - 250px;
+        }
         p{
-            margin-left: 100px !important;
-            margin-right: 80px !important;
+            font-size: $size-parrafo - 2px;
+            margin-left: 20px !important;
+            margin-right: 10px !important;
         }
     }
 
     .daiana{
         flex-direction: column;
+        img{
+            width: $width-img - 250px;
+        }
         p{
-            margin-left: 30px !important;
-            margin-right: 20px !important;
+            font-size: $size-parrafo - 2px;
+            margin-left: 20px !important;
+            margin-right: 10px !important;
         }
     }
 
     .valores{
         flex-direction: column;
-        border-radius: 0px;
-        margin: 0px;
+        &__p{
+            font-size: $size-titulo - 11px !important;
+        }
+        &__p2{
+            font-size: $size-parrafo - 2px !important;
+        }
         a{
             margin-left: 50px !important;
         }
     }
-
-    /* ----------fin nosotras------------ */
 
     /* ----------inicio contacto------------ */
 
@@ -360,11 +394,14 @@
     .contacto{
         flex-direction: column;
         justify-content: center;
-        margin-right: 20px !important;    
+        margin-right: 20px !important;   
+        h1{
+            font-size: $size-titulo - 2px;
+        } 
+        p{
+            font-size: $size-parrafo - 2px;
+        }
     }
-
-    
-    /* ----------fin contacto------------ */
 
 
 }
@@ -372,30 +409,46 @@
 
 @media screen and (max-width: 992px){
 
+    /* INICIO INDEX */
     
-    /* inicio blw*/
+    /* blw*/
 
 
     .blw{
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
-        margin: 0px !important;
+        &__h1{
+            font-size: $size-titulo - 5px;
+        }
+        &__img{
+            width: $width-img - 100px;
+            padding-right: 10px !important;
+        }
+        &__info{
+            margin-right: 0px !important;
+            margin-left: 30px !important;
+            padding-top: 0px !important;
+        }
+        &__p{
+            margin-left: 50px !important;
+            padding-bottom: 10px !important;
+        }
     }
 
-    /* fin blw */
-
-
-    /* inicio nosotras */
+    /* nosotras */
 
     .nosotras{
-        margin: 0px !important;
+        margin: 20px !important;
     }
 
-    /* fin nosotras */
+    /* testimonios */
+
+    .testimonios__container{
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
 
     
-    /* inicio newsletter */
+    /* newsletter */
 
     .news{
         margin: 0px !important;
@@ -403,11 +456,8 @@
             width: 250px !important;
         }
     }
-
     
-    /* fin newsletter */
-
-    
+    /* FIN INDEX */
 
     /* -------------inicio blw------------- */
 
@@ -415,6 +465,9 @@
         flex-direction: column;
         margin: 0px;
         padding-bottom: 20px;
+        img{
+            width: $width-img - 200px;
+        }
         h1{
             text-align: center;
         }
@@ -430,14 +483,13 @@
     }
 
     .ulBeneficios{
-        flex-direction: column;
         li{
             margin-left: 50px !important;
         }
         video{
             width: 180px;
-            margin-left: 150px !important;
-        
+            margin-left: 20px !important;
+            margin-right: 20px !important;
         }
     }
 
@@ -456,9 +508,6 @@
         }
     }
 
-
-    /* ------------fin blw--------- */
-
     /* ----------inicio nosotras------------ */
 
     .carolina{
@@ -467,16 +516,23 @@
 
     .daiana{
         flex-direction: column;
+        h2{
+            margin-right: 250px !important;
+            margin-left: 250px !important;
+        }
     }
 
     .valores{
         flex-direction: column;
+        margin-top: 20px !important;
         a{
             margin-left: 50px !important;
         }
     }
 
-    /* ----------fin nosotras------------ */
+    /* ----------inicio asesorías------------ */
+
+    
 
     /* ----------inicio contacto------------ */
 
@@ -485,9 +541,10 @@
         flex-direction: column;
         justify-content: center;
         margin-right: 20px !important;   
+        h1{
+            text-align: center;
+            margin-top: 10px;
+        }
     }
-
-    
-    /* ----------fin contacto------------ */
 
 }
