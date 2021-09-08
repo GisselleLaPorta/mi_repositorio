@@ -1,188 +1,272 @@
 @media screen and (max-width: 576px){
 
-    /* inicio header */
+    /* INICIO INDEX */
 
-    .logo{
-        width: 200px;
+    .header{
+        p{
+            font-size: $size-parrafo - 6px !important;
+        }
+        img{
+            width: $width-img - 350px !important;
+        }
     }
 
-
-    /* fin header */
+    .menu{
+        a{
+            font-size: $size-parrafo - 6px !important;
+        }
+    }
 
     /* inicio blw*/
 
 
     .blw{
         flex-direction: column !important;
-        border-radius: 0px;
+        border-radius: $bordes - 100px;
         align-items: center;
+        h1{
+            font-size: $size-titulo - 8px !important;
+        }
+        img{
+            width: $width-img - 320px !important;
+        }
+        p{
+            font-size: $size-parrafo - 6px !important;
+            margin-right: 20px !important;
+            margin-left: 0px !important;
+        }
     }
-
-    
-    .blw__info img{
-        width: 400px;
-        padding-right: 0px;
-        
-    }
-
-    /* fin blw */
 
     /* inicio asesoría */
 
-
-    .asesoria__h2{
-        font-size: 30px;
-    }
 
     .asesoria{
         margin-left: 0px;
         margin-right: 0px;
         margin-bottom: 0px;
-        &__p{
-            font-size: 14px;
+        h2{
+            font-size: $size-titulo - 8px !important;  
+        }
+        p{
+            font-size: $size-parrafo - 6px !important;
         }
     }
+
  
     .grupo{
         h3{
-            font-size: 14px;
+            font-size: $size-titulo - 23px !important;
         }
         p{
-            font-size: 14px;
+            font-size: $size-parrafo - 8px !important;
         }
     }
-
-
-    /* fin asesoría */
 
     /* inicio nosotras */
 
     .nosotras{
-        flex-direction: column;
-        border-radius: 0px;
-        align-items: center;
-        margin: 0px !important;
-        &__info{
-            margin-left: 5px;
-            margin-right: 5px;
-        }            
-        &__img{
-            max-width: 150px;
-            margin-left: 100px;
+        border-radius: $bordes - 100px;
+        img{
+            width: $width-img - 500px;
+        }
+        .nosotras__info{
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            h2{
+            text-align: center;
+            font-size: $size-titulo - 8px;
+            }
+            p{
+            font-size: $size-parrafo - 6px;
+            }
+        }
+    }
+
+    /* inicio testimonios */
+
+    .testimonios{
+        padding-top: 0px !important;
+        h2{
+        font-size: $size-titulo - 8px !important;
         }
     }
 
 
-    /* fin nosotras */
+    .testimonios__grupo{
+        p{
+            font-size: $size-parrafo - 6px !important;
+            
+        }
+        h3{
+            font-size: $size-parrafo - 3px !important;
+        }
+        img{
+            width: $width-img - 500px;
+        }
+    }
 
     /* inicio newsletter */
 
     .news{
         flex-direction: column;
-        border-radius: 0px;
-        margin: 0px !important;
+        &__info{
+            padding-top: 5px !important;
+            margin-top: 0px !important;
+        }
         &__input{
             width: 200px !important;
         }
-    }
-
-    /* fin newsletter */
-
-    /* inicio footer */
-
-    .accordion{
-        width: 200px;
-        &-item{
-            button{
-                font-size: 12px;
-                        
-            }
-        }
-        ul{
-            font-size: 12px;
-            
+        &__h2{
+            font-size: $size-titulo - 2px;
         }
     }
-    
-       
-    .logoFoot{
-        width: 100px;
+
+    .news__p{
+        font-size: $size-parrafo - 2px !important;
+        
     }
-    /* fin footer */
+
 
     /* -------------inicio blw------------- */
 
     .preguntaBlw{
         flex-direction: column;
-        border-radius: 0px;
-        align-items: center;
         margin: 0px;
         img{
-            width: 300px;
+            width: $width-img - 250px !important;
+        }
+        h1{
+            font-size: $size-titulo - 2px !important;
+        }
+        p{
+            font-size: $size-parrafo - 2px !important;
         }
     }
 
 
+    .ulBeneficios{
+        li{
+            font-size: $size-parrafo - 2px;
+            margin-left: 50px !important;
+        }
+        video{
+            width: 150px;
+            margin-left: 150px !important;
+        
+        }
+    }
+
     .recomendaciones{
-        flex-direction: column;
-        border-radius: 0px;
-        margin: 0px;
-        padding-right: 20px;
         img{
-            width: 250px;
-                
+            width: $width-img - 500px;
         }
         h2{
+            font-size: $size-titulo - 2px;
             text-align: center;
         }
         p{
-            padding-left: 30px;
+            font-size: $size-parrafo - 2px;
+        }
+        ul{
+            font-size: $size-parrafo - 2px;
         }
     }
 
     .conclusion{
-        margin: 5px 20px;
-        p{
-            padding: 15px;
-        }
-        
+        font-size: $size-parrafo - 2px !important;
+        margin: 5px 30px !important;
     }
 
     .verPlanes{
         flex-direction: column;
-        margin: 0px;
-        border-radius: 0px;
+        padding: 60px;
+        a{
+            margin-left: 80px !important;
+        }
     }
-
-    /* ------------fin blw--------- */
 
     /* ----------inicio nosotras------------ */
 
     .carolina{
         flex-direction: column;
+        img{
+            width: $width-img - 250px;
+        }
+        p{
+            font-size: $size-parrafo - 2px;
+            margin-left: 20px !important;
+            margin-right: 10px !important;
+        }
     }
 
     .daiana{
         flex-direction: column;
+        img{
+            width: $width-img - 250px;
+        }
+        p{
+            font-size: $size-parrafo - 2px;
+            margin-left: 20px !important;
+            margin-right: 10px !important;
+        }
     }
 
     .valores{
         flex-direction: column;
-        border-radius: 0px;
-        margin: 0px;
+        &__p{
+            font-size: $size-titulo - 11px !important;
+        }
+        &__p2{
+            font-size: $size-parrafo - 2px !important;
+        }
+        a{
+            margin-left: 50px !important;
+        }
     }
-
-    /* ----------fin nosotras------------ */
-
 
     /* ----------inicio contacto------------ */
 
 
     .contacto{
         flex-direction: column;
+        justify-content: center;
+        margin-right: 20px !important;   
+        h1{
+            font-size: $size-titulo - 2px;
+        } 
+        p{
+            font-size: $size-parrafo - 2px;
+        }
     }
 
-    /* ----------fin contacto------------ */
+    /* ----------inicio comidas------------ */
+
+    .receta__img{
+        width: $width-img - 300px !important;
+    }
+
+    .imagen7{
+        width: $width-img + 500px !important;
+    }
+
+    @for $i from 1 through 8{
+        .receta-#{$i}{font-size: $size-titulo - 2px;}
+    }
+    
+    .comidas__texto{
+        font-size: $size-parrafo - 2px !important;
+    }
+
+    /* ----------inicio condiciones------------ */
+
+    .bg--uno{
+        font-size: $size-titulo - 2px;
+    }
+
+    .bg--dos{
+        font-size: $size-titulo - 2px;
+    }
+
 }
 
 
@@ -402,7 +486,33 @@
         }
     }
 
+    /* ----------inicio comidas------------ */
 
+    .receta__img{
+        width: $width-img - 300px !important;
+    }
+
+    .imagen7{
+        width: $width-img + 500px !important;
+    }
+
+    @for $i from 1 through 8{
+        .receta-#{$i}{font-size: $size-titulo - 2px;}
+    }
+    
+    .comidas__texto{
+        font-size: $size-parrafo - 2px !important;
+    }
+
+    /* ----------inicio condiciones------------ */
+
+    .bg--uno{
+        font-size: $size-titulo - 2px;
+    }
+
+    .bg--dos{
+        font-size: $size-titulo - 2px;
+    }
 }
 
 
@@ -544,6 +654,16 @@
             text-align: center;
             margin-top: 10px;
         }
+    }
+
+    /* ----------inicio comidas------------ */
+
+    .receta__img{
+        width: $width-img - 150px !important;
+    }
+
+    .imagen7{
+        width: $width-img + 500px !important;
     }
 
 }
