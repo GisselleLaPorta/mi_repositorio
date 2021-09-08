@@ -136,7 +136,8 @@
     flex-direction: column;
     border-radius: 150px;
     margin-left: 20px !important;
-    margin-right: 20px !important; }
+    margin-right: 20px !important;
+    padding-bottom: 5px !important; }
     .preguntaBlw img {
       width: 180px !important;
       margin-left: 5px !important; }
@@ -146,7 +147,8 @@
     .preguntaBlw p {
       font-size: 12px !important;
       margin-left: 50px !important;
-      margin-right: 50px !important; }
+      margin-right: 50px !important;
+      margin-bottom: 5px !important; }
   .blw__1 {
     display: none; }
   .beneficios h2 {
@@ -158,9 +160,12 @@
       font-size: 12px !important;
       margin-left: 20px !important; }
     .ulBeneficios video {
-      width: 100px !important;
+      width: 130px !important;
       margin-left: 150px !important; }
   .recomendaciones {
+    border-radius: 90px;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
     padding-right: 20px !important;
     padding-left: 20px !important; }
     .recomendaciones img {
@@ -173,7 +178,8 @@
       text-align: center;
       padding-right: 0px !important; }
     .recomendaciones ul {
-      font-size: 12px !important; }
+      font-size: 12px !important;
+      margin-left: 10px !important; }
   .conclusion {
     font-size: 12px !important;
     margin: 5px 25px !important; }
@@ -182,9 +188,9 @@
     border-radius: 80px;
     margin-right: 20px !important;
     margin-left: 20px !important;
-    padding: 60px; }
+    padding: 15px 20px !important; }
     .verPlanes p {
-      font-size: 25px !important;
+      font-size: 24px !important;
       margin-right: 0px !important;
       padding-left: 0px !important;
       padding-right: 0px !important; }
@@ -450,8 +456,6 @@
     width: 180px;
     margin-left: 20px;
     margin-right: 20px; }
-  .recomendaciones {
-    border-radius: 80px; }
   .verPlanes {
     flex-direction: column; }
     .verPlanes p {

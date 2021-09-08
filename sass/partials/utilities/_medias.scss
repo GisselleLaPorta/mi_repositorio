@@ -193,6 +193,7 @@
         border-radius: $bordes - 50px;
         margin-left: 20px !important;
         margin-right: 20px !important;
+        padding-bottom: 5px !important;
         img{
             width: $width-img - 320px !important;
             margin-left: 5px !important;
@@ -205,6 +206,7 @@
             font-size: $size-parrafo - 6px !important;
             margin-left: 50px !important;
             margin-right: 50px !important;
+            margin-bottom: 5px !important;
         }
     }
 
@@ -226,13 +228,16 @@
             margin-left: 20px !important;
         }
         video{
-            width: 100px !important;
+            width: 130px !important;
             margin-left: 150px !important;
         
         }
     }
 
     .recomendaciones{
+        border-radius: $bordes - 110px;
+        margin-right: 20px !important;
+        margin-left: 20px !important;
         padding-right: 20px !important;
         padding-left: 20px !important;
         img{
@@ -249,6 +254,7 @@
         }
         ul{
             font-size: $size-parrafo - 6px !important;
+            margin-left: 10px !important;
         }
     }
 
@@ -262,9 +268,9 @@
         border-radius: $bordes - 120px;
         margin-right: 20px !important;
         margin-left: 20px !important;
-        padding: 60px;
+        padding: 15px 20px !important;
         p{
-            font-size: $size-titulo - 10px !important;
+            font-size: $size-titulo - 11px !important;
             margin-right: 0px !important;
             padding-left: 0px !important;
             padding-right: 0px !important;
@@ -689,10 +695,6 @@
             margin-left: 20px;
             margin-right: 20px;
         }
-    }
-
-    .recomendaciones{
-       border-radius: 80px;
     }
    
     .verPlanes{
