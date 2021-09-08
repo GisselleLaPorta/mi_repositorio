@@ -376,6 +376,83 @@
         transform: none !important;
     }
 
+    /* ----------inicio recetas------------ */
+
+    .recetas{
+        h1{
+            font-size: $size-titulo - 8px;
+        }
+        p{
+            font-size: $size-parrafo - 6px; 
+        }
+    }
+    
+    .grid__h2{
+        font-size: $size-titulo - 8px !important;
+        margin-bottom: 10px !important;
+        text-align: center;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-template-rows: repeat(2, 1fr) !important;
+        margin-top: 5px !important;
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+        &__article{
+            transition: none;
+            &:hover{
+                transform: none !important;
+            }
+        }
+    }
+
+    .grid__texto{
+        h3{
+            font-size: $size-titulo - 15px;
+        }
+        p{
+            font-size: $size-parrafo - 6px;
+        }
+    }
+
+    .publicacion{
+        border-radius: $bordes;
+        fieldset{
+            padding: 30px 80px 40px 80px;
+            border: none;
+        }
+        legend{
+            color: $blanco;
+            font-size: $size-titulo - 5px;
+        }
+    }
+    
+    .datosPublicacion{
+        display: flex;
+        input{
+            font-size: $size-parrafo - 2px;
+            border: none;
+            border-radius: $bordes - 195px;
+        }
+    }
+    
+    .areaPublicacion textarea{
+        width: 100%;
+        font-size: $size-parrafo - 2px;
+        color: gray;
+        border: none;
+        border-radius: $bordes - 195px;
+    
+    }
+    
+    .checkPublicacion{
+        font-size: $size-parrafo - 2px;
+        color: $negro;
+    }
+    
+
     /* ----------inicio contacto------------ */
 
 

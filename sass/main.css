@@ -262,6 +262,53 @@
       font-size: 12px !important; }
   .plan__carrot:hover {
     transform: none !important; }
+  /* ----------inicio recetas------------ */
+  .recetas h1 {
+    font-size: 27px; }
+  .recetas p {
+    font-size: 12px; }
+  .grid__h2 {
+    font-size: 27px !important;
+    margin-bottom: 10px !important;
+    text-align: center; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-rows: repeat(2, 1fr) !important;
+    margin-top: 5px !important;
+    margin-right: 10px !important;
+    margin-left: 10px !important; }
+    .grid__article {
+      transition: none; }
+      .grid__article:hover {
+        transform: none !important; }
+  .grid__texto h3 {
+    font-size: 20px; }
+  .grid__texto p {
+    font-size: 12px; }
+  .publicacion {
+    border-radius: 200px; }
+    .publicacion fieldset {
+      padding: 30px 80px 40px 80px;
+      border: none; }
+    .publicacion legend {
+      color: white;
+      font-size: 30px; }
+  .datosPublicacion {
+    display: flex; }
+    .datosPublicacion input {
+      font-size: 16px;
+      border: none;
+      border-radius: 5px; }
+  .areaPublicacion textarea {
+    width: 100%;
+    font-size: 16px;
+    color: gray;
+    border: none;
+    border-radius: 5px; }
+  .checkPublicacion {
+    font-size: 16px;
+    color: black; }
   /* ----------inicio contacto------------ */
   .contacto {
     flex-direction: column;
