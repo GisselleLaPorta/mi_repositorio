@@ -90,7 +90,7 @@
     flex-direction: column;
     margin-bottom: 0px; }
     .news__input {
-      width: 200px !important;
+      width: 100px !important;
       height: 20px;
       margin: 5px; }
     .news__info {
@@ -265,7 +265,7 @@
   .news {
     flex-direction: column; }
     .news__input {
-      width: 200px !important; }
+      width: 200px; }
     .news__h2 {
       font-size: 33px; }
   .news__p {
@@ -394,7 +394,7 @@
   .news {
     margin: 0px !important; }
     .news__input {
-      width: 250px !important; }
+      width: 250px; }
   /* FIN INDEX */
   /* -------------inicio blw------------- */
   .preguntaBlw {
