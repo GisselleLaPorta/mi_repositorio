@@ -25,6 +25,7 @@
         border-radius: $bordes - 100px;
         align-items: center;
         h1{
+            margin-right: 20px !important;
             font-size: $size-titulo - 8px !important;
         }
         img{
@@ -58,6 +59,8 @@
             font-size: $size-titulo - 23px !important;
         }
         p{
+            transform: none;
+            transition: none;
             font-size: $size-parrafo - 8px !important;
         }
     }
@@ -109,48 +112,93 @@
 
     .news{
         flex-direction: column;
-        &__info{
-            padding-top: 5px !important;
-            margin-top: 0px !important;
-        }
+        margin-bottom: 0px;
         &__input{
             width: 200px !important;
+            height: 20px;
+            margin: 5px;
         }
-        &__h2{
-            font-size: $size-titulo - 2px;
+        &__info{
+            padding-top: 10px !important;
+            margin-top: 0px !important;
+            h2{
+                font-size: $size-titulo - 10px !important;
+            }
+            p{
+                font-size: $size-parrafo - 6px !important;
+                
+            }
         }
     }
 
-    .news__p{
-        font-size: $size-parrafo - 2px !important;
+    .news{
+        .news__button{
+            font-size: $size-parrafo - 8px;       
+        }  
+    }
+
+    /* inicio breadcrumb */
+
+    .migas{
+        font-size: 0px;
+        margin: 0px !important;
+    }
+
+    /* inicio foot */
+
+    .foot{
+        flex-direction: column-reverse;
+        &__list{
+            a{
+            font-size: $size-parrafo - 4px !important;
+            }
+            li{
+                text-align: center !important;
+            }
+        }
+        &__icon{
+            color: $naranja;
+        }
+        p{
+            font-size: $size-parrafo - 6px;
+            margin-left: 20px !important;
+        }
+    }
+
+    .footer{
+        padding-bottom: 10px !important;
+    }
+    
+    
+    .logoFoot{
+        width: $width-img - 350px !important;
+    }
+
         
-    }
-
-
     /* -------------inicio blw------------- */
 
     .preguntaBlw{
         flex-direction: column;
-        margin: 0px;
+        border-radius: $bordes - 50px;
         img{
-            width: $width-img - 250px !important;
+            width: $width-img - 300px !important;
         }
         h1{
-            font-size: $size-titulo - 2px !important;
+            font-size: $size-titulo - 8px !important;
         }
         p{
-            font-size: $size-parrafo - 2px !important;
+            font-size: $size-parrafo - 6px !important;
         }
     }
 
 
     .ulBeneficios{
         li{
-            font-size: $size-parrafo - 2px;
-            margin-left: 50px !important;
+            font-size: $size-parrafo - 6px !important;
+            margin-left: 20px !important;
         }
         video{
-            width: 150px;
+            width: 100px !important;
             margin-left: 150px !important;
         
         }
@@ -380,13 +428,13 @@
         flex-direction: column;
         margin: 0px;
         img{
-            width: $width-img - 250px !important;
+            width: $width-img - 250px;
         }
         h1{
-            font-size: $size-titulo - 2px !important;
+            font-size: $size-titulo - 2px;
         }
         p{
-            font-size: $size-parrafo - 2px !important;
+            font-size: $size-parrafo - 2px;
         }
     }
 
@@ -394,11 +442,11 @@
     .ulBeneficios{
         li{
             font-size: $size-parrafo - 2px;
-            margin-left: 50px !important;
+            margin-left: 50px;
         }
         video{
             width: 150px;
-            margin-left: 150px !important;
+            margin-left: 150px;
         
         }
     }

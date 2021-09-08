@@ -38,6 +38,7 @@
     border-radius: 100px;
     align-items: center; }
     .blw h1 {
+      margin-right: 20px !important;
       font-size: 27px !important; }
     .blw img {
       width: 180px !important; }
@@ -57,6 +58,8 @@
   .grupo h3 {
     font-size: 12px !important; }
   .grupo p {
+    transform: none;
+    transition: none;
     font-size: 10px !important; }
   /* inicio nosotras */
   .nosotras {
@@ -84,31 +87,56 @@
     width: 0px; }
   /* inicio newsletter */
   .news {
-    flex-direction: column; }
-    .news__info {
-      padding-top: 5px !important;
-      margin-top: 0px !important; }
+    flex-direction: column;
+    margin-bottom: 0px; }
     .news__input {
-      width: 200px !important; }
-    .news__h2 {
-      font-size: 33px; }
-  .news__p {
-    font-size: 16px !important; }
+      width: 200px !important;
+      height: 20px;
+      margin: 5px; }
+    .news__info {
+      padding-top: 10px !important;
+      margin-top: 0px !important; }
+      .news__info h2 {
+        font-size: 25px !important; }
+      .news__info p {
+        font-size: 12px !important; }
+  .news .news__button {
+    font-size: 10px; }
+  /* inicio breadcrumb */
+  .migas {
+    font-size: 0px;
+    margin: 0px !important; }
+  /* inicio foot */
+  .foot {
+    flex-direction: column-reverse; }
+    .foot__list a {
+      font-size: 14px !important; }
+    .foot__list li {
+      text-align: center !important; }
+    .foot__icon {
+      color: #ff9800; }
+    .foot p {
+      font-size: 12px;
+      margin-left: 20px !important; }
+  .footer {
+    padding-bottom: 10px !important; }
+  .logoFoot {
+    width: 150px !important; }
   /* -------------inicio blw------------- */
   .preguntaBlw {
     flex-direction: column;
-    margin: 0px; }
+    border-radius: 150px; }
     .preguntaBlw img {
-      width: 250px !important; }
+      width: 200px !important; }
     .preguntaBlw h1 {
-      font-size: 33px !important; }
+      font-size: 27px !important; }
     .preguntaBlw p {
-      font-size: 16px !important; }
+      font-size: 12px !important; }
   .ulBeneficios li {
-    font-size: 16px;
-    margin-left: 50px !important; }
+    font-size: 12px !important;
+    margin-left: 20px !important; }
   .ulBeneficios video {
-    width: 150px;
+    width: 100px !important;
     margin-left: 150px !important; }
   .recomendaciones img {
     width: 0px; }
@@ -247,17 +275,17 @@
     flex-direction: column;
     margin: 0px; }
     .preguntaBlw img {
-      width: 250px !important; }
+      width: 250px; }
     .preguntaBlw h1 {
-      font-size: 33px !important; }
+      font-size: 33px; }
     .preguntaBlw p {
-      font-size: 16px !important; }
+      font-size: 16px; }
   .ulBeneficios li {
     font-size: 16px;
-    margin-left: 50px !important; }
+    margin-left: 50px; }
   .ulBeneficios video {
     width: 150px;
-    margin-left: 150px !important; }
+    margin-left: 150px; }
   .recomendaciones img {
     width: 0px; }
   .recomendaciones h2 {
@@ -425,15 +453,6 @@
   .imagen7 {
     width: 1000px !important; } }
 
-/* header */
-.login .login__registro {
-  background-color: #ff9800;
-  color: white;
-  border: 0px; }
-
-.login .login__registro:hover {
-  background-color: #6ec5b8; }
-
 /* asesoria llamado a planes */
 .asesoria__boton {
   font-size: 14px;
@@ -474,11 +493,6 @@
 .news .news__button:hover {
   transform: scale(1.2, 1.2);
   border: none; }
-
-/* footer */
-.accordion .accordion-item button {
-  font-size: 14px;
-  font-weight: bold; }
 
 /* llamado a planes */
 .verPlanes a {
@@ -957,18 +971,7 @@ body {
     text-decoration: none; }
 
 .grupo {
-  transition: all 1s ease-out;
-  position: relative;
   overflow: hidden; }
-  .grupo__h3 {
-    position: relative;
-    z-index: 1; }
-  .grupo__p {
-    position: relative;
-    z-index: 1;
-    transform: translateY(100px);
-    opacity: 0;
-    transition: all 0.5s ease-out; }
   .grupo__img {
     width: 280px;
     animation-name: imgGrupo;
@@ -983,13 +986,6 @@ body {
     transform: rotate(0deg); }
   to {
     transform: rotate(-5deg); } }
-
-.grupo:hover .grupo__p {
-  transform: translateY(0);
-  opacity: 1; }
-
-.grupo:hover img {
-  width: 200px; }
 
 /* FIN ASESORIA */
 /* INICIO NOSOTRAS */

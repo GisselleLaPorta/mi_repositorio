@@ -40,21 +40,12 @@ body{
 }
 
 .grupo{
-    transition: all 1s ease-out;
-    position: relative;
     overflow: hidden;
     &__h3{
         @extend %style-parrafo;
-        position: relative;
-        z-index: 1;
     }
     &__p{
         @extend %style-parrafo;
-        position: relative;
-        z-index: 1;
-        transform: translateY(100px);
-        opacity: 0;
-        transition: all 0.5s ease-out;
     }
     &__img{
         width: $width-img - 220;
@@ -71,14 +62,6 @@ body{
     }    
 }
 
-.grupo:hover .grupo__p{
-    transform: translateY(0);
-    opacity: 1;
-}
-
-.grupo:hover img{
-    width: $width-img - 300px;
-}
 
 /* FIN ASESORIA */
 
@@ -197,5 +180,3 @@ body{
 }
 
 /* FIN NEWSLETTER */
-
-
