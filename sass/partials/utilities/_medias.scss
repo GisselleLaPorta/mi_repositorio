@@ -112,12 +112,12 @@
 
     .news{
         flex-direction: column;
-        border-radius: $bordes - 100px !important;
-        margin-right: 30px !important;
+        border-radius: $bordes - 120px !important;
+        margin-right: 50px !important;
         margin-bottom: 0px;
-        margin-left: 30px !important;
+        margin-left: 50px !important;
         &__input{
-            width: 80px !important;
+            width: 90px !important;
             height: 20px;
             margin: 5px;
         }
