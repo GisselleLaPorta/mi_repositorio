@@ -241,6 +241,27 @@
       font-size: 12px !important;
       margin-top: 0px !important;
       margin-left: 50px !important; }
+  /* ----------inicio asesorías------------ */
+  .planes {
+    border-radius: 100px; }
+    .planes h1 {
+      font-size: 27px; }
+    .planes p {
+      font-size: 12px; }
+  .plan {
+    grid-template-columns: repeat(2, 1fr) !important;
+    margin-right: 10px !important;
+    margin-left: 10px !important; }
+  .plan__carrot {
+    margin-top: 0px !important; }
+    .plan__carrot-h2 {
+      font-size: 27px !important; }
+    .plan__carrot-ul {
+      font-size: 12px !important; }
+    .plan__carrot-p {
+      font-size: 12px !important; }
+  .plan__carrot:hover {
+    transform: none !important; }
   /* ----------inicio contacto------------ */
   .contacto {
     flex-direction: column;
