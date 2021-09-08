@@ -134,9 +134,12 @@
   /* -------------inicio blw------------- */
   .preguntaBlw {
     flex-direction: column;
-    border-radius: 150px; }
+    border-radius: 150px;
+    margin-left: 20px !important;
+    margin-right: 20px !important; }
     .preguntaBlw img {
-      width: 200px !important; }
+      width: 180px !important;
+      margin-left: 5px !important; }
     .preguntaBlw h1 {
       margin-top: 0px !important;
       font-size: 27px !important; }
@@ -144,6 +147,8 @@
       font-size: 12px !important;
       margin-left: 50px !important;
       margin-right: 50px !important; }
+  .blw__1 {
+    display: none; }
   .beneficios h2 {
     font-size: 27px !important;
     margin-left: 50px !important; }
@@ -155,24 +160,34 @@
     .ulBeneficios video {
       width: 100px !important;
       margin-left: 150px !important; }
-  .recomendaciones img {
-    width: 0px; }
-  .recomendaciones h2 {
-    font-size: 27px !important;
-    text-align: center !important; }
-  .recomendaciones p {
-    font-size: 12px !important; }
-  .recomendaciones ul {
-    font-size: 12px !important; }
+  .recomendaciones {
+    padding-right: 20px !important;
+    padding-left: 20px !important; }
+    .recomendaciones img {
+      display: none; }
+    .recomendaciones h2 {
+      font-size: 27px !important;
+      text-align: center !important; }
+    .recomendaciones p {
+      font-size: 12px !important;
+      text-align: center;
+      padding-right: 0px !important; }
+    .recomendaciones ul {
+      font-size: 12px !important; }
   .conclusion {
     font-size: 12px !important;
-    margin: 5px 30px !important; }
+    margin: 5px 25px !important; }
   .verPlanes {
     flex-direction: column;
+    border-radius: 80px;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
     padding: 60px; }
     .verPlanes p {
       font-size: 25px !important;
-      margin-right: 20px !important; }
+      margin-right: 0px !important;
+      padding-left: 0px !important;
+      padding-right: 0px !important; }
     .verPlanes a {
       font-size: 12px !important;
       margin-left: 60px !important; }
@@ -440,8 +455,7 @@
   .verPlanes {
     flex-direction: column; }
     .verPlanes p {
-      text-align: center;
-      margin-right: 40px; }
+      text-align: center; }
     .verPlanes a {
       margin-left: 60px; }
   /* ----------inicio nosotras------------ */
