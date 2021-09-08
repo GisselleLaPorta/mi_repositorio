@@ -199,28 +199,47 @@
       margin-left: 60px !important; }
   /* ----------inicio nosotras------------ */
   .carolina {
-    flex-direction: column; }
+    flex-direction: column;
+    margin-right: 20px !important;
+    margin-left: 20px !important; }
+    .carolina h1 {
+      font-size: 20px !important;
+      margin-left: 100px !important;
+      margin-right: 100px !important; }
     .carolina img {
-      width: 250px; }
+      width: 200px !important; }
     .carolina p {
-      font-size: 16px;
+      font-size: 12px;
       margin-left: 20px !important;
       margin-right: 10px !important; }
   .daiana {
-    flex-direction: column; }
+    flex-direction: column;
+    margin-top: 0px !important;
+    margin-right: 20px !important;
+    margin-left: 20px !important; }
+    .daiana h2 {
+      font-size: 20px !important;
+      margin-left: 100px !important;
+      margin-right: 100px !important; }
     .daiana img {
-      width: 250px; }
+      width: 200px !important; }
     .daiana p {
-      font-size: 16px;
+      font-size: 12px;
       margin-left: 20px !important;
       margin-right: 10px !important; }
   .valores {
-    flex-direction: column; }
-    .valores__p {
-      font-size: 24px !important; }
-    .valores__p2 {
-      font-size: 16px !important; }
+    flex-direction: column;
+    margin-right: 20px !important;
+    margin-left: 20px !important; }
+    .valores .valores__p {
+      font-size: 20px !important;
+      margin-right: 30px;
+      margin-left: 30px; }
+    .valores .valores__p2 {
+      font-size: 13px !important; }
     .valores a {
+      font-size: 12px !important;
+      margin-top: 0px !important;
       margin-left: 50px !important; }
   /* ----------inicio contacto------------ */
   .contacto {
@@ -348,28 +367,10 @@
   /* ----------inicio nosotras------------ */
   .carolina {
     flex-direction: column; }
-    .carolina img {
-      width: 250px; }
-    .carolina p {
-      font-size: 16px;
-      margin-left: 20px !important;
-      margin-right: 10px !important; }
   .daiana {
     flex-direction: column; }
-    .daiana img {
-      width: 250px; }
-    .daiana p {
-      font-size: 16px;
-      margin-left: 20px !important;
-      margin-right: 10px !important; }
   .valores {
     flex-direction: column; }
-    .valores__p {
-      font-size: 24px !important; }
-    .valores__p2 {
-      font-size: 16px !important; }
-    .valores a {
-      margin-left: 50px !important; }
   /* ----------inicio contacto------------ */
   .contacto {
     flex-direction: column;
