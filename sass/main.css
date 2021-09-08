@@ -132,32 +132,44 @@
     .preguntaBlw img {
       width: 200px !important; }
     .preguntaBlw h1 {
+      margin-top: 0px !important;
       font-size: 27px !important; }
     .preguntaBlw p {
-      font-size: 12px !important; }
-  .ulBeneficios li {
-    font-size: 12px !important;
-    margin-left: 20px !important; }
-  .ulBeneficios video {
-    width: 100px !important;
-    margin-left: 150px !important; }
+      font-size: 12px !important;
+      margin-left: 50px !important;
+      margin-right: 50px !important; }
+  .beneficios h2 {
+    font-size: 27px !important;
+    margin-left: 50px !important; }
+  .ulBeneficios {
+    flex-direction: column; }
+    .ulBeneficios li {
+      font-size: 12px !important;
+      margin-left: 20px !important; }
+    .ulBeneficios video {
+      width: 100px !important;
+      margin-left: 150px !important; }
   .recomendaciones img {
     width: 0px; }
   .recomendaciones h2 {
-    font-size: 33px;
-    text-align: center; }
+    font-size: 27px !important;
+    text-align: center !important; }
   .recomendaciones p {
-    font-size: 16px; }
+    font-size: 12px !important; }
   .recomendaciones ul {
-    font-size: 16px; }
+    font-size: 12px !important; }
   .conclusion {
-    font-size: 16px !important;
+    font-size: 12px !important;
     margin: 5px 30px !important; }
   .verPlanes {
     flex-direction: column;
     padding: 60px; }
+    .verPlanes p {
+      font-size: 25px !important;
+      margin-right: 20px !important; }
     .verPlanes a {
-      margin-left: 80px !important; }
+      font-size: 12px !important;
+      margin-left: 60px !important; }
   /* ----------inicio nosotras------------ */
   .carolina {
     flex-direction: column; }
@@ -299,13 +311,13 @@
   .recomendaciones ul {
     font-size: 16px; }
   .conclusion {
-    font-size: 16px !important;
-    margin: 5px 30px !important; }
+    font-size: 16px;
+    margin: 5px 30px; }
   .verPlanes {
     flex-direction: column;
     padding: 60px; }
     .verPlanes a {
-      margin-left: 80px !important; }
+      margin-left: 80px; }
   /* ----------inicio nosotras------------ */
   .carolina {
     flex-direction: column; }
@@ -408,22 +420,22 @@
       text-align: center; }
     .preguntaBlw p {
       text-align: center;
-      margin-left: 50px !important; }
+      margin-left: 50px; }
   .beneficios {
     margin: 0px; }
   .ulBeneficios li {
-    margin-left: 50px !important; }
+    margin-left: 50px; }
   .ulBeneficios video {
     width: 180px;
-    margin-left: 20px !important;
-    margin-right: 20px !important; }
+    margin-left: 20px;
+    margin-right: 20px; }
   .recomendaciones {
     border-radius: 80px; }
   .verPlanes {
     flex-direction: column; }
     .verPlanes p {
       text-align: center;
-      margin-right: 40px !important; }
+      margin-right: 40px; }
     .verPlanes a {
       margin-left: 60px; }
   /* ----------inicio nosotras------------ */
@@ -432,8 +444,8 @@
   .daiana {
     flex-direction: column; }
     .daiana h2 {
-      margin-right: 250px !important;
-      margin-left: 250px !important; }
+      margin-right: 250px;
+      margin-left: 250px; }
   .valores {
     flex-direction: column;
     margin-top: 20px !important; }
@@ -708,7 +720,7 @@
   border-radius: 20px; }
 
 .preguntaBlw {
-  background-image: url(/img/backAzul.png); }
+  background-color: #6ec5b8; }
   .preguntaBlw img {
     max-width: 400px;
     border-radius: 27% 73% 66% 34%/52% 39% 61% 48%; }

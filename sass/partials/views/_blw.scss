@@ -1,5 +1,5 @@
 .preguntaBlw{
-    background-image: url(/img/backAzul.png);
+    background-color: $turquesa;
     @extend %style-bg;
 	img{
 		@include imagen($width-img - 100px, 27% 73% 66% 34% / 52% 39% 61% 48%);
