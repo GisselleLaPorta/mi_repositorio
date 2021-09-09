@@ -479,6 +479,8 @@
     .contacto{ 
         h1{
             font-size: $size-titulo - 8px !important;
+            text-align: center !important;
+            margin-top: 10px;
         } 
         p{
             font-size: $size-parrafo - 6px;
@@ -817,9 +819,5 @@
         flex-direction: column;
         justify-content: center;
         margin-right: 20px !important;   
-        h1{
-            text-align: center;
-            margin-top: 10px;
-        }
     }
 }
