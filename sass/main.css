@@ -346,7 +346,8 @@
     margin-top: 10px; }
   .contacto p {
     font-size: 12px;
-    padding-left: 30px !important; }
+    padding-left: 30px !important;
+    padding-right: 10px !important; }
   .fieldset {
     width: 300px !important; }
   .botonContacto .botonForm {
