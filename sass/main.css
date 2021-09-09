@@ -443,6 +443,8 @@
   .valores {
     flex-direction: column; }
   /* ----------inicio contacto------------ */
+  .contacto p {
+    padding-left: 30px !important; }
   .botonContacto .botonForm {
     font-size: 12px; }
   /* ----------inicio condiciones------------ */

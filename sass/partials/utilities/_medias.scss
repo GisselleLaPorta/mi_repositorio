@@ -677,6 +677,12 @@
 
     /* ----------inicio contacto------------ */
 
+    .contacto{
+        p{
+            padding-left: 30px !important;
+        }
+    }
+
     .botonContacto{
         .botonForm{
             font-size: $size-parrafo - 6px;
