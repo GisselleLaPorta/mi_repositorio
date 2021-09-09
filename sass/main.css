@@ -263,6 +263,16 @@
       font-size: 12px !important; }
   .plan__carrot:hover {
     transform: none !important; }
+  .reservacion h1 {
+    font-size: 27px; }
+  .reservacion p {
+    font-size: 12px; }
+  .reservacion__form input {
+    font-size: 12px; }
+  .reservacion__form fieldset {
+    font-size: 12px; }
+  .reservacion__envio {
+    font-size: 12px; }
   /* ----------inicio recetas------------ */
   .recetas h1 {
     font-size: 27px; }
@@ -361,170 +371,344 @@
 
 @media screen and (max-width: 768px) {
   /* INICIO INDEX */
-  .logo {
-    width: 200px !important; }
+  .header p {
+    font-size: 12px !important; }
+  .header img {
+    width: 150px !important; }
+  .menu a {
+    font-size: 12px !important; }
   /* inicio blw*/
   .blw {
     flex-direction: column !important;
+    border-radius: 100px;
     align-items: center; }
-    .blw__h1 {
-      font-size: 33px !important; }
-    .blw__img {
-      width: 220px !important; }
-    .blw__p {
-      font-size: 16px !important;
-      margin-right: 50px !important; }
+    .blw h1 {
+      margin-right: 20px !important;
+      font-size: 27px !important; }
+    .blw img {
+      width: 180px !important; }
+    .blw p {
+      font-size: 12px !important;
+      margin-right: 20px !important;
+      margin-left: 0px !important; }
   /* inicio asesoría */
   .asesoria {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px; }
-    .asesoria__h2 {
-      font-size: 33px !important; }
-    .asesoria__p {
-      font-size: 16px !important; }
+    .asesoria h2 {
+      font-size: 27px !important; }
+    .asesoria p {
+      font-size: 12px !important; }
   .grupo h3 {
-    font-size: 14px; }
+    font-size: 12px !important; }
   .grupo p {
-    font-size: 14px; }
+    transform: none;
+    transition: none;
+    font-size: 10px !important; }
   /* inicio nosotras */
-  .nosotras__img {
-    width: 0px; }
-  .nosotras__info .nosotras__h2 {
-    text-align: center;
-    font-size: 16px; }
-  .nosotras__info .nosotras_p {
-    font-size: 16px; }
+  .nosotras {
+    border-radius: 100px; }
+    .nosotras img {
+      width: 0px; }
+    .nosotras .nosotras__info {
+      padding-left: 0px !important;
+      padding-right: 0px !important; }
+      .nosotras .nosotras__info h2 {
+        text-align: center;
+        font-size: 27px; }
+      .nosotras .nosotras__info p {
+        font-size: 12px; }
   /* inicio testimonios */
-  .testimonios__h2 {
-    font-size: 33px; }
-  .testimonios__grupo-p {
-    font-size: 14px !important; }
-  .testimonios__grupo-h3 {
-    font-size: 17px !important; }
+  .testimonios {
+    padding-top: 0px !important; }
+    .testimonios h2 {
+      font-size: 27px !important; }
+  .testimonios__grupo p {
+    font-size: 12px !important; }
+  .testimonios__grupo h3 {
+    font-size: 15px !important; }
+  .testimonios__grupo img {
+    width: 0px; }
   /* inicio newsletter */
   .news {
-    flex-direction: column; }
+    flex-direction: column;
+    border-radius: 130px !important;
+    margin-right: 30px !important;
+    margin-bottom: 0px !important;
+    margin-left: 30px !important;
+    padding-right: 0px !important;
+    padding-bottom: 1px !important;
+    padding-left: 0px !important; }
     .news__input {
-      width: 200px; }
-    .news__h2 {
-      font-size: 33px; }
-  .news__p {
-    font-size: 16px !important; }
+      width: 95px !important;
+      height: 20px;
+      margin: 5px;
+      font-size: 12px !important; }
+    .news__info {
+      padding-top: 10px !important;
+      margin-top: 0px !important; }
+      .news__info h2 {
+        font-size: 24px !important; }
+      .news__info p {
+        font-size: 12px !important; }
+  .news__btn {
+    margin-top: 0px !important;
+    margin-bottom: 5px !important; }
+  .news button {
+    font-size: 10px; }
+  /* inicio breadcrumb */
+  .migas {
+    font-size: 0px;
+    margin: 0px !important; }
+  /* inicio foot */
+  .foot {
+    flex-direction: column-reverse; }
+    .foot__list a {
+      font-size: 14px !important; }
+    .foot__list li {
+      text-align: center !important; }
+    .foot__icon {
+      color: #ff9800; }
+    .foot p {
+      font-size: 12px;
+      margin-left: 20px !important; }
+  .footer {
+    padding-bottom: 10px !important; }
+  .logoFoot {
+    width: 150px !important; }
   /* -------------inicio blw------------- */
   .preguntaBlw {
     flex-direction: column;
-    margin: 0px; }
+    border-radius: 150px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    padding-bottom: 15px !important; }
     .preguntaBlw img {
-      width: 250px; }
+      width: 180px !important;
+      margin-left: 5px !important; }
     .preguntaBlw h1 {
-      font-size: 33px; }
+      margin-top: 0px !important;
+      font-size: 27px !important; }
     .preguntaBlw p {
-      font-size: 16px; }
-  .ulBeneficios li {
-    font-size: 16px;
-    margin-left: 50px; }
-  .ulBeneficios video {
-    width: 150px;
-    margin-left: 150px; }
-  .recomendaciones img {
-    width: 0px; }
-  .recomendaciones h2 {
-    font-size: 33px;
-    text-align: center; }
-  .recomendaciones p {
-    font-size: 16px; }
-  .recomendaciones ul {
-    font-size: 16px; }
-  .conclusion {
-    font-size: 16px;
-    margin: 5px 30px; }
-  .verPlanes {
-    flex-direction: column;
-    padding: 60px; }
-    .verPlanes a {
-      margin-left: 80px; }
-  /* ----------inicio nosotras------------ */
-  .carolina {
-    flex-direction: column; }
-  .daiana {
-    flex-direction: column; }
-  .valores {
-    flex-direction: column; } }
-
-@media screen and (max-width: 992px) {
-  /* INICIO INDEX */
-  /* blw*/
-  .blw {
-    align-items: center; }
-    .blw__h1 {
-      font-size: 30px; }
-    .blw__img {
-      width: 400px;
-      padding-right: 10px !important; }
-    .blw__info {
-      margin-right: 0px !important;
-      margin-left: 30px !important;
-      padding-top: 0px !important; }
-    .blw__p {
+      font-size: 12px !important;
       margin-left: 50px !important;
-      padding-bottom: 10px !important; }
-  /* nosotras */
-  .nosotras {
-    margin: 20px !important; }
-  /* testimonios */
-  .testimonios__container {
-    margin-left: 5px !important;
-    margin-right: 5px !important; }
-  /* newsletter */
-  .news__input {
-    width: 250px; }
-  /* FIN INDEX */
-  /* -------------inicio blw------------- */
-  .preguntaBlw {
-    flex-direction: column;
-    margin: 0px;
-    padding-bottom: 20px; }
-    .preguntaBlw img {
-      width: 300px; }
-    .preguntaBlw h1 {
-      text-align: center; }
-    .preguntaBlw p {
-      text-align: center;
-      margin-left: 50px; }
-  .beneficios {
-    margin: 0px; }
-  .ulBeneficios li {
-    margin-left: 50px; }
-  .ulBeneficios video {
-    width: 180px;
-    margin-left: 20px;
-    margin-right: 20px; }
-  .verPlanes {
+      margin-right: 50px !important;
+      margin-bottom: 5px !important; }
+  .blw__1 {
+    display: none; }
+  .beneficios h2 {
+    font-size: 27px !important;
+    margin-left: 50px !important; }
+  .ulBeneficios {
     flex-direction: column; }
+    .ulBeneficios li {
+      font-size: 12px !important;
+      margin-left: 20px !important; }
+    .ulBeneficios video {
+      width: 130px !important;
+      margin-left: 150px !important; }
+  .recomendaciones {
+    border-radius: 90px; }
+    .recomendaciones img {
+      display: none; }
+    .recomendaciones h2 {
+      font-size: 27px !important;
+      text-align: center !important; }
+    .recomendaciones p {
+      font-size: 12px !important;
+      text-align: center;
+      padding-right: 0px !important; }
+    .recomendaciones ul {
+      font-size: 12px !important;
+      margin-left: 10px !important; }
+  .conclusion {
+    font-size: 12px !important;
+    margin: 5px 25px !important; }
+  .verPlanes {
+    flex-direction: column;
+    border-radius: 80px;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+    padding: 15px 20px !important; }
     .verPlanes p {
-      text-align: center; }
+      font-size: 24px !important;
+      margin-right: 0px !important;
+      padding-left: 0px !important;
+      padding-right: 0px !important; }
     .verPlanes a {
-      margin-left: 60px; }
+      font-size: 12px !important;
+      margin-left: 60px !important; }
   /* ----------inicio nosotras------------ */
   .carolina {
-    flex-direction: column; }
+    flex-direction: column;
+    margin-right: 20px !important;
+    margin-left: 20px !important; }
+    .carolina h1 {
+      font-size: 20px !important;
+      margin-left: 50px !important;
+      margin-right: 50px !important; }
+    .carolina img {
+      width: 200px !important; }
+    .carolina p {
+      font-size: 12px;
+      margin-left: 20px !important;
+      margin-right: 10px !important; }
   .daiana {
-    flex-direction: column; }
+    flex-direction: column;
+    margin-top: 0px !important;
+    margin-right: 20px !important;
+    margin-left: 20px !important; }
     .daiana h2 {
-      margin-right: 250px;
-      margin-left: 250px; }
+      font-size: 20px !important;
+      margin-left: 100px !important;
+      margin-right: 100px !important; }
+    .daiana img {
+      width: 200px !important; }
+    .daiana p {
+      font-size: 12px;
+      margin-left: 20px !important;
+      margin-right: 10px !important; }
   .valores {
     flex-direction: column;
-    margin-top: 20px !important; }
+    margin-right: 20px !important;
+    margin-left: 20px !important; }
+    .valores .valores__p {
+      font-size: 20px !important;
+      margin-right: 30px;
+      margin-left: 30px; }
+    .valores .valores__p2 {
+      font-size: 13px !important; }
     .valores a {
+      font-size: 12px !important;
+      margin-top: 0px !important;
       margin-left: 50px !important; }
   /* ----------inicio asesorías------------ */
+  .planes {
+    border-radius: 100px; }
+    .planes h1 {
+      font-size: 27px; }
+    .planes p {
+      font-size: 12px; }
+  .plan {
+    grid-template-columns: 1fr !important;
+    margin-right: 10px !important;
+    margin-left: 10px !important; }
+  .plan__carrot {
+    margin-top: 0px !important; }
+    .plan__carrot-h2 {
+      font-size: 27px !important; }
+    .plan__carrot-ul {
+      font-size: 12px !important; }
+    .plan__carrot-p {
+      font-size: 12px !important; }
+  .plan__carrot:hover {
+    transform: none !important; }
+  .reservacion h1 {
+    font-size: 27px; }
+  .reservacion p {
+    font-size: 12px; }
+  .reservacion__form input {
+    font-size: 12px; }
+  .reservacion__form fieldset {
+    font-size: 12px; }
+  .reservacion__envio {
+    font-size: 12px; }
+  /* ----------inicio recetas------------ */
+  .recetas h1 {
+    font-size: 27px; }
+  .recetas p {
+    font-size: 12px; }
+  .grid__h2 {
+    font-size: 27px !important;
+    margin-bottom: 10px !important;
+    text-align: center; }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr !important;
+    margin-top: 5px !important;
+    margin-right: 10px !important;
+    margin-left: 10px !important; }
+    .grid__article {
+      transition: none; }
+      .grid__article:hover {
+        transform: none !important; }
+  .grid__texto h3 {
+    font-size: 20px; }
+  .grid__texto p {
+    font-size: 12px; }
+  .publicacion {
+    border-radius: 80px !important; }
+    .publicacion fieldset {
+      padding: 20px !important; }
+    .publicacion legend {
+      font-size: 27px; }
+  .datosPublicacion input {
+    font-size: 12px !important;
+    width: 100px; }
+  .areaPublicacion textarea {
+    font-size: 12px !important; }
+  .checkPublicacion {
+    font-size: 14px !important; }
+  .botonPublicacion {
+    font-size: 12px !important; }
+  .volver {
+    font-size: 12px !important; }
+  .receta-1 {
+    font-size: 25px !important;
+    margin-top: 10px !important; }
+  .receta-2 {
+    font-size: 25px !important;
+    margin-top: 10px !important; }
+  .receta-3 {
+    font-size: 25px !important;
+    margin-top: 10px !important; }
+  .receta-4 {
+    font-size: 25px !important;
+    margin-top: 10px !important; }
+  .receta-5 {
+    font-size: 25px !important;
+    margin-top: 10px !important; }
+  .receta-6 {
+    font-size: 25px !important;
+    margin-top: 10px !important; }
+  .receta-7 {
+    font-size: 25px !important;
+    margin-top: 10px !important; }
+  .receta-8 {
+    font-size: 25px !important;
+    margin-top: 10px !important; }
+  .receta__img {
+    width: 300px !important; }
+  .imagen7 {
+    width: 300px !important; }
+  .comidas__texto {
+    flex-direction: column-reverse;
+    font-size: 12px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important; }
+    .comidas__texto ul {
+      margin: 0px !important; }
   /* ----------inicio contacto------------ */
-  .contacto {
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 20px !important; } }
+  .contacto h1 {
+    font-size: 27px !important;
+    text-align: center !important;
+    margin-top: 10px; }
+  .contacto p {
+    font-size: 12px;
+    padding-left: 30px !important;
+    padding-right: 10px !important;
+    text-align: center; }
+  .fieldset {
+    width: 300px !important; }
+  .botonContacto .botonForm {
+    font-size: 12px; }
+  /* ----------inicio condiciones------------ */
+  .bg--uno {
+    font-size: 25px !important; }
+  .bg--dos {
+    font-size: 25px !important; } }
 
 /* asesoria llamado a planes */
 .asesoria__boton {
