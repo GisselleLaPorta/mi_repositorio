@@ -446,7 +446,32 @@
     .botonPublicacion{
         font-size: $size-parrafo - 6px !important;
     }
+
+    .volver{
+        font-size: $size-parrafo - 6px !important;
+    }
+
+    @for $i from 1 through 8{
+        .receta-#{$i}{font-size: $size-titulo - 10px !important; margin-top: 10px !important;}
+    }
+
+    .receta__img{
+        width: $width-img - 200px !important;
+    }
+
+    .imagen7{
+        width: $width-img - 200px !important;
+    }
     
+    .comidas__texto{
+        flex-direction: column-reverse;
+        font-size: $size-parrafo - 6px !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        ul{
+            margin: 0px !important;
+        }
+    }
 
     /* ----------inicio contacto------------ */
 
@@ -463,23 +488,7 @@
         }
     }
 
-    /* ----------inicio comidas------------ */
-
-    .receta__img{
-        width: $width-img - 300px !important;
-    }
-
-    .imagen7{
-        width: $width-img + 500px !important;
-    }
-
-    @for $i from 1 through 8{
-        .receta-#{$i}{font-size: $size-titulo - 2px;}
-    }
-    
-    .comidas__texto{
-        font-size: $size-parrafo - 2px !important;
-    }
+   
 
     /* ----------inicio condiciones------------ */
 
@@ -685,24 +694,6 @@
         }
     }
 
-    /* ----------inicio comidas------------ */
-
-    .receta__img{
-        width: $width-img - 300px !important;
-    }
-
-    .imagen7{
-        width: $width-img + 500px !important;
-    }
-
-    @for $i from 1 through 8{
-        .receta-#{$i}{font-size: $size-titulo - 2px;}
-    }
-    
-    .comidas__texto{
-        font-size: $size-parrafo - 2px !important;
-    }
-
     /* ----------inicio condiciones------------ */
 
     .bg--uno{
@@ -848,15 +839,4 @@
             margin-top: 10px;
         }
     }
-
-    /* ----------inicio comidas------------ */
-
-    .receta__img{
-        width: $width-img - 150px !important;
-    }
-
-    .imagen7{
-        width: $width-img + 500px !important;
-    }
-
 }

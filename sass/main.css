@@ -302,6 +302,43 @@
     font-size: 14px !important; }
   .botonPublicacion {
     font-size: 12px !important; }
+  .volver {
+    font-size: 12px !important; }
+  .receta-1 {
+    font-size: 25px !important;
+    margin-top: 10px !important; }
+  .receta-2 {
+    font-size: 25px !important;
+    margin-top: 10px !important; }
+  .receta-3 {
+    font-size: 25px !important;
+    margin-top: 10px !important; }
+  .receta-4 {
+    font-size: 25px !important;
+    margin-top: 10px !important; }
+  .receta-5 {
+    font-size: 25px !important;
+    margin-top: 10px !important; }
+  .receta-6 {
+    font-size: 25px !important;
+    margin-top: 10px !important; }
+  .receta-7 {
+    font-size: 25px !important;
+    margin-top: 10px !important; }
+  .receta-8 {
+    font-size: 25px !important;
+    margin-top: 10px !important; }
+  .receta__img {
+    width: 300px !important; }
+  .imagen7 {
+    width: 300px !important; }
+  .comidas__texto {
+    flex-direction: column-reverse;
+    font-size: 12px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important; }
+    .comidas__texto ul {
+      margin: 0px !important; }
   /* ----------inicio contacto------------ */
   .contacto {
     flex-direction: column;
@@ -311,29 +348,6 @@
       font-size: 33px; }
     .contacto p {
       font-size: 16px; }
-  /* ----------inicio comidas------------ */
-  .receta__img {
-    width: 200px !important; }
-  .imagen7 {
-    width: 1000px !important; }
-  .receta-1 {
-    font-size: 33px; }
-  .receta-2 {
-    font-size: 33px; }
-  .receta-3 {
-    font-size: 33px; }
-  .receta-4 {
-    font-size: 33px; }
-  .receta-5 {
-    font-size: 33px; }
-  .receta-6 {
-    font-size: 33px; }
-  .receta-7 {
-    font-size: 33px; }
-  .receta-8 {
-    font-size: 33px; }
-  .comidas__texto {
-    font-size: 16px !important; }
   /* ----------inicio condiciones------------ */
   .bg--uno {
     font-size: 33px; }
@@ -441,29 +455,6 @@
       font-size: 33px; }
     .contacto p {
       font-size: 16px; }
-  /* ----------inicio comidas------------ */
-  .receta__img {
-    width: 200px !important; }
-  .imagen7 {
-    width: 1000px !important; }
-  .receta-1 {
-    font-size: 33px; }
-  .receta-2 {
-    font-size: 33px; }
-  .receta-3 {
-    font-size: 33px; }
-  .receta-4 {
-    font-size: 33px; }
-  .receta-5 {
-    font-size: 33px; }
-  .receta-6 {
-    font-size: 33px; }
-  .receta-7 {
-    font-size: 33px; }
-  .receta-8 {
-    font-size: 33px; }
-  .comidas__texto {
-    font-size: 16px !important; }
   /* ----------inicio condiciones------------ */
   .bg--uno {
     font-size: 33px; }
@@ -545,12 +536,7 @@
     margin-right: 20px !important; }
     .contacto h1 {
       text-align: center;
-      margin-top: 10px; }
-  /* ----------inicio comidas------------ */
-  .receta__img {
-    width: 350px !important; }
-  .imagen7 {
-    width: 1000px !important; } }
+      margin-top: 10px; } }
 
 /* asesoria llamado a planes */
 .asesoria__boton {
