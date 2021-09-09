@@ -143,15 +143,6 @@
 }
 
 /* contacto */
-.redesContacto{
-    a{
-        i{
-            color: $naranja;
-            
-        } 
-    }
-}
-
 .botonContacto{
     .botonForm{
         @extend %style-button; 

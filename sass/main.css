@@ -340,14 +340,10 @@
     .comidas__texto ul {
       margin: 0px !important; }
   /* ----------inicio contacto------------ */
-  .contacto {
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 20px !important; }
-    .contacto h1 {
-      font-size: 33px; }
-    .contacto p {
-      font-size: 16px; }
+  .contacto h1 {
+    font-size: 27px; }
+  .contacto p {
+    font-size: 12px; }
   /* ----------inicio condiciones------------ */
   .bg--uno {
     font-size: 33px; }
@@ -447,14 +443,8 @@
   .valores {
     flex-direction: column; }
   /* ----------inicio contacto------------ */
-  .contacto {
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 20px !important; }
-    .contacto h1 {
-      font-size: 33px; }
-    .contacto p {
-      font-size: 16px; }
+  .botonContacto .botonForm {
+    font-size: 12px; }
   /* ----------inicio condiciones------------ */
   .bg--uno {
     font-size: 33px; }
@@ -642,9 +632,6 @@
     transform: scale(1.1, 1.1); }
 
 /* contacto */
-.redesContacto a i {
-  color: #ff9800; }
-
 .botonContacto .botonForm {
   border: none;
   border-radius: 15px;

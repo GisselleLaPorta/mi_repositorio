@@ -476,20 +476,16 @@
     /* ----------inicio contacto------------ */
 
 
-    .contacto{
-        flex-direction: column;
-        justify-content: center;
-        margin-right: 20px !important;   
+    .contacto{ 
         h1{
-            font-size: $size-titulo - 2px;
+            font-size: $size-titulo - 8px;
         } 
         p{
-            font-size: $size-parrafo - 2px;
+            font-size: $size-parrafo - 6px;
         }
     }
 
    
-
     /* ----------inicio condiciones------------ */
 
     .bg--uno{
@@ -681,16 +677,9 @@
 
     /* ----------inicio contacto------------ */
 
-
-    .contacto{
-        flex-direction: column;
-        justify-content: center;
-        margin-right: 20px !important;   
-        h1{
-            font-size: $size-titulo - 2px;
-        } 
-        p{
-            font-size: $size-parrafo - 2px;
+    .botonContacto{
+        .botonForm{
+            font-size: $size-parrafo - 6px;
         }
     }
 
