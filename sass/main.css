@@ -98,7 +98,8 @@
     .news__input {
       width: 95px !important;
       height: 20px;
-      margin: 5px; }
+      margin: 5px;
+      font-size: 12px !important; }
     .news__info {
       padding-top: 10px !important;
       margin-top: 0px !important; }
@@ -273,8 +274,8 @@
     text-align: center; }
   .grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr) !important;
-    grid-template-rows: repeat(2, 1fr) !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr !important;
     margin-top: 5px !important;
     margin-right: 10px !important;
     margin-left: 10px !important; }
@@ -287,12 +288,14 @@
   .grid__texto p {
     font-size: 12px; }
   .publicacion {
-    border-radius: 100px !important; }
+    border-radius: 80px !important; }
+    .publicacion fieldset {
+      padding: 20px !important; }
     .publicacion legend {
       font-size: 27px; }
   .datosPublicacion input {
     font-size: 12px !important;
-    width: 175px; }
+    width: 100px; }
   .areaPublicacion textarea {
     font-size: 12px !important; }
   .checkPublicacion {

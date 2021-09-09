@@ -123,6 +123,7 @@
             width: 95px !important;
             height: 20px;
             margin: 5px;
+            font-size: $size-parrafo - 6px !important;
         }
         &__info{
             padding-top: 10px !important;
@@ -395,8 +396,8 @@
 
     .grid{
         display: grid;
-        grid-template-columns: repeat(2, 1fr) !important;
-        grid-template-rows: repeat(2, 1fr) !important;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 1fr !important;
         margin-top: 5px !important;
         margin-right: 10px !important;
         margin-left: 10px !important;
@@ -418,7 +419,10 @@
     }
 
     .publicacion{
-        border-radius: $bordes - 100px !important;
+        border-radius: $bordes - 120px !important;
+        fieldset{
+            padding: 20px !important;
+        }
         legend{
             font-size: $size-titulo - 8px;
         }
@@ -427,7 +431,7 @@
     .datosPublicacion{
         input{
             font-size: $size-parrafo - 6px !important;
-            width: 175px;
+            width: 100px;
         }
     }
     
