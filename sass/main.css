@@ -783,6 +783,7 @@
     padding-bottom: 1px !important;
     padding-left: 0px !important; }
     .news__input {
+      width: 95px !important;
       height: 20px;
       margin: 5px; }
     .news__info {
