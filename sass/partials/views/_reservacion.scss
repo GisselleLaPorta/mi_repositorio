@@ -1,6 +1,6 @@
 .reservacion{
-    background-image: url(/img/back.png);
-    @extend %style-bg;
+    background-color: $turquesa;
+    border-radius: $bordes;
     &__h1{
         @include titulos($blanco, $size-titulo);
     }

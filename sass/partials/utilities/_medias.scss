@@ -30,6 +30,7 @@
         }
         img{
             width: $width-img - 320px !important;
+            padding-right: 0px !important;
         }
         p{
             font-size: $size-parrafo - 6px !important;
@@ -38,6 +39,11 @@
         }
     }
 
+    .blw{
+        .blw__info{
+            margin-left: 40px;
+        }
+    }
     /* inicio asesoría */
 
 
@@ -88,7 +94,7 @@
     /* inicio testimonios */
 
     .testimonios{
-        padding-top: 0px !important;
+        margin-top: 10px !important;
         h2{
         font-size: $size-titulo - 8px !important;
         }
@@ -202,12 +208,14 @@
         h1{
             margin-top: 0px !important;
             font-size: $size-titulo - 8px !important;
+            text-align: center;
         }
         p{
             font-size: $size-parrafo - 6px !important;
             margin-left: 50px !important;
             margin-right: 50px !important;
             margin-bottom: 5px !important;
+            text-align: center;
         }
     }
 
@@ -271,10 +279,11 @@
         margin-left: 20px !important;
         padding: 15px 20px !important;
         p{
-            font-size: $size-titulo - 11px !important;
+            font-size: $size-titulo - 12px !important;
             margin-right: 0px !important;
             padding-left: 0px !important;
             padding-right: 0px !important;
+            text-align: center;
         }
         a{
             font-size: $size-parrafo - 6px !important;
@@ -389,6 +398,7 @@
     .reservacion__form{
         input{
             font-size: $size-parrafo - 6px;
+            padding: 10px;
         }
         fieldset{
             font-size: $size-parrafo - 6px;
@@ -397,6 +407,18 @@
 
     .reservacion__envio{
         font-size: $size-parrafo - 6px;
+    }
+
+    .modal{
+        .modal__titulo{
+            font-size: $size-titulo - 10px;
+        }
+        .modal__texto{
+            font-size: $size-parrafo - 6px;
+        }
+        .modal__btn{
+            font-size: $size-parrafo - 6px;
+        }
     }
     
     /* ----------inicio recetas------------ */
@@ -499,6 +521,8 @@
 
 
     .contacto{ 
+        flex-direction: column;
+        margin-right: 20px !important;
         h1{
             font-size: $size-titulo - 8px !important;
             text-align: center !important;
@@ -506,7 +530,7 @@
         } 
         p{
             font-size: $size-parrafo - 6px;
-            padding-left: 30px !important;
+            padding-left: 10px !important;
             padding-right: 10px !important;
             text-align: center;
         }
@@ -537,7 +561,6 @@
 
 
 @media screen and (max-width: 768px){
-
     /* INICIO INDEX */
 
     .header{
@@ -568,6 +591,7 @@
         }
         img{
             width: $width-img - 320px !important;
+            padding-right: 0px !important;
         }
         p{
             font-size: $size-parrafo - 6px !important;
@@ -576,6 +600,11 @@
         }
     }
 
+    .blw{
+        .blw__info{
+            margin-left: 40px;
+        }
+    }
     /* inicio asesoría */
 
 
@@ -626,7 +655,7 @@
     /* inicio testimonios */
 
     .testimonios{
-        padding-top: 0px !important;
+        margin-top: 10px !important;
         h2{
         font-size: $size-titulo - 8px !important;
         }
@@ -740,12 +769,14 @@
         h1{
             margin-top: 0px !important;
             font-size: $size-titulo - 8px !important;
+            text-align: center;
         }
         p{
             font-size: $size-parrafo - 6px !important;
             margin-left: 50px !important;
             margin-right: 50px !important;
             margin-bottom: 5px !important;
+            text-align: center;
         }
     }
 
@@ -775,6 +806,10 @@
 
     .recomendaciones{
         border-radius: $bordes - 110px;
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+        padding-right: 20px !important;
+        padding-left: 20px !important;
         img{
             display: none;
         }
@@ -805,10 +840,11 @@
         margin-left: 20px !important;
         padding: 15px 20px !important;
         p{
-            font-size: $size-titulo - 11px !important;
+            font-size: $size-titulo - 12px !important;
             margin-right: 0px !important;
             padding-left: 0px !important;
             padding-right: 0px !important;
+            text-align: center;
         }
         a{
             font-size: $size-parrafo - 6px !important;
@@ -923,6 +959,7 @@
     .reservacion__form{
         input{
             font-size: $size-parrafo - 6px;
+            padding: 10px;
         }
         fieldset{
             font-size: $size-parrafo - 6px;
@@ -933,6 +970,18 @@
         font-size: $size-parrafo - 6px;
     }
 
+    .modal{
+        .modal__titulo{
+            font-size: $size-titulo - 10px;
+        }
+        .modal__texto{
+            font-size: $size-parrafo - 6px;
+        }
+        .modal__btn{
+            font-size: $size-parrafo - 6px;
+        }
+    }
+    
     /* ----------inicio recetas------------ */
 
     .recetas{
@@ -1033,6 +1082,8 @@
 
 
     .contacto{ 
+        flex-direction: column;
+        margin-right: 20px !important;
         h1{
             font-size: $size-titulo - 8px !important;
             text-align: center !important;
@@ -1040,7 +1091,7 @@
         } 
         p{
             font-size: $size-parrafo - 6px;
-            padding-left: 30px !important;
+            padding-left: 10px !important;
             padding-right: 10px !important;
             text-align: center;
         }
@@ -1066,10 +1117,288 @@
     .bg--dos{
         font-size: $size-titulo - 10px !important;
     }
-
-
 }
 
 
 @media screen and (max-width: 992px){
+    
+    /* inicio blw*/
+
+
+    .blw{
+        flex-direction: column !important;
+        border-radius: $bordes - 100px;
+        align-items: center;
+    }
+
+    .blw{
+        .blw__info{
+            margin-left: 40px;
+        }
+    }
+    
+    /* inicio asesoría */
+
+
+    .asesoria{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+ 
+    /* inicio nosotras */
+
+    .nosotras{
+        border-radius: $bordes - 100px;
+        img{
+            width: $width-img - 500px;
+        }
+        .nosotras__info{
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            h2{
+            text-align: center;
+            }
+        }
+    }
+
+    /* inicio testimonios */
+
+    .testimonios{
+        margin-top: 10px !important;
+    }
+
+    /* inicio newsletter */
+
+    .news{
+        flex-direction: column;
+        border-radius: $bordes - 70px !important;
+        margin-right: 30px !important;
+        margin-bottom: 0px !important;
+        margin-left: 30px !important;
+        padding-right: 0px !important;
+        padding-bottom: 1px !important;
+        padding-left: 0px !important;
+        &__input{
+            width: 200px !important;
+            height: 20px;
+            margin: 5px;
+        }
+        &__info{
+            padding-top: 10px !important;
+            margin-top: 0px !important;
+        }
+    }
+
+    .news__btn{
+        margin-top: 0px !important;
+        margin-bottom: 5px !important;
+    }
+
+   
+    /* -------------inicio blw------------- */
+
+    .preguntaBlw{
+        flex-direction: column;
+        border-radius: $bordes - 50px;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        padding-bottom: 15px !important;
+        img{
+            margin-left: 5px !important;
+        }
+        h1{
+            margin-top: 0px !important;
+            text-align: center;
+        }
+        p{
+            margin-left: 50px !important;
+            margin-right: 50px !important;
+            margin-bottom: 20px !important;
+            text-align: center;
+        }
+    }
+
+    .beneficios{
+        h2{
+            margin-left: 50px !important;
+        }
+    }
+
+    .ulBeneficios{
+        flex-direction: column;
+        li{
+            margin-left: 20px !important;
+        }
+        video{
+            margin-left: 150px !important;
+        
+        }
+    }
+
+    .recomendaciones{
+        border-radius: $bordes - 110px;
+        img{
+            display: none;
+        }
+        h2{
+            text-align: center !important;
+        }
+        p{
+            text-align: center;
+        }
+    }
+
+    .verPlanes{
+        flex-direction: column;
+        border-radius: $bordes - 120px;
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+        padding: 15px 20px !important;
+        p{
+            margin-right: 0px !important;
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            text-align: center;
+        }
+        a{
+            margin-left: 60px !important;
+        }
+    }
+
+    /* ----------inicio nosotras------------ */
+
+    .carolina{
+        flex-direction: column;
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+        h1{
+            margin-left: 50px !important;
+            margin-right: 50px !important;
+        }
+        p{
+            margin-left: 20px !important;
+            margin-right: 10px !important;
+        }
+    }
+
+    .daiana{
+        flex-direction: column;
+        margin-top: 0px !important;
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+        h2{
+            margin-left: 100px !important;
+            margin-right: 100px !important;
+        }
+        p{
+            margin-left: 20px !important;
+            margin-right: 10px !important;
+        }
+    }
+
+    .valores{
+        flex-direction: column;
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+        .valores__p{
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+        a{
+            margin-top: 0px !important;
+            margin-left: 50px !important;
+        }
+    }
+
+    /* ----------inicio asesorías------------ */
+
+    .planes{
+        border-radius: $bordes - 100px;
+    }
+
+    .plan{
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+    }
+
+    .plan__carrot{
+        margin-top: 0px !important;
+    }
+
+    .plan__carrot:hover{
+        transform: none !important;
+    }
+
+    .reservacion__form{
+        input{
+            padding: 10px;
+        }
+    }
+
+    
+    /* ----------inicio recetas------------ */
+    
+    .grid__h2{
+        margin-bottom: 10px !important;
+        text-align: center;
+    }
+
+    .grid{
+        margin-top: 5px !important;
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+        &__article{
+            transition: none;
+            &:hover{
+                transform: none !important;
+            }
+        }
+    }
+
+    .publicacion{
+        border-radius: $bordes - 120px !important;
+        fieldset{
+            padding: 20px !important;
+        }
+    }
+    
+    .datosPublicacion{
+        input{
+            width: 100px;
+        }
+    }
+
+
+    @for $i from 1 through 8{
+        .receta-#{$i}{margin-top: 10px !important;}
+    }
+    
+    .comidas__texto{
+        flex-direction: column-reverse;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        ul{
+            margin: 0px !important;
+        }
+    }
+
+    /* ----------inicio contacto------------ */
+
+
+    .contacto{ 
+        flex-direction: column;
+        margin-right: 20px !important;
+        h1{
+            text-align: center !important;
+            margin-top: 10px;
+        } 
+        p{
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+            text-align: center;
+        }
+    }
+
 }

@@ -46,6 +46,7 @@ body{
     }
     &__p{
         @extend %style-parrafo;
+        font-size: $size-parrafo - 2px;
     }
     &__img{
         width: $width-img - 220;

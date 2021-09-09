@@ -9,7 +9,7 @@
   font-size: 35px;
   font-weight: bold; }
 
-.publicacion, .preguntaBlw, .recomendaciones, .verPlanes, .reservacion, .valores, .blw, .nosotras, .news {
+.publicacion, .preguntaBlw, .recomendaciones, .verPlanes, .valores, .blw, .nosotras, .news {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 200px; }
@@ -41,11 +41,14 @@
       margin-right: 20px !important;
       font-size: 27px !important; }
     .blw img {
-      width: 180px !important; }
+      width: 180px !important;
+      padding-right: 0px !important; }
     .blw p {
       font-size: 12px !important;
       margin-right: 20px !important;
       margin-left: 0px !important; }
+  .blw .blw__info {
+    margin-left: 40px; }
   /* inicio asesoría */
   .asesoria {
     margin-left: 0px;
@@ -76,7 +79,7 @@
         font-size: 12px; }
   /* inicio testimonios */
   .testimonios {
-    padding-top: 0px !important; }
+    margin-top: 10px !important; }
     .testimonios h2 {
       font-size: 27px !important; }
   .testimonios__grupo p {
@@ -144,12 +147,14 @@
       margin-left: 5px !important; }
     .preguntaBlw h1 {
       margin-top: 0px !important;
-      font-size: 27px !important; }
+      font-size: 27px !important;
+      text-align: center; }
     .preguntaBlw p {
       font-size: 12px !important;
       margin-left: 50px !important;
       margin-right: 50px !important;
-      margin-bottom: 5px !important; }
+      margin-bottom: 5px !important;
+      text-align: center; }
   .blw__1 {
     display: none; }
   .beneficios h2 {
@@ -191,10 +196,11 @@
     margin-left: 20px !important;
     padding: 15px 20px !important; }
     .verPlanes p {
-      font-size: 24px !important;
+      font-size: 23px !important;
       margin-right: 0px !important;
       padding-left: 0px !important;
-      padding-right: 0px !important; }
+      padding-right: 0px !important;
+      text-align: center; }
     .verPlanes a {
       font-size: 12px !important;
       margin-left: 60px !important; }
@@ -268,10 +274,17 @@
   .reservacion p {
     font-size: 12px; }
   .reservacion__form input {
-    font-size: 12px; }
+    font-size: 12px;
+    padding: 10px; }
   .reservacion__form fieldset {
     font-size: 12px; }
   .reservacion__envio {
+    font-size: 12px; }
+  .modal .modal__titulo {
+    font-size: 25px; }
+  .modal .modal__texto {
+    font-size: 12px; }
+  .modal .modal__btn {
     font-size: 12px; }
   /* ----------inicio recetas------------ */
   .recetas h1 {
@@ -350,15 +363,18 @@
     .comidas__texto ul {
       margin: 0px !important; }
   /* ----------inicio contacto------------ */
-  .contacto h1 {
-    font-size: 27px !important;
-    text-align: center !important;
-    margin-top: 10px; }
-  .contacto p {
-    font-size: 12px;
-    padding-left: 30px !important;
-    padding-right: 10px !important;
-    text-align: center; }
+  .contacto {
+    flex-direction: column;
+    margin-right: 20px !important; }
+    .contacto h1 {
+      font-size: 27px !important;
+      text-align: center !important;
+      margin-top: 10px; }
+    .contacto p {
+      font-size: 12px;
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+      text-align: center; }
   .fieldset {
     width: 300px !important; }
   .botonContacto .botonForm {
@@ -386,11 +402,14 @@
       margin-right: 20px !important;
       font-size: 27px !important; }
     .blw img {
-      width: 180px !important; }
+      width: 180px !important;
+      padding-right: 0px !important; }
     .blw p {
       font-size: 12px !important;
       margin-right: 20px !important;
       margin-left: 0px !important; }
+  .blw .blw__info {
+    margin-left: 40px; }
   /* inicio asesoría */
   .asesoria {
     margin-left: 0px;
@@ -421,7 +440,7 @@
         font-size: 12px; }
   /* inicio testimonios */
   .testimonios {
-    padding-top: 0px !important; }
+    margin-top: 10px !important; }
     .testimonios h2 {
       font-size: 27px !important; }
   .testimonios__grupo p {
@@ -489,12 +508,14 @@
       margin-left: 5px !important; }
     .preguntaBlw h1 {
       margin-top: 0px !important;
-      font-size: 27px !important; }
+      font-size: 27px !important;
+      text-align: center; }
     .preguntaBlw p {
       font-size: 12px !important;
       margin-left: 50px !important;
       margin-right: 50px !important;
-      margin-bottom: 5px !important; }
+      margin-bottom: 5px !important;
+      text-align: center; }
   .blw__1 {
     display: none; }
   .beneficios h2 {
@@ -509,7 +530,11 @@
       width: 130px !important;
       margin-left: 150px !important; }
   .recomendaciones {
-    border-radius: 90px; }
+    border-radius: 90px;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important; }
     .recomendaciones img {
       display: none; }
     .recomendaciones h2 {
@@ -532,10 +557,11 @@
     margin-left: 20px !important;
     padding: 15px 20px !important; }
     .verPlanes p {
-      font-size: 24px !important;
+      font-size: 23px !important;
       margin-right: 0px !important;
       padding-left: 0px !important;
-      padding-right: 0px !important; }
+      padding-right: 0px !important;
+      text-align: center; }
     .verPlanes a {
       font-size: 12px !important;
       margin-left: 60px !important; }
@@ -609,10 +635,17 @@
   .reservacion p {
     font-size: 12px; }
   .reservacion__form input {
-    font-size: 12px; }
+    font-size: 12px;
+    padding: 10px; }
   .reservacion__form fieldset {
     font-size: 12px; }
   .reservacion__envio {
+    font-size: 12px; }
+  .modal .modal__titulo {
+    font-size: 25px; }
+  .modal .modal__texto {
+    font-size: 12px; }
+  .modal .modal__btn {
     font-size: 12px; }
   /* ----------inicio recetas------------ */
   .recetas h1 {
@@ -691,15 +724,18 @@
     .comidas__texto ul {
       margin: 0px !important; }
   /* ----------inicio contacto------------ */
-  .contacto h1 {
-    font-size: 27px !important;
-    text-align: center !important;
-    margin-top: 10px; }
-  .contacto p {
-    font-size: 12px;
-    padding-left: 30px !important;
-    padding-right: 10px !important;
-    text-align: center; }
+  .contacto {
+    flex-direction: column;
+    margin-right: 20px !important; }
+    .contacto h1 {
+      font-size: 27px !important;
+      text-align: center !important;
+      margin-top: 10px; }
+    .contacto p {
+      font-size: 12px;
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+      text-align: center; }
   .fieldset {
     width: 300px !important; }
   .botonContacto .botonForm {
@@ -709,6 +745,194 @@
     font-size: 25px !important; }
   .bg--dos {
     font-size: 25px !important; } }
+
+@media screen and (max-width: 992px) {
+  /* inicio blw*/
+  .blw {
+    flex-direction: column !important;
+    border-radius: 100px;
+    align-items: center; }
+  .blw .blw__info {
+    margin-left: 40px; }
+  /* inicio asesoría */
+  .asesoria {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px; }
+  /* inicio nosotras */
+  .nosotras {
+    border-radius: 100px; }
+    .nosotras img {
+      width: 0px; }
+    .nosotras .nosotras__info {
+      padding-left: 0px !important;
+      padding-right: 0px !important; }
+      .nosotras .nosotras__info h2 {
+        text-align: center; }
+  /* inicio testimonios */
+  .testimonios {
+    margin-top: 10px !important; }
+  /* inicio newsletter */
+  .news {
+    flex-direction: column;
+    border-radius: 130px !important;
+    margin-right: 30px !important;
+    margin-bottom: 0px !important;
+    margin-left: 30px !important;
+    padding-right: 0px !important;
+    padding-bottom: 1px !important;
+    padding-left: 0px !important; }
+    .news__input {
+      width: 200px !important;
+      height: 20px;
+      margin: 5px; }
+    .news__info {
+      padding-top: 10px !important;
+      margin-top: 0px !important; }
+  .news__btn {
+    margin-top: 0px !important;
+    margin-bottom: 5px !important; }
+  /* -------------inicio blw------------- */
+  .preguntaBlw {
+    flex-direction: column;
+    border-radius: 150px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    padding-bottom: 15px !important; }
+    .preguntaBlw img {
+      margin-left: 5px !important; }
+    .preguntaBlw h1 {
+      margin-top: 0px !important;
+      text-align: center; }
+    .preguntaBlw p {
+      margin-left: 50px !important;
+      margin-right: 50px !important;
+      margin-bottom: 20px !important;
+      text-align: center; }
+  .beneficios h2 {
+    margin-left: 50px !important; }
+  .ulBeneficios {
+    flex-direction: column; }
+    .ulBeneficios li {
+      margin-left: 20px !important; }
+    .ulBeneficios video {
+      margin-left: 150px !important; }
+  .recomendaciones {
+    border-radius: 90px; }
+    .recomendaciones img {
+      display: none; }
+    .recomendaciones h2 {
+      text-align: center !important; }
+    .recomendaciones p {
+      text-align: center; }
+  .verPlanes {
+    flex-direction: column;
+    border-radius: 80px;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+    padding: 15px 20px !important; }
+    .verPlanes p {
+      margin-right: 0px !important;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      text-align: center; }
+    .verPlanes a {
+      margin-left: 60px !important; }
+  /* ----------inicio nosotras------------ */
+  .carolina {
+    flex-direction: column;
+    margin-right: 20px !important;
+    margin-left: 20px !important; }
+    .carolina h1 {
+      margin-left: 50px !important;
+      margin-right: 50px !important; }
+    .carolina p {
+      margin-left: 20px !important;
+      margin-right: 10px !important; }
+  .daiana {
+    flex-direction: column;
+    margin-top: 0px !important;
+    margin-right: 20px !important;
+    margin-left: 20px !important; }
+    .daiana h2 {
+      margin-left: 100px !important;
+      margin-right: 100px !important; }
+    .daiana p {
+      margin-left: 20px !important;
+      margin-right: 10px !important; }
+  .valores {
+    flex-direction: column;
+    margin-right: 20px !important;
+    margin-left: 20px !important; }
+    .valores .valores__p {
+      margin-right: 30px;
+      margin-left: 30px; }
+    .valores a {
+      margin-top: 0px !important;
+      margin-left: 50px !important; }
+  /* ----------inicio asesorías------------ */
+  .planes {
+    border-radius: 100px; }
+  .plan {
+    margin-right: 10px !important;
+    margin-left: 10px !important; }
+  .plan__carrot {
+    margin-top: 0px !important; }
+  .plan__carrot:hover {
+    transform: none !important; }
+  .reservacion__form input {
+    padding: 10px; }
+  /* ----------inicio recetas------------ */
+  .grid__h2 {
+    margin-bottom: 10px !important;
+    text-align: center; }
+  .grid {
+    margin-top: 5px !important;
+    margin-right: 10px !important;
+    margin-left: 10px !important; }
+    .grid__article {
+      transition: none; }
+      .grid__article:hover {
+        transform: none !important; }
+  .publicacion {
+    border-radius: 80px !important; }
+    .publicacion fieldset {
+      padding: 20px !important; }
+  .datosPublicacion input {
+    width: 100px; }
+  .receta-1 {
+    margin-top: 10px !important; }
+  .receta-2 {
+    margin-top: 10px !important; }
+  .receta-3 {
+    margin-top: 10px !important; }
+  .receta-4 {
+    margin-top: 10px !important; }
+  .receta-5 {
+    margin-top: 10px !important; }
+  .receta-6 {
+    margin-top: 10px !important; }
+  .receta-7 {
+    margin-top: 10px !important; }
+  .receta-8 {
+    margin-top: 10px !important; }
+  .comidas__texto {
+    flex-direction: column-reverse;
+    margin-left: 10px !important;
+    margin-right: 10px !important; }
+    .comidas__texto ul {
+      margin: 0px !important; }
+  /* ----------inicio contacto------------ */
+  .contacto {
+    flex-direction: column;
+    margin-right: 20px !important; }
+    .contacto h1 {
+      text-align: center !important;
+      margin-top: 10px; }
+    .contacto p {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+      text-align: center; } }
 
 /* asesoria llamado a planes */
 .asesoria__boton {
@@ -1065,7 +1289,8 @@
   color: #ff9800; }
 
 .reservacion {
-  background-image: url(/img/back.png); }
+  background-color: #6ec5b8;
+  border-radius: 200px; }
   .reservacion__h1 {
     color: white;
     font-size: 35px; }
@@ -1226,6 +1451,8 @@ body {
 
 .grupo {
   overflow: hidden; }
+  .grupo__p {
+    font-size: 16px; }
   .grupo__img {
     width: 280px;
     animation-name: imgGrupo;
