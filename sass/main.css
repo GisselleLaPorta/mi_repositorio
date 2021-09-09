@@ -287,28 +287,18 @@
   .grid__texto p {
     font-size: 12px; }
   .publicacion {
-    border-radius: 200px; }
-    .publicacion fieldset {
-      padding: 30px 80px 40px 80px;
-      border: none; }
+    border-radius: 100px !important; }
     .publicacion legend {
-      color: white;
-      font-size: 30px; }
-  .datosPublicacion {
-    display: flex; }
-    .datosPublicacion input {
-      font-size: 16px;
-      border: none;
-      border-radius: 5px; }
+      font-size: 27px; }
+  .datosPublicacion input {
+    font-size: 12px !important;
+    width: 175px; }
   .areaPublicacion textarea {
-    width: 100%;
-    font-size: 16px;
-    color: gray;
-    border: none;
-    border-radius: 5px; }
+    font-size: 12px !important; }
   .checkPublicacion {
-    font-size: 16px;
-    color: black; }
+    font-size: 14px !important; }
+  .botonPublicacion {
+    font-size: 12px !important; }
   /* ----------inicio contacto------------ */
   .contacto {
     flex-direction: column;

@@ -418,38 +418,29 @@
     }
 
     .publicacion{
-        border-radius: $bordes;
-        fieldset{
-            padding: 30px 80px 40px 80px;
-            border: none;
-        }
+        border-radius: $bordes - 100px !important;
         legend{
-            color: $blanco;
-            font-size: $size-titulo - 5px;
+            font-size: $size-titulo - 8px;
         }
     }
     
     .datosPublicacion{
-        display: flex;
         input{
-            font-size: $size-parrafo - 2px;
-            border: none;
-            border-radius: $bordes - 195px;
+            font-size: $size-parrafo - 6px !important;
+            width: 175px;
         }
     }
     
     .areaPublicacion textarea{
-        width: 100%;
-        font-size: $size-parrafo - 2px;
-        color: gray;
-        border: none;
-        border-radius: $bordes - 195px;
-    
+        font-size: $size-parrafo - 6px !important;
     }
     
     .checkPublicacion{
-        font-size: $size-parrafo - 2px;
-        color: $negro;
+        font-size: $size-parrafo - 4px !important;
+    }
+
+    .botonPublicacion{
+        font-size: $size-parrafo - 6px !important;
     }
     
 
