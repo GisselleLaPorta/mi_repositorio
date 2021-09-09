@@ -351,9 +351,9 @@
     font-size: 12px; }
   /* ----------inicio condiciones------------ */
   .bg--uno {
-    font-size: 33px; }
+    font-size: 25px !important; }
   .bg--dos {
-    font-size: 33px; } }
+    font-size: 25px !important; } }
 
 @media screen and (max-width: 768px) {
   /* INICIO INDEX */
@@ -446,13 +446,7 @@
   .daiana {
     flex-direction: column; }
   .valores {
-    flex-direction: column; }
-  /* ----------inicio contacto------------ */
-  /* ----------inicio condiciones------------ */
-  .bg--uno {
-    font-size: 33px; }
-  .bg--dos {
-    font-size: 33px; } }
+    flex-direction: column; } }
 
 @media screen and (max-width: 992px) {
   /* INICIO INDEX */

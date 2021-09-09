@@ -500,11 +500,11 @@
     /* ----------inicio condiciones------------ */
 
     .bg--uno{
-        font-size: $size-titulo - 2px;
+        font-size: $size-titulo - 10px !important;
     }
 
     .bg--dos{
-        font-size: $size-titulo - 2px;
+        font-size: $size-titulo - 10px !important;
     }
 
 }
@@ -686,19 +686,6 @@
         flex-direction: column;
     }
 
-    /* ----------inicio contacto------------ */
-
-    
-
-    /* ----------inicio condiciones------------ */
-
-    .bg--uno{
-        font-size: $size-titulo - 2px;
-    }
-
-    .bg--dos{
-        font-size: $size-titulo - 2px;
-    }
 }
 
 
