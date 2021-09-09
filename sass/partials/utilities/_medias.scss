@@ -478,9 +478,20 @@
 
     .contacto{ 
         h1{
-            font-size: $size-titulo - 8px;
+            font-size: $size-titulo - 8px !important;
         } 
         p{
+            font-size: $size-parrafo - 6px;
+            padding-left: 30px !important;
+        }
+    }
+
+    .fieldset{
+        width: 300px !important;
+    }
+
+    .botonContacto{
+        .botonForm{
             font-size: $size-parrafo - 6px;
         }
     }
@@ -677,17 +688,7 @@
 
     /* ----------inicio contacto------------ */
 
-    .contacto{
-        p{
-            padding-left: 30px !important;
-        }
-    }
-
-    .botonContacto{
-        .botonForm{
-            font-size: $size-parrafo - 6px;
-        }
-    }
+    
 
     /* ----------inicio condiciones------------ */
 

@@ -341,8 +341,13 @@
       margin: 0px !important; }
   /* ----------inicio contacto------------ */
   .contacto h1 {
-    font-size: 27px; }
+    font-size: 27px !important; }
   .contacto p {
+    font-size: 12px;
+    padding-left: 30px !important; }
+  .fieldset {
+    width: 300px !important; }
+  .botonContacto .botonForm {
     font-size: 12px; }
   /* ----------inicio condiciones------------ */
   .bg--uno {
@@ -443,10 +448,6 @@
   .valores {
     flex-direction: column; }
   /* ----------inicio contacto------------ */
-  .contacto p {
-    padding-left: 30px !important; }
-  .botonContacto .botonForm {
-    font-size: 12px; }
   /* ----------inicio condiciones------------ */
   .bg--uno {
     font-size: 33px; }
