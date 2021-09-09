@@ -347,7 +347,8 @@
   .contacto p {
     font-size: 12px;
     padding-left: 30px !important;
-    padding-right: 10px !important; }
+    padding-right: 10px !important;
+    text-align: center; }
   .fieldset {
     width: 300px !important; }
   .botonContacto .botonForm {
