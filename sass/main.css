@@ -269,13 +269,17 @@
       font-size: 12px !important; }
   .plan__carrot:hover {
     transform: none !important; }
-  .reservacion h1 {
-    font-size: 27px; }
-  .reservacion p {
-    font-size: 12px; }
+  .reservacion {
+    padding-right: 10px;
+    padding-left: 10px; }
+    .reservacion h1 {
+      font-size: 27px; }
+    .reservacion p {
+      font-size: 12px; }
   .reservacion__form input {
     font-size: 12px;
-    padding: 10px; }
+    padding: 10px;
+    margin-bottom: 10px; }
   .reservacion__form fieldset {
     font-size: 12px; }
   .reservacion__envio {

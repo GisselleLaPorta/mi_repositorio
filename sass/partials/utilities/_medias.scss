@@ -387,6 +387,8 @@
     }
 
     .reservacion{
+        padding-right: 10px;
+        padding-left: 10px;
         h1{
             font-size: $size-titulo - 8px;
         }
@@ -399,6 +401,7 @@
         input{
             font-size: $size-parrafo - 6px;
             padding: 10px;
+            margin-bottom: 10px;
         }
         fieldset{
             font-size: $size-parrafo - 6px;
